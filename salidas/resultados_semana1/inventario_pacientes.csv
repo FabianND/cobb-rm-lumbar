@@ -1,0 +1,219 @@
+estudio,sexo,birth_date,subset,n_series,centro_proxy
+1,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+10,F,,training,2,otro: SIEMENS | Skyra_fit | 3.0 T
+100,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+101,M,,validation,2,otro: SIEMENS | Avanto_fit | 1.5 T
+104,M,,training,2,otro: SIEMENS | Aera | 1.5 T
+105,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+106,M,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+107,F,59.0,validation,3,UMC (inferido por SPACE)
+108,M,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+109,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+11,F,77.0,validation,3,UMC (inferido por SPACE)
+110,M,49.0,training,3,UMC (inferido por SPACE)
+112,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+113,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+115,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+116,F,,training,2,otro: SIEMENS | Skyra_fit | 3.0 T
+117,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+118,M,44.0,validation,3,UMC (inferido por SPACE)
+12,M,,training,2,otro: SIEMENS | Aera | 1.5 T
+120,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+121,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+122,F,,training,2,otro: SIEMENS | Aera | 1.5 T
+123,F,,training,1,otro: Philips Medical Systems | Ingenia | 1.5 T
+124,M,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+125,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+126,M,,validation,1,otro: SIEMENS | SymphonyTim | 1.5 T
+127,F,63.0,training,3,UMC (inferido por SPACE)
+129,F,59.0,validation,3,UMC (inferido por SPACE)
+13,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+130,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+131,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+132,M,,training,1,otro: SIEMENS | Aera | 1.5 T
+133,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+134,F,,training,1,otro: Philips Medical Systems | Ingenia | 1.5 T
+136,F,55.0,validation,3,UMC (inferido por SPACE)
+137,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+138,M,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+140,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+141,M,14.0,training,1,UMC (inferido por SPACE)
+142,M,83.0,training,3,UMC (inferido por SPACE)
+143,M,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+144,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+145,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+146,F,81.0,training,3,UMC (inferido por SPACE)
+147,F,,training,1,otro: Philips Medical Systems | Ingenia | 1.5 T
+149,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+15,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+151,F,,training,1,otro: Philips Medical Systems | Ingenia | 1.5 T
+152,M,68.0,validation,3,UMC (inferido por SPACE)
+154,M,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+155,F,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+156,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+159,M,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+16,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+160,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+161,M,66.0,validation,3,UMC (inferido por SPACE)
+162,M,71.0,training,3,UMC (inferido por SPACE)
+163,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+165,M,,validation,2,otro: SIEMENS | SymphonyTim | 1.5 T
+166,M,64.0,training,3,UMC (inferido por SPACE)
+167,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+168,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+169,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+17,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+170,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+171,F,,validation,2,otro: SIEMENS | SymphonyTim | 1.5 T
+172,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+173,M,,training,2,otro: SIEMENS | Aera | 1.5 T
+174,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+175,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+177,F,76.0,validation,3,UMC (inferido por SPACE)
+179,M,,validation,2,otro: SIEMENS | SymphonyTim | 1.5 T
+18,F,50.0,training,3,UMC (inferido por SPACE)
+180,F,,training,1,otro: SIEMENS | SymphonyTim | 1.5 T
+181,F,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+182,F,,validation,2,otro: SIEMENS | Aera | 1.5 T
+183,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+184,M,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+185,F,72.0,training,3,UMC (inferido por SPACE)
+186,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+187,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+188,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+189,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+19,M,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+190,F,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+191,F,47.0,training,3,UMC (inferido por SPACE)
+192,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+193,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+195,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+196,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+197,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+198,M,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+2,M,,validation,2,otro: SIEMENS | Avanto_fit | 1.5 T
+20,M,,training,1,otro: Philips Medical Systems | Ingenia | 1.5 T
+200,F,44.0,training,3,UMC (inferido por SPACE)
+201,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+202,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+203,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+204,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+205,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+207,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+208,F,,validation,1,otro: SIEMENS | Avanto_fit | 1.5 T
+209,M,69.0,training,3,UMC (inferido por SPACE)
+21,M,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+210,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+212,F,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+213,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+214,M,,training,2,otro: SIEMENS | Avanto | 1.5 T
+215,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+217,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+218,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+219,M,,training,1,otro: SIEMENS | SymphonyTim | 1.5 T
+22,F,31.0,training,3,UMC (inferido por SPACE)
+220,F,55.0,training,3,UMC (inferido por SPACE)
+221,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+222,F,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+223,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+224,M,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+225,M,,training,2,otro: SIEMENS | Aera | 1.5 T
+226,F,,training,2,otro: SIEMENS | Aera | 1.5 T
+227,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+228,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+229,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+23,F,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+231,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+232,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+233,F,,training,2,otro: SIEMENS | Aera | 1.5 T
+234,F,66.0,validation,3,UMC (inferido por SPACE)
+236,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+237,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+239,F,34.0,training,3,UMC (inferido por SPACE)
+24,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+241,M,84.0,training,3,UMC (inferido por SPACE)
+242,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+243,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+244,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+245,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+246,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+249,F,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+25,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+250,F,,training,2,otro: SIEMENS | Skyra_fit | 3.0 T
+251,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+252,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+253,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+254,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+255,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+256,F,,training,2,otro: SIEMENS | Skyra_fit | 3.0 T
+257,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+28,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+29,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+3,F,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+30,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+31,F,,validation,2,otro: SIEMENS | SymphonyTim | 1.5 T
+32,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+33,M,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+34,M,59.0,training,3,UMC (inferido por SPACE)
+35,F,74.0,validation,3,UMC (inferido por SPACE)
+36,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+37,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+38,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+39,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+4,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+40,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+41,F,32.0,training,1,UMC (inferido por SPACE)
+42,M,,training,1,otro: Philips Medical Systems | Ingenia | 1.5 T
+44,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+45,F,45.0,training,3,UMC (inferido por SPACE)
+47,M,,training,2,otro: SIEMENS | Aera | 1.5 T
+48,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+5,M,35.0,training,3,UMC (inferido por SPACE)
+50,M,72.0,training,3,UMC (inferido por SPACE)
+51,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+52,M,63.0,training,3,UMC (inferido por SPACE)
+53,M,,validation,2,otro: SIEMENS | SymphonyTim | 1.5 T
+55,M,52.0,training,3,UMC (inferido por SPACE)
+56,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+57,M,84.0,training,3,UMC (inferido por SPACE)
+58,M,,training,2,otro: SIEMENS | Aera | 1.5 T
+59,M,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+6,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+60,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+61,M,74.0,validation,3,UMC (inferido por SPACE)
+62,M,,training,2,otro: SIEMENS | Aera | 1.5 T
+63,M,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+64,F,,training,2,otro: SIEMENS | Aera | 1.5 T
+65,F,75.0,training,3,UMC (inferido por SPACE)
+66,F,,training,2,otro: Philips Medical Systems | Ingenia | 1.5 T
+67,F,,training,2,otro: SIEMENS | Skyra_fit | 3.0 T
+68,F,,training,2,otro: SIEMENS | Aera | 1.5 T
+69,F,57.0,training,3,UMC (inferido por SPACE)
+7,M,60.0,training,3,UMC (inferido por SPACE)
+71,F,,training,2,otro: SIEMENS | Aera | 1.5 T
+72,F,,training,1,otro: SIEMENS | SymphonyTim | 1.5 T
+73,M,,validation,2,otro: SIEMENS | Aera | 1.5 T
+74,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+75,F,,validation,2,otro: Philips Healthcare | Ingenia | 3.0 T
+77,F,,training,1,otro: SIEMENS | SymphonyTim | 1.5 T
+78,F,54.0,training,3,UMC (inferido por SPACE)
+8,F,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+80,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+81,F,49.0,training,3,UMC (inferido por SPACE)
+82,F,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+83,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+85,F,,training,2,otro: SIEMENS | Aera | 1.5 T
+86,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+87,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+88,M,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+89,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+9,F,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+90,M,,training,2,otro: SIEMENS | Avanto_fit | 1.5 T
+91,F,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+93,M,,validation,2,otro: SIEMENS | Avanto_fit | 1.5 T
+94,F,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+95,M,,training,2,otro: Philips Healthcare | Ingenia | 3.0 T
+96,M,,training,2,otro: SIEMENS | SymphonyTim | 1.5 T
+97,M,,training,1,otro: SIEMENS | Avanto_fit | 1.5 T
+98,F,30.0,training,3,UMC (inferido por SPACE)
+99,F,,training,1,otro: Philips Medical Systems | Ingenia | 3.0 T

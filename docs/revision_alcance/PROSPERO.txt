@@ -1,0 +1,890 @@
+TY  - JOUR
+ID  - CRD42020145244
+AU  - Vicente Peña Homar
+TI  - Diagnostic Accuracy of Clinical Tests for diagnosis of adolescent idiopathic scoliosis: A Systematic Review
+DP  - 25/07/2020
+YR  - 2020
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020145244
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020159188
+AU  - Scott Tagliaferri; Sin-Ki Ng; Patrick Owen; Clint Miller; Bernadette Fitzgibbon; Steven Bowe; Daniel Belavy
+TI  - Contribution of spinal tissue, psychological and central nervous system factors to non-specific low back pain: Multivariate meta-analysis.
+DP  - 29/08/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020159188
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020159246
+AU  - Weibin  Sheng; Yanqi  Zhu; Shutao  Gao; Rui  Cao; Hou  Chao
+TI  - Zero-profile anchored cage versus cage-plate construct in three- and four-level anterior cervical discectomy and fusion: A meta-analysis
+DP  - 28/04/2020
+YR  - 2020
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020159246
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020164706
+AU  - Qian Zhuang; Jing Zhang; Fujie Jing; Huichao Feng; Yueming Lv; Jiao Rong
+TI  - Effect of Yijinjing exercise on cervical spondylosis : a systematic review
+DP  - 28/04/2020
+YR  - 2020
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020164706
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020169573
+AU  - Dai Yuxiang ; Lu Binjie; Chen Hua
+TI  - Efficacy of Posterior Short-Segment Trans versus Cross Fracture Vertebra Pedicle Screw Fixation for Thoracolumbar Burst Fractures: A Meta-Analysis
+DP  - 28/04/2020
+YR  - 2020
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020169573
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020182827
+AU  - Signe Forbech Elmose; Gustav Østerheden Andersen; Leah Yacat Carreon; Freyr Gauti Sigmundsson; Mikkel Østerheden Andersen
+TI  - Systematic review of definitions of segmental instability in the degenerative lumbar spine and validation of these definitions
+DP  - 26/01/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020182827
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020187517
+AU  - Michaël Théberge; Mikaël Desmons; Hugo Masse-Alarie; Catherine Mercier
+TI  - Potential neural networks and pathways involved in the control of the lower back muscles in humans: a systematic-review of neurophysiological techniques
+DP  - 18/11/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020187517
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020199006
+AU  - Pieter-Paul A. Vergroesen; Bangping Qian; Guillermo Ricciardi; Ratko Yurac; Jim Hoffmann
+TI  - AO-GO Topic 6 - What is the evidence for osteobiologic use in single level vs. multi level ACDF surgeries?
+DP  - 29/02/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020199006
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020208863
+AU  - Amit Jain; Suraj Dhanjani; Andrew Harris; Christian Hohaus; Jun Ho Lee; Reuben Soh; John H Shin; Nida Fatima; Dan Riew; Zorica Buser; Hans Jörg Meisel
+TI  - The Effect of Osteobiologics on Fusion Rates in ACDF Performed with Mechanical Interbody Devices Compared to Structural Allograft
+DP  - 15/10/2020
+YR  - 2020
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020208863
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020222822
+AU  - shijun Gao
+TI  - Application of tibial tubercle-posterior cruciate ligament distance based on current evidence in patients with patella instability-Systematic reviews and meta-analysis
+DP  - 26/12/2020
+YR  - 2020
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020222822
+ER  - 
+
+TY  - JOUR
+ID  - CRD42020223489
+AU  - Luca Ricciardi; Carmelo Lucio Sturiale; Antonino Raco; Massimo Miscusi
+TI  - Surgical, clinical and radiological outcomes of lumbar interbody fusion using lateral (LLIF), oblique (OLIF) or anterior (ALIF) approaches in adjacent segment disease: a systematic review and meta-analysis
+DP  - 30/12/2020
+YR  - 2020
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42020223489
+ER  - 
+
+TY  - JOUR
+ID  - CRD42021229301
+AU  - Jesse Eisler; Sig Berven; Matt Solomito
+TI  - Modifiable risk factors in spine deformity surgery.
+DP  - 15/03/2021
+YR  - 2021
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021229301
+ER  - 
+
+TY  - JOUR
+ID  - CRD42021245733
+AU  - Aayush Aryal; Bhavuk Garg; Nishank Mehta
+TI  - Changes in outcome measures for Early Onset Scoliosis: Shifting goal-posts? A systematic review of the literature.
+DP  - 07/05/2021
+YR  - 2021
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021245733
+ER  - 
+
+TY  - JOUR
+ID  - CRD42021254596
+AU  - Waeel Hamouda; Zorica Buser
+TI  - Dosing strategy for osteobiologics used in ACDF surgery, influence on fusion rates and associated complications. An up to date systematic literature review.
+DP  - 12/06/2021
+YR  - 2021
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021254596
+ER  - 
+
+TY  - JOUR
+ID  - CRD42021256069
+AU  - Miguel A Ruiz Cardozo; Nicolas Coombes; Emelia Moore; Wilson Z Ray; Camilo A Molina
+TI  - Systematic Review on Cervical Deformity Correction: Multi-level Anterior Cervical Discectomy (ACDF) vs Anterior Cervical Corpectomy and Fusion (ACCF) Techniques
+DP  - 19/06/2021
+YR  - 2021
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021256069
+ER  - 
+
+TY  - JOUR
+ID  - CRD42021256607
+AU  - Luca Ambrosio; Sergio De Salvatore; Gianluca Vadalà
+TI  - The role of osteobiologics in augmenting spine fusion in zero-profile and unplated anterior cervical discectomy and fusion compared to plated constructs: a systematic review.
+DP  - 22/06/2021
+YR  - 2021
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021256607
+ER  - 
+
+TY  - JOUR
+ID  - CRD42021264358
+AU  - Vincent Traynelis; Chris Witiw; Lee Tan; Manish Kasliwal; Won Hyung Ryu; Ricardo Fontes; Andrea Skelly; Erika Brodt; Joseph Dettori
+TI  - Advancing understanding of C5 palsy risk factors
+DP  - 27/07/2021
+YR  - 2021
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021264358
+ER  - 
+
+TY  - JOUR
+ID  - CRD42021291559
+AU  - Martin Gagliardi; Ezequiel Yasuda; Alfredo Guiroy
+TI  - Is indirect decompression and fusion more effective than direct decompression and fusion for the treatment of degenerative lumbar spinal stenosis with instability? A systematic review and metanalysis.
+DP  - 16/12/2021
+YR  - 2021
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021291559
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022300975
+AU  - hao shi; xiao jun zhang
+TI  - Meta-analysis of the efficacy of reduction combined with percutaneous minimally invasive surgery in the treatment of osteoporotic vertebral compression fractures
+DP  - 06/02/2022
+YR  - 2022
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022300975
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022312290
+AU  - shao chen; chen liu; Honggen Du; Qiushuang Li
+TI  - Structural and functional brain alterations in idiopathic scoliosis : a systematic review and meta-analysis
+DP  - 09/04/2022
+YR  - 2022
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022312290
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022319126
+AU  - Bin Yu; ShiWei Zhuang; ZhenHai Cui; MengYuan Li; HongBing Yin
+TI  - Traditional Chinese medicine non-surgical treatment of lumbar disc herniation: protocol of a Systematic review and meta-analysis
+DP  - 18/04/2022
+YR  - 2022
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022319126
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022344031
+AU  - Yangbin Wang; Xiaoyu He; Shupeng Chen; Haiming Yu; Shu Lin; Zhihua Liu; Qunlong Pan; Hanshi Wang
+TI  - Lumbar discectomy with annulus repair for lumbar disc herniation: a meta-analysis of randomized and nonrandomized controlled studies of clinical outcomes and complications
+DP  - 15/07/2022
+YR  - 2022
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022344031
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022344426
+AU  - Robin Schäfer; Daniel Belavy; Katja Ehrenbrusthoff; Robert Akehurst; Carolin Bahns; Bettina Scheffler; Christian Kopkow; Patrick Owen; Clint Miller; Tine Willems; Lars Lars; Tobias Saueressig
+TI  - Guideline adherence for imaging, medication and surgery in low back pain care: a systematic review
+DP  - 16/07/2022
+YR  - 2022
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022344426
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022347146
+AU  - Paerhati Rexiti; Alafate Kahaer; Ruilin Chen; Muzaipaier Tuersong; Haopeng Luan; Gulimire Adili; Zhigeer Lehalebieke; Aizihaier Aisikaer; Abulikemu Maimaiti; Xieraili Maimaiti; Wenjie Shi; Zhihao Zhou; Dongshan Liu
+TI  - Zero-profile implant versus conventional cage-plate construct in anterior cervical discectomy and fusion for the treatment of single-level degenerative cervical spondylosis: a systematic review and meta-analysis
+DP  - 28/07/2022
+YR  - 2022
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022347146
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022373605
+AU  - Jordan Levett; Uri Barak; Abdulrhman Alnasser; Lior M. Elkaim; Michael H. Weber
+TI  - Radiation exposure and dose estimates of robot-guided versus freehand spinal fusion: A meta-analysis of randomized controlled trials
+DP  - 09/11/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022373605
+ER  - 
+
+TY  - JOUR
+ID  - CRD42022382662
+AU  - Sung Huang Laurent Tsai; CHUN-RU LIN
+TI  - The Association between Hounsfield Unit and Proximal Junctional Kyphosis in Adult Spinal Deformity Surgery: a Systematic Review and Meta-analysis
+DP  - 19/12/2022
+YR  - 2022
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42022382662
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023389356
+AU  - Dun Wang; Zhichao Wang; Qingfeng Li
+TI  - Clinical Features and Surgical Outcomes of Scoliosis in Neurofibromatosis Type 1: A Systemic Review and Meta-analysis
+DP  - 16/01/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023389356
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023398773
+AU  - Kanyakorn Riewruja; Weerasak Singhatanadgige
+TI  - A network meta-analysis of pedicle screw placement methods using conventional freehand/fluoroscopy, CT navigation, robotic assistance, and AR/VR guiding techniques
+DP  - 26/02/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023398773
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023403057
+AU  - Zhu yuanpeng; Chen Zefu
+TI  - Deep learning in automated measurement of Cobb angle: a systematic review and meta-analysis
+DP  - 08/03/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023403057
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023404093
+AU  - Mirna Chamoro; Jaap van Dalsen; Alessandro Chiarotto; Edwin H.G. Oei; Bart W. Koes; Sita M.A. Bierma- Zeinstra
+TI  - Association between presence and recurrence of low back pain and imaging features suggestive of lumbar spine osteoarthritis: a protocol for a systematic review.
+DP  - 12/03/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023404093
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023413233
+AU  - Zhangfu Li; Yong Hai
+TI  - The safety and efficacy of pelvic fixation for neuromuscular scoliosis: A systematic review and meta-analysis.
+DP  - 05/08/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023413233
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023417238
+AU  - Amira Cherif; Nadim Fakhry; Martin Simoneau; Hugo Massé-Alarie
+TI  - Motor neural circuits in low back pain
+DP  - 20/05/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023417238
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023426414
+AU  - Xingguo Tan; Songkai Li; Huang Dashuai
+TI  - Comparison of the efficacy of posterior versus anterior-posterior surgery in the treatment of Brucellar Spondylitis: a systematic review and META-analysis
+DP  - 25/05/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023426414
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023438172
+AU  - Marco Manzetti; Matteo Traversari
+TI  - The choice of lower instrumented vertebra in the surgical treatment of adolescent idiopathic scoliosis: is it better to stop at L3 or L4? A systematic review
+DP  - 01/07/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023438172
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023441443
+AU  - Chonggang Chen; Wenhua Wu; Yuxi Lin; Jinghu Qiu
+TI  - A meta analysis of risk factors for residual back pain in patients with osteoporotic vertebral compression fractures.
+DP  - 12/07/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023441443
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023444505
+AU  - Gonzalo Mariscal; Carlos Barrios; Eduardo Hevia
+TI  - Incidence and Risk Factors for Disc Degeneration in Adolescent Idiopathic Scoliosis Patients Undergoing Spinal Fusion: A Meta-Analysis
+DP  - 22/07/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023444505
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023450686
+AU  - Esther van Santbrink; Valérie Schuermans; Ank van de Goor; Toon Boselie; Anouk Smeets; Henk van Santbrink
+TI  - The optimal position for measurement of consistent cervical sagittal balance parameters in conventional radiographs: a systematic review.
+DP  - 27/10/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023450686
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023451178
+AU  - Yuchen Duan; Dagang Feng; Jun Chen; Yamei Wu; Tong Li; Yiran Wang; Leiming Jiang; Yong Huang
+TI  - Comparison of surgical interventions for the treatment of cervical localized ossification of the posterior longitudinal ligament: A systematic review and network meta-analysis
+DP  - 14/08/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023451178
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023452851
+AU  - Daniel Wolfe; Brent Rosenstein
+TI  - Effect of transcutaneous electrotherapy on subjective chronic low back pain-related outcomes
+DP  - 19/08/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023452851
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023456323
+AU  - haifeng Yuan; jinlong hu; Donghui Cao; Yanrong Tian
+TI  - Whether lumbar spondylolisthesis requires fusion fixation: A Systematic Review and Meta-Analysis
+DP  - 06/04/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023456323
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023468088
+AU  - Amer Helal; Bernhard Ulrich
+TI  - Optimizing Surgical Care in AS Cervical Fractures (OSCA)
+DP  - 09/10/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023468088
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023470850
+AU  - Osama Aldahamsheh; Sereen Halayqeh; Amro Alkhatib; Firoz Miyanji; Mohammad Alananzh
+TI  - Radiological and Clinical Outcomes of Chiari Malformation I-Associated Scoliosis: Metanalysis
+DP  - 27/10/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023470850
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023472069
+AU  - Yu Wu; Linqiang Ye
+TI  - Risk factors of bone cement leakage after PVP or PKP for osteoporotic vertebral compression fractures, a systematic review and meta-analysis
+DP  - 14/03/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023472069
+ER  - 
+
+TY  - JOUR
+ID  - CRD42023491206
+AU  - Rikke K. Jensen; Stine H Clausen; Mette Jensen Stochkendahl; Bodil Arnbak
+TI  - Prevalence of thoracic spine MRI findings and association with pain and disability: a systematic review
+DP  - 18/12/2023
+YR  - 2023
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42023491206
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024498996
+AU  - Jefferson Junior; Beatriz Lopes Bernado da Cunha; Hugo Nunes Pustilnik; Davi Amorim Meira; Silvio Porto de Oliveira Junior; Matheus Gomes da Silva da Paz; Tancredo Alcântara Ferreira Junior; Leonardo Miranda de Avellar
+TI  - Intraoperative neuromonitoring in Chiari I malformation surgery: A Systematic Review and Meta Analysis
+DP  - 15/01/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024498996
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024506013
+AU  - Rebecca Tuska; Maiah Brush; Rebecca Brown
+TI  - Skeletal Features and Radiological Findings in Congenital Generalized Lipodystrophy: A Systematic Review
+DP  - 16/01/2025
+YR  - 2025
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024506013
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024512706
+AU  - Zhen Chen; Li Chen; Dan Liu; Mingjiao Wang; Yong Huang
+TI  - Anterior Cervical Discectomy and Fusion with Zero-profile Anchor Spacer versus Plate and Cage for 3-level Contiguous Cervical Degenerative Disease: A Systematic Review and Meta-Analysis
+DP  - 24/02/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024512706
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024526000
+AU  - Ganiyat Adenike Adebanjo; Giulia Viviano; Lorenzo Bertolotti; Massimo De Filippo
+TI  - CT-guided radiofrequency and microwave ablation in osteoid osteoma: a case series and systematic review of the literature.
+DP  - 30/03/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024526000
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024532442
+AU  - Alfonso Javier Ibáñez-Vera; Mario Piqueras-Toharias; Ana Sedeño-Vidal
+TI  - Effects of High-Speed Vertebral Manipulation on Quality of Life and Spinal Curvature in Adolescents withIdiopathic Scoliosis. A Systematic Review
+DP  - 17/04/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024532442
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024538023
+AU  - Rigao Chen; Kai Zou; Jianjia Liu; Ke Li; Yi Zhou; Haoyun Huang; Fei Yang
+TI  - Do modic changes affect the fusion rate in spinal interbody fusion surgery? A systematic review and network meta-analysis
+DP  - 01/05/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024538023
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024552962
+AU  - Arief Prasetya; Tri Winarni; Jamari Jamari; Antonius Santoso; Dimas Nabih
+TI  - Analyzing Spinopelvic Parameter Differences between Standings Position and Supine Position
+DP  - 11/06/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024552962
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024557371
+AU  - Lanah Bolton; Kylie Tucker; Phoebe Duncombe
+TI  - Quantifying vertebrae, intervertebral disc, spinal canal, and rib morphology in paediatric, adolescent and young adult populations: A systematic review
+DP  - 22/06/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024557371
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024562331
+AU  - Hassan Alghanim; Muhammad Almahdi; Amal Salah; Yara Arfaj; Lama Aldakhi; Khaled Alsoairy; Haitham Alresaini
+TI  - A Systematic Review on the Efficacy of Multidisciplinary Approaches in the Management of Chronic Pain
+DP  - 06/07/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024562331
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024571713
+AU  - TaoHuan Chen; Wei Xie; XiaoMei Peng
+TI  - Abdominal muscle asymmetrical in adolescents with idiopathic scoliosis:A narrative review of Ultrasonography
+DP  - 02/08/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024571713
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024577195
+AU  - Qikai Wu; Qing Du
+TI  - Somatosensory and Brain Function in AIS Patients: A Systematic Review of MRI Scans
+DP  - 03/10/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024577195
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024577266
+AU  - Sabahat Ul Ain Munir Abbasi; Hanzala Ahmed Farooqi; Muzamil Akhtar; Aqsa Munir; Rayyan Nabi; Obaid Ur Rehman Khan; Najaf Ahmed Rajpar; Zenia Safwan
+TI  - Understanding Chiari Malformation: An Umbrella Review Covering Different Treatment Options, Prognosis, and Their Adverse Effects.
+DP  - 18/08/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024577266
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024578247
+AU  - Jibran Khan; Abdelrafour Houdane; Faisal Konbaz
+TI  - Current state of Machine Learning in Scoliosis Management: Assessing the Utility, Limitations, and Challenges in Implementation
+DP  - 21/08/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024578247
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024578644
+AU  - Paweł Łajczak; Anna Łajczak
+TI  - Accuracy and Safety of Robot-Assisted Pedicle Screw Placement in Pediatric and Adolescent Spinal Surgery: A Systematic Review and Meta-Analysis
+DP  - 21/08/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024578644
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024584928
+AU  - Paweł Łajczak; Walter Fagundes; Yasmin Picanço Silva; Aisha Rizwan Ahmed; Eshita Sharma; Oguz Kagan Sahin; Rabbia Jabbar; Yan Silva; Iago Nathan Simon Petry; Mir Wajid Majeed
+TI  - Robot-assisted, navigation-assisted, and freehand techniques for pedicle screw placement in adolescent idiopathic scoliosis surgery - a Bayesian Networking systematic review &amp; meta-analysis
+DP  - 13/09/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024584928
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024590744
+AU  - Wang Yanjin; Zhou Yingjie; Zhou Hanjie; Fan Lijuan
+TI  - Systematic Review and Meta-Analysis of the Incidence and Risk Factors of Implant Subsidence after Anterior Cervical Corpectomy and Fusion (ACCF)
+DP  - 30/09/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024590744
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024596265
+AU  - Aotian Lao; Yu Wu
+TI  - Risk factors for cement leakage after percutaneous vertebral augmentation forosteoporotic vertebral compression fractures: a meta-analysis and Predictive Model
+DP  - 11/10/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024596265
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024598681
+AU  - Abdul Hadi Shahid; Muhammad Salman; Mohammad Khozema Safri; Akbar Jaleel Zubairi
+TI  - Comparative Analysis of 3D Navigation and Free Hand Techniques in Pedicle Screw Instrumentation for Adolescent idiopathic Scoliosis: A Systematic Review and Meta-Analysis on Cost-Effectiveness and Surgical Accuracy, with Insights from High-Income Countries for Implementation in Low- and Middle-Income Countries
+DP  - 18/10/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024598681
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024599220
+AU  - Jianbin  Guan; Kaiyuan Lin
+TI  - Mendelian randomization for spinal diseases: principles and applications.
+DP  - 19/10/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024599220
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024603845
+AU  - Xu-huan Li; Zu-xiu Wang; Zhou-zhou Li
+TI  - Is decompression and fusion better than decompression and fusion for patients with simple lumbar spinal stenosis? a meta-analysis of randomized trials
+DP  - 31/10/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024603845
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024606581
+AU  - Paweł Łajczak; Enzo von Quednow MD; Gabriela Fonseca Nascimento; Mariana Zamprogno Zottele; Walter Fagundes; Yasmin Picanço Silva; Eshita Sharma; Oguz Kagan Sahin; Yan Gabriel Morais David Silva; Ayesha Ayesha; Rabbia Jabbar; Fabio Victor Vieira Rocha
+TI  - A comparison between imaging, 3D printed, robotic, and freehand navigation for congential scoliosis posterior fixation surgery - A systematic review and Bayesian network meta-analysis
+DP  - 08/11/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024606581
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024620480
+AU  - WeiJie Zheng; Hong Ye; Linfeng Wang
+TI  - Risk Factors for Subsequent Vertebral Fractures After Percutaneous Vertebral Augmentation: A Systematic Review and Meta-Analysis
+DP  - 10/12/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024620480
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024624167
+AU  - Phoebe Duncombe; Kylie Tucker
+TI  - Paraspinal muscle characteristics in the context of scoliosis development: A systematic review and meta-analysis spanning idiopathic, neuromuscular, and cerebral palsy
+DP  - 19/12/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024624167
+ER  - 
+
+TY  - JOUR
+ID  - CRD42024628954
+AU  - Tan Nguyen Lam Minh; Duy Tran Nguyen Anh; Hsuan-Tung Lee; Yu-Chi Hsu
+TI  - Paraspinal muscle is a factor to predict ASD after degenerative lumbar spinal fusion: a meta-analysis
+DP  - 29/12/2024
+YR  - 2024
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42024628954
+ER  - 
+
+TY  - JOUR
+ID  - CRD420251046877
+AU  - Yujie Guan; Bin Zhao
+TI  - Artificial Intelligence in Scoliosis Screening and Diagnosis: a Systematic Review
+DP  - 09/12/2025
+YR  - 2025
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420251046877
+ER  - 
+
+TY  - JOUR
+ID  - CRD420251171963
+AU  - Yasemin Paksoy; Michael Cassel; Lucie Risch; Burcu Ece Korkmaz
+TI  - Beyond X-Rays: Assessment Techniques in Idiopathic Adolescent Scoliosis: A Systematic Review
+DP  - 06/11/2025
+YR  - 2025
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420251171963
+ER  - 
+
+TY  - JOUR
+ID  - CRD420251180554
+AU  - Weichao Qi; chengfang Yin; feng Li; bingbing Wang
+TI  - Accuracy of Automatic Detection of Cobb Angle by Deep Learning Based on Medical Images: A Systematic Review and Meta-analysis
+DP  - 14/11/2025
+YR  - 2025
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420251180554
+ER  - 
+
+TY  - JOUR
+ID  - CRD420251239948
+AU  - Varunikha Anandan Sangeetha; Shazia Iqbal; Darshanaa Senthil kumar; Avanisha Unnam; Shahzad Ahmad
+TI  -  Evaluating AI-Based AR/MR Navigation for Pedicle Screw Placement in Spinal Surgery - A Systematic Review
+DP  - 25/08/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420251239948
+ER  - 
+
+TY  - JOUR
+ID  - CRD42025635370
+AU  - Paweł Łajczak; Anna Łajczak
+TI  - Use of Robotics or Navigation Assistance for Pedicle Screw Placement in Children with Neuromuscular Scoliosis. A systematic review and meta-analysis
+DP  - 18/01/2025
+YR  - 2025
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42025635370
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261293765
+AU  - Mengyao lI; Yuyan Luo
+TI  - Diagnostic accuracy and comparative performance of artificial intelligence-driven radiation-free technologies for adolescent idiopathic scoliosis screening: A systematic review and network meta-analysis.
+DP  - 27/01/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261293765
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261305318
+AU  - Ethan Sissman; Mateo Tomas Fariña Nuñez; Erel Ben Ari
+TI  - Levels of Autonomy in Spine Surgical Robotics: A Systematic Review
+DP  - 11/03/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261305318
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261326776
+AU  - Daniel Dourado Striquer; Junior Menezes; João Andrade
+TI  - Supine Versus Axial-Loaded or Upright MRI in Symptomatic Lumbar Spinal Stenosis: A Systematic Review and Meta-Analysis
+DP  - 09/04/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261326776
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261398497
+AU  - Yildiz Aktas; Renata Pinto de Souza Sawaia .; Airi Tsutsumi; Anita Tanniru Mohan
+TI  - Imaging Modalities in the Assessment of Lymphedema: A Systematic Review 
+DP  - 28/09/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261398497
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261426784
+AU  - Rami Rajjoub; Mutaleeb Shodobe
+TI  - Accuracy and Reliability of EOS-Derived Versus Physician Manual Cobb Angle Measurements in Scoliosis: A Systematic Review and Meta-Analysis
+DP  - 17/06/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261426784
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261440727
+AU  - HaiQing Xing; MeiZhu Lei
+TI  - Relationship between vertebral height restoration, Cobb angle correction and refracture after percutaneous vertebroplasty in osteoporotic vertebral compression fractures: a Living systematic review
+DP  - 04/07/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261440727
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261463600
+AU  - parsa samaei; Ebrahim Ebrahimi
+TI  - The Role of Artificial Intelligence for the Diagnosis and Classification of Ankle Instability: A Systematic Review
+DP  - 28/07/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261463600
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261470570
+AU  - Daniel Mwesigwa Kiyimba; CaiJie Wang
+TI  - Accuracy and safety of robot-assisted S2 alar-iliac screw placement: a systematic review and single-arm meta-analysis with meta-regression of technical moderators, and a comparative synthesis against freehand placement
+DP  - 05/08/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261470570
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261470722
+AU  - Daniel Mwesigwa Kiyimba; CaiJie Wang
+TI  - Robot-assisted screw placement in neuromuscular and syndromic scoliosis: a systematic review and single-arm meta-analysis with a pelvic fixation sub-analysis
+DP  - 05/08/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261470722
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261470763
+AU  - Daniel Mwesigwa Kiyimba; CaiJie Wang
+TI  - Accuracy of robot-assisted pedicle screw placement by spinal level: a systematic review and single-arm meta-analysis with between-level comparison and platform/era meta-regression
+DP  - 05/08/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261470763
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261471005
+AU  - Daniel Mwesigwa Kiyimba; CaiJie Wang
+TI  - Robot-Assisted Correction of Severe, Rigid, and Complex Spinal Deformity: A Systematic Review and Meta-Analysis of screw accuracy, safety, and perioperative outcomes
+DP  - 11/08/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261471005
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261476402
+AU  - Shengyue Sun; Weina Liu
+TI  - Artificial Intelligence in the Management of Scoliosis: A Systematic Review of Screening, Diagnosis, Prediction, and Treatment
+DP  - 04/09/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261476402
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261489626
+AU  - Christian Sipija; Muhammad Ilma Darajat Darajat; Yuwen Gunawan; Fadel Muhammad; Ismail Ismail; Lidia Jamal; Mita Chandra; Asilah Qalbi; Siti Aisyah Nurul Qalbi Adnan
+TI  - Decompression Alone versus Fusion for Degenerative Lumbar Spondylolisthesis: An Updated Systematic Review and Meta-Analysis
+DP  - 17/09/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261489626
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261499016
+AU  - 国炜 王; 宗培 贾
+TI  - Artificial intelligence applied to imaging in adolescent idiopathic scoliosis: a systematic review of performance, methodological quality, and clinical translation readiness
+DP  - 06/09/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261499016
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261500595
+AU  - Somang Lee; Byung-Cheul Shin
+TI  - Diagnostic Accuracy and Measurement Properties of Non-Ionizing 3D Surface Topography for Spinal and Pelvic Alignment Abnormalities: A Systematic Review
+DP  - 13/09/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261500595
+ER  - 
+
+TY  - JOUR
+ID  - CRD420261502750
+AU  - Zhishuai Ren; Ruitong Yang
+TI  - The influence of age adjustment and measurement methodology on the association between paraspinal muscle fatty infiltration and lumbar degenerative outcomes: a meta-epidemiological study
+DP  - 11/09/2026
+YR  - 2026
+DB  - PROSPERO
+SO  - https://www.crd.york.ac.uk/PROSPERO/view/CRD420261502750
+ER  - 
+

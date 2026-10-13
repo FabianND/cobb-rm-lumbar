@@ -1,0 +1,448 @@
+serie,estudio,secuencia,subset,sexo,centro_proxy,escaner,SliceThickness,SpacingBetweenSlices,espaciado_lr_mm,grosor_lr_rango,tamano_vox,espaciado_mm,num_vertebrae,n_vertebras_mascara,num_discs,n_discos_mascara,tiene_canal,_merge
+100_t1,100,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.39,4–5 mm,"(21, 492, 797)","(4.39, 0.631, 0.388)",8,8,8,8,True,both
+100_t2,100,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.39,4–5 mm,"(21, 492, 797)","(4.39, 0.631, 0.388)",8,8,8,8,True,both
+101_t1,101,t1,validation,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.789,4–5 mm,"(17, 320, 298)","(4.789, 0.813, 0.876)",6,6,6,6,True,both
+101_t2,101,t2,validation,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.791,4–5 mm,"(17, 384, 352)","(4.791, 0.677, 0.741)",6,6,6,6,True,both
+104_t1,104,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",7,7,7,7,True,both
+104_t2,104,t2,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",7,7,7,7,True,both
+105_t1,105,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.294,3–4 mm,"(25, 448, 427)","(3.294, 0.625, 0.657)",7,7,7,7,True,both
+105_t2,105,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.294,3–4 mm,"(25, 448, 427)","(3.294, 0.625, 0.657)",7,7,7,7,True,both
+106_t1,106,t1,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+106_t2,106,t2,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+107_t1,107,t1,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+107_t2,107,t2,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+107_t2_SPACE,107,t2_SPACE,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+108_t1,108,t1,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(17, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+108_t2,108,t2,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(17, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+109_t1,109,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.362,3–4 mm,"(33, 575, 800)","(3.362, 0.493, 0.356)",7,7,7,7,True,both
+109_t2,109,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.362,3–4 mm,"(33, 575, 800)","(3.362, 0.493, 0.356)",7,7,7,7,True,both
+10_t1,10,t1,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.4,4–5 mm,"(15, 896, 896)","(4.4, 0.313, 0.312)",7,7,7,7,True,both
+10_t2,10,t2,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.4,4–5 mm,"(15, 768, 768)","(4.4, 0.365, 0.365)",7,7,7,7,True,both
+110_t1,110,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+110_t2,110,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+110_t2_SPACE,110,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+112_t1,112,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+112_t2,112,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+113_t1,113,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.315,3–4 mm,"(26, 503, 461)","(3.315, 0.559, 0.608)",6,6,6,6,True,both
+113_t2,113,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.315,3–4 mm,"(26, 503, 461)","(3.315, 0.559, 0.608)",6,6,6,6,True,both
+115_t1,115,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+115_t2,115,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+116_t1,116,t1,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 1.062, 1.062)",7,7,7,7,True,both
+116_t2,116,t2,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.8,4.8,4–5 mm,"(15, 512, 512)","(4.8, 0.664, 0.664)",7,7,7,7,True,both
+117_t1,117,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+117_t2,117,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+118_t1,118,t1,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.276,3–4 mm,"(20, 512, 427)","(3.276, 0.586, 0.706)",8,8,8,8,True,both
+118_t2,118,t2,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.276,3–4 mm,"(20, 512, 427)","(3.276, 0.586, 0.706)",8,8,8,8,True,both
+118_t2_SPACE,118,t2_SPACE,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.891,<1 mm,"(128, 512, 622)","(0.891, 0.469, 0.486)",7,7,7,7,True,both
+11_t1,11,t1,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.312,3–4 mm,"(21, 512, 590)","(3.312, 0.586, 0.511)",8,8,8,8,True,both
+11_t2,11,t2,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.312,3–4 mm,"(19, 512, 589)","(3.312, 0.586, 0.511)",8,8,8,8,True,both
+11_t2_SPACE,11,t2_SPACE,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.91,<1 mm,"(126, 512, 675)","(0.91, 0.469, 0.448)",8,8,8,8,True,both
+120_t2,120,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.677, 0.677)",7,7,7,7,True,both
+121_t1,121,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.281,3–4 mm,"(27, 448, 392)","(3.281, 0.625, 0.719)",6,6,6,6,True,both
+121_t2,121,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.281,3–4 mm,"(27, 448, 392)","(3.281, 0.625, 0.719)",6,6,6,6,True,both
+122_t1,122,t1,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",6,6,6,6,True,both
+122_t2,122,t2,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",6,6,6,6,True,both
+123_t2,123,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.344,4–5 mm,"(22, 376, 611)","(4.344, 0.831, 0.505)",8,8,8,8,True,both
+124_t2,124,t2,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,5.12,≥5 mm,"(16, 384, 384)","(5.12, 0.677, 0.677)",6,6,6,6,True,both
+125_t1,125,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+125_t2,125,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+126_t1,126,t1,validation,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+127_t1,127,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+127_t2,127,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+127_t2_SPACE,127,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+129_t1,129,t1,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",7,7,8,8,True,both
+129_t2,129,t2,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",7,7,8,8,True,both
+129_t2_SPACE,129,t2_SPACE,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,8,8,True,both
+12_t1,12,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",6,6,6,6,True,both
+12_t2,12,t2,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",6,6,6,6,True,both
+130_t1,130,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.272,3–4 mm,"(28, 448, 372)","(3.272, 0.625, 0.76)",7,7,7,7,True,both
+130_t2,130,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.272,3–4 mm,"(28, 448, 372)","(3.272, 0.625, 0.76)",7,7,7,7,True,both
+131_t1,131,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.304,3–4 mm,"(24, 448, 463)","(3.304, 0.625, 0.606)",7,7,7,7,True,both
+131_t2,131,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.304,3–4 mm,"(24, 448, 463)","(3.304, 0.625, 0.606)",7,7,7,7,True,both
+132_t1,132,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 1.062, 1.062)",8,8,8,8,True,both
+133_t1,133,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.37,3–4 mm,"(36, 537, 1459)","(3.37, 0.526, 0.197)",6,6,6,6,True,both
+133_t2,133,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.37,3–4 mm,"(36, 537, 1459)","(3.37, 0.526, 0.197)",6,6,6,6,True,both
+134_t2,134,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.373,4–5 mm,"(20, 514, 541)","(4.373, 0.603, 0.573)",8,8,8,8,True,both
+136_t1,136,t1,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",6,6,7,7,True,both
+136_t2,136,t2,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",6,6,7,7,True,both
+136_t2_SPACE,136,t2_SPACE,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",6,6,7,7,True,both
+137_t1,137,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.212,3–4 mm,"(35, 352, 341)","(3.212, 0.811, 0.835)",6,6,6,6,True,both
+137_t2,137,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.212,3–4 mm,"(35, 352, 341)","(3.212, 0.811, 0.835)",6,6,6,6,True,both
+138_t1,138,t1,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.382,4–5 mm,"(19, 514, 611)","(4.382, 0.603, 0.505)",7,7,7,7,True,both
+138_t2,138,t2,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.382,4–5 mm,"(18, 513, 611)","(4.382, 0.603, 0.505)",7,7,7,7,True,both
+13_t1,13,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.391,4–5 mm,"(20, 514, 748)","(4.391, 0.603, 0.413)",8,8,8,8,True,both
+13_t2,13,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.391,4–5 mm,"(19, 513, 748)","(4.391, 0.603, 0.413)",8,8,8,8,True,both
+140_t1,140,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(27, 464, 392)","(3.285, 0.604, 0.72)",9,9,9,9,True,both
+140_t2,140,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(27, 464, 392)","(3.285, 0.604, 0.72)",9,9,9,9,True,both
+141_t2_SPACE,141,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Skyra | 3.0 T,0.89999997615814,1.0,0.936,<1 mm,"(144, 509, 793)","(0.936, 0.472, 0.389)",7,7,7,7,True,both
+142_t1,142,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.308,3–4 mm,"(20, 512, 557)","(3.308, 0.586, 0.54)",7,7,7,7,True,both
+142_t2,142,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.308,3–4 mm,"(20, 512, 557)","(3.308, 0.586, 0.54)",7,7,7,7,True,both
+142_t2_SPACE,142,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.906,<1 mm,"(124, 512, 661)","(0.906, 0.469, 0.456)",7,7,7,7,True,both
+143_t1,143,t1,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.41,4–5 mm,"(22, 658, 797)","(4.41, 0.468, 0.388)",9,9,9,9,True,both
+143_t2,143,t2,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.41,4–5 mm,"(21, 658, 797)","(4.41, 0.468, 0.388)",9,9,9,9,True,both
+144_t1,144,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+144_t2,144,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+145_t1,145,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(26, 448, 402)","(3.285, 0.625, 0.701)",8,8,8,8,True,both
+145_t2,145,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(26, 448, 402)","(3.285, 0.625, 0.701)",8,8,8,8,True,both
+146_t1,146,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.333,3–4 mm,"(27, 512, 872)","(3.333, 0.586, 0.348)",7,7,7,7,True,both
+146_t2,146,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.333,3–4 mm,"(27, 512, 872)","(3.333, 0.586, 0.348)",7,7,7,7,True,both
+146_t2_SPACE,146,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.931,<1 mm,"(139, 512, 761)","(0.931, 0.469, 0.403)",7,7,7,7,True,both
+147_t2,147,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.398,4–5 mm,"(17, 652, 611)","(4.398, 0.473, 0.505)",8,8,8,8,True,both
+149_t1,149,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",6,6,6,6,True,both
+149_t2,149,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",6,6,6,6,True,both
+151_t2,151,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.36,4–5 mm,"(22, 514, 469)","(4.36, 0.603, 0.663)",6,6,6,6,True,both
+152_t1,152,t1,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",8,8,9,9,True,both
+152_t2,152,t2,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",8,8,9,9,True,both
+152_t2_SPACE,152,t2_SPACE,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,9,9,True,both
+154_t1,154,t1,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+154_t2,154,t2,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+155_t1,155,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+155_t2,155,t2,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+156_t1,156,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.264,3–4 mm,"(30, 373, 424)","(3.264, 0.76, 0.664)",6,6,6,6,True,both
+156_t2,156,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.264,3–4 mm,"(30, 373, 424)","(3.264, 0.76, 0.664)",6,6,6,6,True,both
+159_t2,159,t2,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.739,4–5 mm,"(21, 384, 260)","(4.739, 0.677, 1.018)",6,6,6,6,True,both
+15_t1,15,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.344,3–4 mm,"(31, 448, 899)","(3.344, 0.625, 0.318)",6,6,6,6,True,both
+15_t2,15,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.344,3–4 mm,"(31, 448, 899)","(3.344, 0.625, 0.318)",6,6,6,6,True,both
+160_t1,160,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.152,3–4 mm,"(43, 343, 284)","(3.152, 0.832, 1.023)",6,6,6,6,True,both
+160_t2,160,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.152,3–4 mm,"(43, 343, 284)","(3.152, 0.832, 1.023)",6,6,6,6,True,both
+161_t1,161,t1,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.288,3–4 mm,"(21, 512, 464)","(3.288, 0.586, 0.649)",8,8,8,8,True,both
+161_t2,161,t2,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",7,7,8,8,True,both
+161_t2_SPACE,161,t2_SPACE,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,8,8,True,both
+162_t1,162,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,9,9,True,both
+162_t2,162,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,9,9,True,both
+162_t2_SPACE,162,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,9,9,True,both
+163_t1,163,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.387,4–5 mm,"(21, 514, 672)","(4.387, 0.603, 0.458)",7,7,7,7,True,both
+163_t2,163,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.387,4–5 mm,"(20, 534, 707)","(4.387, 0.581, 0.436)",7,7,7,7,True,both
+165_t1,165,t1,validation,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",6,6,6,6,True,both
+165_t2,165,t2,validation,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",6,6,6,6,True,both
+166_t1,166,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+166_t2,166,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+166_t2_SPACE,166,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+167_t1,167,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+167_t2,167,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+168_t1,168,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.293,3–4 mm,"(25, 448, 424)","(3.293, 0.625, 0.662)",6,6,6,6,True,both
+168_t2,168,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.293,3–4 mm,"(25, 448, 424)","(3.293, 0.625, 0.662)",6,6,6,6,True,both
+169_t1,169,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.249,3–4 mm,"(30, 448, 335)","(3.249, 0.625, 0.851)",7,7,7,7,True,both
+169_t2,169,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.249,3–4 mm,"(30, 448, 335)","(3.249, 0.625, 0.851)",7,7,7,7,True,both
+16_t1,16,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+16_t2,16,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+170_t1,170,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+170_t2,170,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+171_t1,171,t1,validation,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+171_t2,171,t2,validation,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+172_t1,172,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.318,3–4 mm,"(29, 426, 596)","(3.318, 0.659, 0.475)",6,6,6,6,True,both
+172_t2,172,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.318,3–4 mm,"(29, 426, 596)","(3.318, 0.659, 0.475)",6,6,6,6,True,both
+173_t1,173,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",6,6,6,6,True,both
+173_t2,173,t2,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",6,6,6,6,True,both
+174_t1,174,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.33,3–4 mm,"(32, 640, 1435)","(3.33, 0.5, 0.226)",6,6,6,6,True,both
+174_t2,174,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.33,3–4 mm,"(32, 640, 1435)","(3.33, 0.5, 0.226)",6,6,6,6,True,both
+175_t1,175,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.289,3–4 mm,"(26, 448, 413)","(3.289, 0.625, 0.681)",6,6,6,6,True,both
+175_t2,175,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.289,3–4 mm,"(26, 448, 413)","(3.289, 0.625, 0.681)",6,6,6,6,True,both
+177_t1,177,t1,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 21)","(0.586, 0.586, 3.3)",9,9,9,9,True,both
+177_t2,177,t2,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 21)","(0.586, 0.586, 3.3)",9,9,9,9,True,both
+177_t2_SPACE,177,t2_SPACE,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",9,9,9,9,True,both
+179_t1,179,t1,validation,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(17, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+179_t2,179,t2,validation,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(17, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+17_t1,17,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.31,3–4 mm,"(25, 448, 495)","(3.31, 0.625, 0.568)",6,6,6,6,True,both
+17_t2,17,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.31,3–4 mm,"(25, 448, 495)","(3.31, 0.625, 0.568)",6,6,6,6,True,both
+180_t1,180,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(17, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+181_t1,181,t1,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.845,4–5 mm,"(19, 320, 556)","(4.845, 0.813, 0.474)",7,7,7,7,True,both
+181_t2,181,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.836,4–5 mm,"(19, 384, 778)","(4.836, 0.677, 0.339)",7,7,7,7,True,both
+182_t1,182,t1,validation,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",9,9,9,9,True,both
+182_t2,182,t2,validation,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",9,9,9,9,True,both
+183_t2,183,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,5.129,≥5 mm,"(16, 384, 337)","(5.129, 0.677, 0.775)",7,7,7,7,True,both
+184_t1,184,t1,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.396,4–5 mm,"(21, 514, 861)","(4.396, 0.603, 0.359)",7,7,7,7,True,both
+184_t2,184,t2,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.396,4–5 mm,"(20, 513, 861)","(4.396, 0.603, 0.359)",7,7,7,7,True,both
+185_t1,185,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+185_t2,185,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+185_t2_SPACE,185,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+186_t1,186,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.358,3–4 mm,"(41, 448, 3473)","(3.358, 0.625, 0.083)",7,7,7,7,True,both
+186_t2,186,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.358,3–4 mm,"(41, 448, 3473)","(3.358, 0.625, 0.083)",7,7,7,7,True,both
+187_t1,187,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.382,4–5 mm,"(21, 465, 748)","(4.382, 0.668, 0.413)",8,8,8,8,True,both
+187_t2,187,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.382,4–5 mm,"(20, 465, 748)","(4.382, 0.668, 0.413)",8,8,8,8,True,both
+188_t1,188,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+188_t2,188,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+189_t1,189,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.384,4–5 mm,"(19, 514, 640)","(4.384, 0.603, 0.482)",8,8,8,8,True,both
+189_t2,189,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.384,4–5 mm,"(18, 513, 640)","(4.384, 0.603, 0.482)",8,8,8,8,True,both
+18_t1,18,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 25)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+18_t2,18,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 25)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+18_t2_SPACE,18,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+190_t1,190,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+190_t2,190,t2,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+191_t1,191,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.305,3–4 mm,"(18, 512, 539)","(3.305, 0.586, 0.557)",8,8,8,8,True,both
+191_t2,191,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.305,3–4 mm,"(18, 512, 539)","(3.305, 0.586, 0.557)",8,8,8,8,True,both
+191_t2_SPACE,191,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.904,<1 mm,"(122, 512, 653)","(0.904, 0.469, 0.461)",8,8,8,8,True,both
+192_t1,192,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+192_t2,192,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+193_t1,193,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.356,3–4 mm,"(33, 808, 531)","(3.356, 0.354, 0.531)",6,6,6,6,True,both
+193_t2,193,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.356,3–4 mm,"(33, 808, 531)","(3.356, 0.354, 0.531)",6,6,6,6,True,both
+195_t1,195,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.293,3–4 mm,"(25, 448, 423)","(3.293, 0.625, 0.663)",7,7,7,7,True,both
+195_t2,195,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.293,3–4 mm,"(25, 448, 423)","(3.293, 0.625, 0.663)",7,7,7,7,True,both
+196_t1,196,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.273,3–4 mm,"(32, 342, 550)","(3.273, 0.833, 0.514)",6,6,6,6,True,both
+196_t2,196,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.273,3–4 mm,"(32, 342, 550)","(3.273, 0.833, 0.514)",6,6,6,6,True,both
+197_t2,197,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.835,4–5 mm,"(19, 384, 759)","(4.835, 0.677, 0.347)",6,6,6,6,True,both
+198_t1,198,t1,validation,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.328,3–4 mm,"(30, 448, 626)","(3.328, 0.625, 0.453)",6,6,6,6,True,both
+198_t2,198,t2,validation,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.328,3–4 mm,"(30, 448, 626)","(3.328, 0.625, 0.453)",6,6,6,6,True,both
+19_t1,19,t1,validation,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.228,3–4 mm,"(33, 368, 351)","(3.228, 0.769, 0.811)",6,6,6,6,True,both
+19_t2,19,t2,validation,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.228,3–4 mm,"(33, 368, 351)","(3.228, 0.769, 0.811)",6,6,6,6,True,both
+1_t1,1,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.321,3–4 mm,"(50, 448, 578)","(3.321, 0.625, 0.501)",7,7,7,7,True,both
+1_t2,1,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.321,3–4 mm,"(50, 448, 578)","(3.321, 0.625, 0.501)",7,7,7,7,True,both
+200_t1,200,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",7,7,7,7,True,both
+200_t2,200,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",7,7,7,7,True,both
+200_t2_SPACE,200,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(120, 512, 640)","(0.9, 0.469, 0.469)",7,7,7,7,True,both
+201_t2,201,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.781,4–5 mm,"(17, 384, 327)","(4.781, 0.677, 0.8)",6,6,6,6,True,both
+202_t1,202,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+202_t2,202,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+203_t1,203,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.319,3–4 mm,"(27, 448, 552)","(3.319, 0.625, 0.512)",6,6,6,6,True,both
+203_t2,203,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.319,3–4 mm,"(27, 448, 552)","(3.319, 0.625, 0.512)",6,6,6,6,True,both
+204_t1,204,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+204_t2,204,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+205_t1,205,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 511)","(3.313, 0.625, 0.551)",6,6,6,6,True,both
+205_t2,205,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 511)","(3.313, 0.625, 0.551)",6,6,6,6,True,both
+207_t1,207,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.397,3–4 mm,"(41, 1168, 1058)","(3.397, 0.248, 0.27)",6,6,6,6,True,both
+207_t2,207,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.397,3–4 mm,"(41, 1168, 1058)","(3.397, 0.248, 0.27)",6,6,6,6,True,both
+208_t2,208,t2,validation,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.816,4–5 mm,"(17, 384, 472)","(4.816, 0.677, 0.554)",7,7,7,7,True,both
+209_t1,209,t1,training,M,UMC (inferido por SPACE),SIEMENS | Prisma_fit | 3.0 T,3.0,3.3,3.261,3–4 mm,"(24, 512, 391)","(3.261, 0.586, 0.775)",8,8,8,8,True,both
+209_t2,209,t2,training,M,UMC (inferido por SPACE),SIEMENS | Prisma_fit | 3.0 T,3.0,3.3,3.261,3–4 mm,"(24, 512, 391)","(3.261, 0.586, 0.775)",8,8,8,8,True,both
+209_t2_SPACE,209,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.872,<1 mm,"(143, 512, 588)","(0.872, 0.469, 0.52)",8,8,8,8,True,both
+20_t2,20,t2,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.356,4–5 mm,"(21, 406, 611)","(4.356, 0.768, 0.505)",7,7,7,7,True,both
+210_t1,210,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+210_t2,210,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+212_t1,212,t1,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.743,4–5 mm,"(18, 320, 240)","(4.743, 0.813, 1.098)",7,7,7,7,True,both
+212_t2,212,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.751,4–5 mm,"(18, 384, 274)","(4.751, 0.677, 0.962)",7,7,7,7,True,both
+213_t1,213,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+213_t2,213,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+214_t1,214,t1,training,M,otro: SIEMENS | Avanto | 1.5 T,SIEMENS | Avanto | 1.5 T,3.5,4.2,4.206,4–5 mm,"(15, 320, 331)","(4.206, 0.937, 0.908)",7,7,7,7,True,both
+214_t2,214,t2,training,M,otro: SIEMENS | Avanto | 1.5 T,SIEMENS | Avanto | 1.5 T,3.5,4.2,4.206,4–5 mm,"(14, 320, 331)","(4.206, 0.937, 0.908)",7,7,7,7,True,both
+215_t1,215,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",6,6,6,6,True,both
+215_t2,215,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",6,6,6,6,True,both
+217_t1,217,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.372,4–5 mm,"(21, 658, 447)","(4.372, 0.468, 0.696)",8,8,8,8,True,both
+217_t2,217,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.372,4–5 mm,"(20, 658, 447)","(4.372, 0.468, 0.696)",8,8,8,8,True,both
+218_t1,218,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.328,3–4 mm,"(28, 448, 626)","(3.328, 0.625, 0.453)",7,7,7,7,True,both
+218_t2,218,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.328,3–4 mm,"(28, 448, 626)","(3.328, 0.625, 0.453)",7,7,7,7,True,both
+219_t1,219,t1,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+21_t2,21,t2,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.819,4–5 mm,"(18, 384, 503)","(4.819, 0.677, 0.521)",6,6,6,6,True,both
+220_t1,220,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 21)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+220_t2,220,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 21)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+220_t2_SPACE,220,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+221_t1,221,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.357,3–4 mm,"(36, 448, 2452)","(3.357, 0.625, 0.117)",7,7,7,7,True,both
+221_t2,221,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.357,3–4 mm,"(36, 448, 2452)","(3.357, 0.625, 0.117)",7,7,7,7,True,both
+222_t1,222,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+222_t2,222,t2,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",7,7,7,7,True,both
+223_t1,223,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.297,3–4 mm,"(24, 448, 438)","(3.297, 0.625, 0.64)",7,7,7,7,True,both
+223_t2,223,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.297,3–4 mm,"(24, 448, 438)","(3.297, 0.625, 0.64)",7,7,7,7,True,both
+224_t1,224,t1,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.413,4–5 mm,"(16, 379, 441)","(4.413, 0.738, 0.637)",7,7,7,7,True,both
+224_t2,224,t2,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.413,4–5 mm,"(16, 379, 441)","(4.413, 0.738, 0.637)",7,7,7,7,True,both
+225_t1,225,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",6,6,6,6,True,both
+225_t2,225,t2,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",6,6,6,6,True,both
+226_t1,226,t1,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",7,7,7,7,True,both
+226_t2,226,t2,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",7,7,7,7,True,both
+227_t1,227,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.354,3–4 mm,"(35, 448, 1677)","(3.354, 0.625, 0.171)",6,6,6,6,True,both
+227_t2,227,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.354,3–4 mm,"(35, 448, 1677)","(3.354, 0.625, 0.171)",6,6,6,6,True,both
+228_t1,228,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.281,3–4 mm,"(27, 448, 392)","(3.281, 0.625, 0.72)",6,6,6,6,True,both
+228_t2,228,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.281,3–4 mm,"(27, 448, 392)","(3.281, 0.625, 0.72)",6,6,6,6,True,both
+229_t1,229,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.277,3–4 mm,"(27, 448, 383)","(3.277, 0.625, 0.738)",6,6,6,6,True,both
+229_t2,229,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.277,3–4 mm,"(27, 448, 383)","(3.277, 0.625, 0.738)",6,6,6,6,True,both
+22_t1,22,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+22_t2,22,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+22_t2_SPACE,22,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+231_t1,231,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.346,3–4 mm,"(31, 732, 496)","(3.346, 0.388, 0.568)",7,7,7,7,True,both
+231_t2,231,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.346,3–4 mm,"(31, 732, 496)","(3.346, 0.388, 0.568)",7,7,7,7,True,both
+232_t1,232,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+232_t2,232,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+233_t1,233,t1,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",7,7,7,7,True,both
+233_t2,233,t2,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",7,7,7,7,True,both
+234_t1,234,t1,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,9,9,True,both
+234_t2,234,t2,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",8,8,9,9,True,both
+234_t2_SPACE,234,t2_SPACE,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,9,9,True,both
+236_t1,236,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.281,3–4 mm,"(27, 448, 393)","(3.281, 0.625, 0.718)",7,7,7,7,True,both
+236_t2,236,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.281,3–4 mm,"(27, 448, 393)","(3.281, 0.625, 0.718)",7,7,7,7,True,both
+237_t1,237,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.397,4–5 mm,"(18, 646, 611)","(4.397, 0.477, 0.505)",6,6,6,6,True,both
+237_t2,237,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.396,4–5 mm,"(18, 516, 495)","(4.396, 0.597, 0.624)",6,6,6,6,True,both
+239_t1,239,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+239_t2,239,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+239_t2_SPACE,239,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+23_t1,23,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.376,4–5 mm,"(17, 392, 323)","(4.376, 0.715, 0.874)",9,9,9,9,True,both
+23_t2,23,t2,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.376,4–5 mm,"(17, 392, 323)","(4.376, 0.715, 0.874)",9,9,9,9,True,both
+241_t1,241,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(19, 512, 512)","(3.3, 0.586, 0.586)",9,9,9,9,True,both
+241_t2,241,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(19, 512, 512)","(3.3, 0.586, 0.586)",9,9,9,9,True,both
+241_t2_SPACE,241,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(120, 512, 640)","(0.9, 0.469, 0.469)",9,9,9,9,True,both
+242_t1,242,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.279,3–4 mm,"(27, 407, 424)","(3.279, 0.692, 0.663)",6,6,6,6,True,both
+242_t2,242,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.279,3–4 mm,"(27, 407, 424)","(3.279, 0.692, 0.663)",6,6,6,6,True,both
+243_t1,243,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+243_t2,243,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.307,3–4 mm,"(25, 448, 478)","(3.307, 0.625, 0.587)",7,7,7,7,True,both
+244_t1,244,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.312,3–4 mm,"(26, 471, 478)","(3.312, 0.596, 0.587)",7,7,7,7,True,both
+244_t2,244,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.312,3–4 mm,"(26, 471, 478)","(3.312, 0.596, 0.587)",7,7,7,7,True,both
+245_t1,245,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.356,3–4 mm,"(32, 726, 563)","(3.356, 0.393, 0.501)",6,6,6,6,True,both
+245_t2,245,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.356,3–4 mm,"(32, 726, 563)","(3.356, 0.393, 0.501)",6,6,6,6,True,both
+246_t2,246,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.753,4–5 mm,"(18, 384, 277)","(4.753, 0.677, 0.953)",5,5,5,5,True,both
+249_t1,249,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+249_t2,249,t2,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+24_t1,24,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.255,3–4 mm,"(30, 448, 344)","(3.255, 0.625, 0.826)",8,8,8,8,True,both
+24_t2,24,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.255,3–4 mm,"(30, 448, 344)","(3.255, 0.625, 0.826)",8,8,8,8,True,both
+250_t1,250,t1,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.4,4–5 mm,"(15, 896, 896)","(4.4, 0.312, 0.312)",7,7,7,7,True,both
+250_t2,250,t2,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.4,4–5 mm,"(15, 768, 768)","(4.4, 0.365, 0.365)",7,7,7,7,True,both
+251_t1,251,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(26, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+251_t2,251,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(26, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+252_t1,252,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.316,3–4 mm,"(26, 448, 531)","(3.316, 0.625, 0.531)",6,6,6,6,True,both
+252_t2,252,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.316,3–4 mm,"(26, 448, 531)","(3.316, 0.625, 0.531)",6,6,6,6,True,both
+253_t1,253,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.349,3–4 mm,"(33, 448, 1154)","(3.349, 0.625, 0.248)",7,7,7,7,True,both
+253_t2,253,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.349,3–4 mm,"(33, 448, 1154)","(3.349, 0.625, 0.248)",7,7,7,7,True,both
+254_t1,254,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.296,3–4 mm,"(25, 448, 435)","(3.296, 0.625, 0.644)",6,6,6,6,True,both
+254_t2,254,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.296,3–4 mm,"(25, 448, 435)","(3.296, 0.625, 0.644)",6,6,6,6,True,both
+255_t1,255,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.317,3–4 mm,"(26, 448, 533)","(3.317, 0.625, 0.529)",6,6,6,6,True,both
+255_t2,255,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.317,3–4 mm,"(26, 448, 533)","(3.317, 0.625, 0.529)",6,6,6,6,True,both
+256_t1,256,t1,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.4,4–5 mm,"(15, 896, 896)","(4.4, 0.312, 0.312)",8,8,8,8,True,both
+256_t2,256,t2,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.4,4–5 mm,"(15, 768, 768)","(4.4, 0.365, 0.365)",8,8,8,8,True,both
+257_t1,257,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.272,3–4 mm,"(28, 448, 372)","(3.272, 0.625, 0.76)",6,6,6,6,True,both
+257_t2,257,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.272,3–4 mm,"(28, 448, 372)","(3.272, 0.625, 0.76)",6,6,6,6,True,both
+25_t1,25,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.303,3–4 mm,"(24, 447, 462)","(3.303, 0.626, 0.607)",7,7,7,7,True,both
+25_t2,25,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.303,3–4 mm,"(24, 447, 462)","(3.303, 0.626, 0.607)",7,7,7,7,True,both
+28_t1,28,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.325,3–4 mm,"(28, 448, 600)","(3.325, 0.625, 0.471)",7,7,7,7,True,both
+28_t2,28,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.325,3–4 mm,"(28, 448, 600)","(3.325, 0.625, 0.471)",7,7,7,7,True,both
+29_t1,29,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(26, 448, 402)","(3.285, 0.625, 0.701)",6,6,6,6,True,both
+29_t2,29,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(26, 448, 402)","(3.285, 0.625, 0.701)",6,6,6,6,True,both
+2_t1,2,t1,validation,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.786,4–5 mm,"(17, 320, 294)","(4.786, 0.813, 0.889)",6,6,6,6,True,both
+2_t2,2,t2,validation,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.789,4–5 mm,"(17, 384, 346)","(4.789, 0.677, 0.754)",6,6,6,6,True,both
+30_t1,30,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+30_t2,30,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+31_t1,31,t1,validation,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+31_t2,31,t2,validation,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.406,4–5 mm,"(16, 382, 406)","(4.406, 0.733, 0.691)",8,8,8,8,True,both
+32_t1,32,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.319,3–4 mm,"(27, 448, 549)","(3.319, 0.625, 0.514)",6,6,6,6,True,both
+32_t2,32,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.319,3–4 mm,"(27, 448, 549)","(3.319, 0.625, 0.514)",6,6,6,6,True,both
+33_t1,33,t1,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.673,4–5 mm,"(24, 264, 216)","(4.673, 1.001, 1.233)",6,6,6,6,True,both
+33_t2,33,t2,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.691,4–5 mm,"(24, 305, 242)","(4.691, 0.866, 1.098)",6,6,6,6,True,both
+34_t1,34,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+34_t2,34,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",7,7,7,7,True,both
+34_t2_SPACE,34,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+35_t1,35,t1,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",8,8,9,9,True,both
+35_t2,35,t2,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",3,3,3,3,True,both
+35_t2_SPACE,35,t2_SPACE,validation,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,9,9,True,both
+36_t1,36,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+36_t2,36,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+37_t1,37,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.325,3–4 mm,"(28, 448, 598)","(3.325, 0.625, 0.474)",6,6,6,6,True,both
+37_t2,37,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.325,3–4 mm,"(28, 448, 598)","(3.325, 0.625, 0.474)",6,6,6,6,True,both
+38_t1,38,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.338,3–4 mm,"(30, 448, 762)","(3.338, 0.625, 0.374)",7,7,7,7,True,both
+38_t2,38,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.338,3–4 mm,"(30, 448, 762)","(3.338, 0.625, 0.374)",7,7,7,7,True,both
+39_t1,39,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(26, 448, 402)","(3.285, 0.625, 0.702)",6,6,6,6,True,both
+39_t2,39,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.285,3–4 mm,"(26, 448, 402)","(3.285, 0.625, 0.702)",6,6,6,6,True,both
+3_t1,3,t1,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.821,4–5 mm,"(18, 320, 389)","(4.821, 0.813, 0.674)",6,6,6,6,True,both
+3_t2,3,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.817,4–5 mm,"(17, 384, 486)","(4.817, 0.677, 0.539)",6,6,6,6,True,both
+40_t1,40,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",7,7,7,7,True,both
+40_t2,40,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",7,7,7,7,True,both
+41_t2_SPACE,41,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(120, 512, 640)","(0.9, 0.469, 0.469)",8,8,8,8,True,both
+42_t2,42,t2,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.382,4–5 mm,"(18, 513, 611)","(4.382, 0.603, 0.505)",6,6,6,6,True,both
+44_t1,44,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+44_t2,44,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+45_t1,45,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+45_t2,45,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+45_t2_SPACE,45,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+47_t1,47,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",7,7,7,7,True,both
+47_t2,47,t2,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",7,7,7,7,True,both
+48_t1,48,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+48_t2,48,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+4_t1,4,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.32,3–4 mm,"(27, 448, 553)","(3.32, 0.625, 0.511)",6,6,6,6,True,both
+4_t2,4,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.32,3–4 mm,"(27, 448, 553)","(3.32, 0.625, 0.511)",6,6,6,6,True,both
+50_t1,50,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.247,3–4 mm,"(30, 512, 367)","(3.247, 0.586, 0.832)",8,8,8,8,True,both
+50_t2,50,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.247,3–4 mm,"(30, 512, 367)","(3.247, 0.586, 0.832)",8,8,8,8,True,both
+50_t2_SPACE,50,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+51_t1,51,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.289,3–4 mm,"(26, 448, 412)","(3.289, 0.625, 0.682)",8,8,8,8,True,both
+51_t2,51,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.289,3–4 mm,"(26, 448, 412)","(3.289, 0.625, 0.682)",8,8,8,8,True,both
+52_t1,52,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+52_t2,52,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.321,3–4 mm,"(21, 512, 666)","(3.321, 0.586, 0.453)",7,7,7,7,True,both
+52_t2_SPACE,52,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+53_t1,53,t1,validation,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.419,4–5 mm,"(17, 377, 483)","(4.419, 0.744, 0.584)",8,8,8,8,True,both
+53_t2,53,t2,validation,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.419,4–5 mm,"(17, 377, 483)","(4.419, 0.744, 0.584)",8,8,8,8,True,both
+55_t1,55,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",7,7,8,8,True,both
+55_t2,55,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.31,3–4 mm,"(19, 512, 569)","(3.31, 0.586, 0.528)",7,7,7,7,True,both
+55_t2_SPACE,55,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,8,8,True,both
+56_t1,56,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+56_t2,56,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",7,7,7,7,True,both
+57_t1,57,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",8,8,8,8,True,both
+57_t2,57,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 19)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+57_t2_SPACE,57,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",8,8,8,8,True,both
+58_t1,58,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.856,4–5 mm,"(20, 320, 604)","(4.856, 0.875, 0.47)",7,7,7,7,True,both
+58_t2,58,t2,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,9.627,≥5 mm,"(8, 384, 3682)","(9.627, 0.729, 0.077)",7,7,7,7,True,both
+59_t1,59,t1,validation,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+59_t2,59,t2,validation,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+5_t1,5,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",7,7,7,7,True,both
+5_t2,5,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",7,7,7,7,True,both
+5_t2_SPACE,5,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+60_t1,60,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.324,3–4 mm,"(27, 559, 463)","(3.324, 0.505, 0.606)",7,7,7,7,True,both
+60_t2,60,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.324,3–4 mm,"(27, 559, 463)","(3.324, 0.505, 0.606)",7,7,7,7,True,both
+61_t1,61,t1,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.312,3–4 mm,"(21, 512, 583)","(3.312, 0.586, 0.517)",8,8,8,8,True,both
+61_t2,61,t2,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.312,3–4 mm,"(21, 512, 583)","(3.312, 0.586, 0.517)",8,8,8,8,True,both
+61_t2_SPACE,61,t2_SPACE,validation,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.91,<1 mm,"(126, 512, 672)","(0.91, 0.469, 0.45)",8,8,8,8,True,both
+62_t1,62,t1,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",8,8,8,8,True,both
+62_t2,62,t2,training,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",8,8,8,8,True,both
+63_t1,63,t1,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.392,4–5 mm,"(22, 658, 560)","(4.392, 0.468, 0.553)",9,9,9,9,True,both
+63_t2,63,t2,training,M,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.392,4–5 mm,"(22, 658, 560)","(4.392, 0.468, 0.553)",9,9,9,9,True,both
+64_t1,64,t1,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",7,7,7,7,True,both
+64_t2,64,t2,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",6,6,6,6,True,both
+65_t1,65,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.241,3–4 mm,"(27, 512, 356)","(3.241, 0.586, 0.854)",9,9,9,9,True,both
+65_t2,65,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.241,3–4 mm,"(27, 512, 356)","(3.241, 0.586, 0.854)",9,9,9,9,True,both
+65_t2_SPACE,65,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.859,<1 mm,"(154, 512, 569)","(0.859, 0.469, 0.541)",9,9,9,9,True,both
+66_t1,66,t1,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.396,4–5 mm,"(18, 658, 587)","(4.396, 0.468, 0.525)",9,9,9,9,True,both
+66_t2,66,t2,training,F,otro: Philips Medical Systems | Ingenia | 1.5 T,Philips Medical Systems | Ingenia | 1.5 T,4.0,4.4,4.396,4–5 mm,"(17, 658, 587)","(4.396, 0.468, 0.525)",9,9,9,9,True,both
+67_t1,67,t1,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.325,4–5 mm,"(23, 896, 329)","(4.325, 0.313, 0.869)",6,6,6,6,True,both
+67_t2,67,t2,training,F,otro: SIEMENS | Skyra_fit | 3.0 T,SIEMENS | Skyra_fit | 3.0 T,4.0,4.4,4.318,4–5 mm,"(23, 768, 311)","(4.318, 0.365, 0.921)",6,6,6,6,True,both
+68_t1,68,t1,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(17, 320, 320)","(4.8, 0.875, 0.875)",8,8,8,8,True,both
+68_t2,68,t2,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(17, 384, 384)","(4.8, 0.729, 0.729)",8,8,8,8,True,both
+69_t1,69,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+69_t2,69,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+69_t2_SPACE,69,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+6_t2,6,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.782,4–5 mm,"(16, 384, 329)","(4.782, 0.677, 0.796)",6,6,6,6,True,both
+71_t1,71,t1,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.875, 0.875)",8,8,8,8,True,both
+71_t2,71,t2,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.729, 0.729)",8,8,8,8,True,both
+72_t1,72,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(17, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+73_t1,73,t1,validation,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.794,4–5 mm,"(15, 320, 309)","(4.794, 0.875, 0.908)",7,7,7,7,True,both
+73_t2,73,t2,validation,M,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.795,4–5 mm,"(15, 384, 368)","(4.795, 0.729, 0.763)",7,7,7,7,True,both
+74_t1,74,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+74_t2,74,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+75_t1,75,t1,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.303,3–4 mm,"(24, 448, 462)","(3.303, 0.625, 0.607)",6,6,6,6,True,both
+75_t2,75,t2,validation,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.303,3–4 mm,"(24, 448, 462)","(3.303, 0.625, 0.607)",6,6,6,6,True,both
+77_t1,77,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(17, 384, 384)","(4.4, 0.729, 0.729)",6,6,6,6,True,both
+78_t1,78,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+78_t2,78,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+78_t2_SPACE,78,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+7_t1,7,t1,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",7,7,7,7,True,both
+7_t2,7,t2,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,3.3,3–4 mm,"(512, 512, 17)","(0.586, 0.586, 3.3)",7,7,7,7,True,both
+7_t2_SPACE,7,t2_SPACE,training,M,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,7,7,True,both
+80_t1,80,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.289,3–4 mm,"(26, 448, 413)","(3.289, 0.625, 0.682)",7,7,7,7,True,both
+80_t2,80,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.289,3–4 mm,"(26, 448, 413)","(3.289, 0.625, 0.682)",7,7,7,7,True,both
+81_t1,81,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.319,3–4 mm,"(20, 512, 649)","(3.319, 0.586, 0.465)",7,7,7,7,True,both
+81_t2,81,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.319,3–4 mm,"(20, 512, 649)","(3.319, 0.586, 0.465)",7,7,7,7,True,both
+81_t2_SPACE,81,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.917,<1 mm,"(130, 512, 697)","(0.917, 0.469, 0.435)",7,7,7,7,True,both
+82_t1,82,t1,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.8,4–5 mm,"(17, 320, 320)","(4.8, 0.813, 0.812)",7,7,7,7,True,both
+82_t2,82,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.8,4–5 mm,"(17, 384, 384)","(4.8, 0.677, 0.677)",7,7,7,7,True,both
+83_t1,83,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.296,3–4 mm,"(32, 615, 367)","(3.296, 0.461, 0.771)",6,6,6,6,True,both
+83_t2,83,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.296,3–4 mm,"(32, 615, 367)","(3.296, 0.461, 0.771)",6,6,6,6,True,both
+85_t1,85,t1,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 320, 320)","(4.8, 0.938, 0.938)",8,8,8,8,True,both
+85_t2,85,t2,training,F,otro: SIEMENS | Aera | 1.5 T,SIEMENS | Aera | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.781, 0.781)",8,8,8,8,True,both
+86_t1,86,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.293,3–4 mm,"(25, 448, 424)","(3.293, 0.625, 0.663)",6,6,6,6,True,both
+86_t2,86,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.293,3–4 mm,"(25, 448, 424)","(3.293, 0.625, 0.663)",6,6,6,6,True,both
+87_t1,87,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.277,3–4 mm,"(27, 448, 383)","(3.277, 0.625, 0.738)",6,6,6,6,True,both
+87_t2,87,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.277,3–4 mm,"(27, 448, 383)","(3.277, 0.625, 0.738)",6,6,6,6,True,both
+88_t1,88,t1,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.828,4–5 mm,"(18, 320, 418)","(4.828, 0.813, 0.628)",6,6,6,6,True,both
+88_t2,88,t2,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.822,4–5 mm,"(18, 384, 533)","(4.822, 0.677, 0.493)",6,6,6,6,True,both
+89_t2,89,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,5.169,≥5 mm,"(14, 384, 384)","(5.169, 0.677, 0.677)",6,6,6,6,True,both
+8_t1,8,t1,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+8_t2,8,t2,training,F,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+90_t1,90,t1,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.757,4–5 mm,"(19, 320, 254)","(4.757, 0.813, 1.035)",6,6,6,6,True,both
+90_t2,90,t2,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.763,4–5 mm,"(19, 384, 293)","(4.763, 0.677, 0.899)",6,6,6,6,True,both
+91_t2,91,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.8,4–5 mm,"(15, 384, 384)","(4.8, 0.677, 0.677)",7,7,7,7,True,both
+93_t1,93,t1,validation,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.785,4–5 mm,"(16, 320, 292)","(4.785, 0.813, 0.895)",6,6,6,6,True,both
+93_t2,93,t2,validation,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.801,4–5 mm,"(16, 384, 390)","(4.801, 0.677, 0.667)",6,6,6,6,True,both
+94_t1,94,t1,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",7,7,7,7,True,both
+94_t2,94,t2,training,F,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.313,3–4 mm,"(26, 448, 512)","(3.313, 0.625, 0.55)",7,7,7,7,True,both
+95_t1,95,t1,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+95_t2,95,t2,training,M,otro: Philips Healthcare | Ingenia | 3.0 T,Philips Healthcare | Ingenia | 3.0 T,3.0,3.3,3.3,3–4 mm,"(24, 448, 448)","(3.3, 0.625, 0.625)",6,6,6,6,True,both
+96_t1,96,t1,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+96_t2,96,t2,training,M,otro: SIEMENS | SymphonyTim | 1.5 T,SIEMENS | SymphonyTim | 1.5 T,4.0,4.4,4.4,4–5 mm,"(15, 384, 384)","(4.4, 0.729, 0.729)",8,8,8,8,True,both
+97_t2,97,t2,training,M,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.78,4–5 mm,"(17, 384, 326)","(4.78, 0.677, 0.804)",7,7,7,7,True,both
+98_t1,98,t1,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",8,8,8,8,True,both
+98_t2,98,t2,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,3.0,3.3,3.3,3–4 mm,"(17, 512, 512)","(3.3, 0.586, 0.586)",7,7,7,7,True,both
+98_t2_SPACE,98,t2_SPACE,training,F,UMC (inferido por SPACE),SIEMENS | Avanto_fit | 1.5 T,0.89999997615814,1.0,0.9,<1 mm,"(512, 640, 120)","(0.469, 0.469, 0.9)",7,7,8,8,True,both
+99_t2,99,t2,training,F,otro: Philips Medical Systems | Ingenia | 3.0 T,Philips Medical Systems | Ingenia | 3.0 T,4.0,4.4,4.396,4–5 mm,"(23, 1111, 551)","(4.396, 0.308, 0.622)",8,8,8,8,True,both
+9_t1,9,t1,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.835,4–5 mm,"(19, 320, 464)","(4.835, 0.813, 0.567)",7,7,7,7,True,both
+9_t2,9,t2,training,F,otro: SIEMENS | Avanto_fit | 1.5 T,SIEMENS | Avanto_fit | 1.5 T,4.0,4.8,4.828,4–5 mm,"(19, 384, 610)","(4.828, 0.677, 0.431)",7,7,7,7,True,both

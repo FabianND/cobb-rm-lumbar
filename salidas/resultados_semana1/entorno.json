@@ -1,0 +1,35 @@
+{
+  "record": "10159290",
+  "consultado": "2026-10-03T22:15:24",
+  "modo_prueba": true,
+  "dir_datos": "/content/drive/MyDrive/PRL/content/datos/spider",
+  "referencia_md5": "descarga verificada contra Zenodo el 2026-10-02",
+  "archivos": [
+    {
+      "archivo": "overview.csv",
+      "ruta": "overview.csv",
+      "bytes": 119856,
+      "md5": "f9a808d2cf67844baa32114a1a769fde",
+      "md5_coincide": true
+    },
+    {
+      "archivo": "radiological_gradings.csv",
+      "ruta": "radiological_gradings.csv",
+      "bytes": 34417,
+      "md5": "a5b7a6ad7fb4daa0bfa650b716f026f6",
+      "md5_coincide": true
+    },
+    {
+      "archivo": "masks.zip",
+      "ruta": "masks/masks.zip",
+      "bytes": 58222897,
+      "md5": "49861ff25a0108b3b69d0ce808ae51dc",
+      "md5_coincide": true
+    }
+  ],
+  "python": "3.13.15",
+  "plataforma": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "pandas": "2.2.3",
+  "numpy": "2.1.3",
+  "SimpleITK": "2.5.6"
+}
