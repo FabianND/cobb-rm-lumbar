@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "Si usas este software, cítalo con estos metadatos. If you use this software, please cite it using these metadata."
+title: "Cobb coronal en RM lumbar sagital: reproducción abierta y prueba de robustez"
+abstract: >-
+  Research-only, open and independent reproduction of automated coronal Cobb
+  angle measurement on routine sagittal lumbar MRI, using the public SPIDER
+  dataset, with a robustness analysis across slice thickness, sequence and
+  acquisition site. Not a medical device; not for diagnosis.
+type: software
+authors:
+  - family-names: "Nossa Díaz"
+    given-names: "Edwar Fabian"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # quita el # cuando tengas tu ORCID
+license: Apache-2.0
+repository-code: "https://github.com/USUARIO/NOMBRE-DEL-REPO"
+keywords:
+  - scoliosis
+  - Cobb angle
+  - lumbar MRI
+  - reproducibility
+  - SPIDER dataset
+references:
+  - type: article
+    title: "Development and validation of AI-based automatic measurement of coronal Cobb angles in degenerative scoliosis using sagittal lumbar MRI"
+    authors:
+      - family-names: "van der Graaf"
+        given-names: "Jasper W"
+    journal: "European Radiology"
+    year: 2024
+    volume: 34
+    issue: 9
+    start: 5748
+    end: 5757
+    doi: "10.1007/s00330-024-10616-8"
+  - type: data
+    title: "SPIDER - Lumbar spine segmentation in MR images: a dataset and a public benchmark"
+    authors:
+      - family-names: "van der Graaf"
+        given-names: "Jasper W"
+    year: 2023
+    doi: "10.5281/zenodo.10159290"
+    license: CC-BY-4.0

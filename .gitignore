@@ -1,0 +1,18 @@
+# Datos: nunca se suben al repositorio (SPIDER se descarga desde Zenodo)
+datos/
+data/
+*.mha
+*.nii
+*.nii.gz
+*.dcm
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
