@@ -10,9 +10,10 @@ type: software
 authors:
   - family-names: "Nossa Díaz"
     given-names: "Edwar Fabian"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # quita el # cuando tengas tu ORCID
+    orcid: "https://orcid.org/0009-0002-1941-0985"
+    affiliation: "Escuela Colombiana de Ingeniería Julio Garavito; Universidad del Rosario"
 license: Apache-2.0
-repository-code: "https://github.com/USUARIO/NOMBRE-DEL-REPO"
+repository-code: "https://github.com/FabianND/cobb-rm-lumbar"
 keywords:
   - scoliosis
   - Cobb angle
@@ -25,6 +26,20 @@ references:
     authors:
       - family-names: "van der Graaf"
         given-names: "Jasper W"
+      - family-names: "van Hooff"
+        given-names: "Miranda L"
+      - family-names: "van Ginneken"
+        given-names: "Bram"
+      - family-names: "Huisman"
+        given-names: "Merel"
+      - family-names: "Rutten"
+        given-names: "Matthieu"
+      - family-names: "Lamers"
+        given-names: "Dominique"
+      - family-names: "Lessmann"
+        given-names: "Nikolas"
+      - family-names: "de Kleuver"
+        given-names: "Marinus"
     journal: "European Radiology"
     year: 2024
     volume: 34
@@ -32,11 +47,61 @@ references:
     start: 5748
     end: 5757
     doi: "10.1007/s00330-024-10616-8"
+  - type: software
+    title: "cobb-angle-algorithm (compute-Cobb-angle.py)"
+    authors:
+      - name: "DIAG Nijmegen (Diagnostic Image Analysis Group, Radboud University Medical Center)"
+    repository-code: "https://github.com/DIAGNijmegen/cobb-angle-algorithm"
+    commit: "72c712f31e1f3069aef77b98b20af448bbc5615a"
+    license: Apache-2.0
+  - type: software
+    title: "Tiger"
+    authors:
+      - name: "DIAG Nijmegen (Diagnostic Image Analysis Group, Radboud University Medical Center)"
+    repository-code: "https://github.com/DIAGNijmegen/Tiger"
+    commit: "4c63f6d58ed3f8e7a0cec04b0352949f7b512919"
+    license: Apache-2.0
+  - type: article
+    title: "Lumbar spine segmentation in MR images: a dataset and a public benchmark"
+    authors:
+      - family-names: "van der Graaf"
+        given-names: "Jasper W"
+      - family-names: "van Hooff"
+        given-names: "Miranda L"
+      - family-names: "Buckens"
+        given-names: "Constantinus F M"
+      - family-names: "Rutten"
+        given-names: "Matthieu"
+      - family-names: "van Susante"
+        given-names: "Job L C"
+      - family-names: "Kroeze"
+        given-names: "Robert Jan"
+      - family-names: "de Kleuver"
+        given-names: "Marinus"
+      - family-names: "van Ginneken"
+        given-names: "Bram"
+      - family-names: "Lessmann"
+        given-names: "Nikolas"
+    journal: "Scientific Data"
+    year: 2024
+    volume: 11
+    start: 264
+    doi: "10.1038/s41597-024-03090-w"
   - type: data
     title: "SPIDER - Lumbar spine segmentation in MR images: a dataset and a public benchmark"
     authors:
       - family-names: "van der Graaf"
         given-names: "Jasper W"
     year: 2023
+    version: "v4"
     doi: "10.5281/zenodo.10159290"
     license: CC-BY-4.0
+  - type: report
+    title: "Automated and semi-automated measurement of coronal spinal curvature and detection of scoliosis on MRI and CT in adults: a scoping review protocol"
+    authors:
+      - family-names: "Nossa Díaz"
+        given-names: "Edwar Fabian"
+        orcid: "https://orcid.org/0009-0002-1941-0985"
+    year: 2026
+    doi: "10.17605/OSF.IO/WXQ5G"
+    url: "https://osf.io/5pm9q"
