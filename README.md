@@ -1,4 +1,5 @@
 # Cobb coronal en RM lumbar sagital: reproducción abierta y prueba de robustez
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23410108.svg)](https://doi.org/10.5281/zenodo.23410108)
 
 > **Solo investigación. No es un dispositivo médico ni sirve para diagnóstico.** Nada en este repositorio debe usarse para tomar decisiones sobre pacientes.
 
@@ -24,7 +25,7 @@ Lo que no hace es diagnosticar escoliosis, predecir su aparición o progresión,
 | 1 | Ejecución de `compute-Cobb-angle.py` sobre las 447 máscaras, con versiones fijadas y verificadas (`notebooks/02_compute_cobb_angle.ipynb`) | Completado |
 | 1 | Celdas de inspección visual e interactiva del algoritmo (cuaderno 02) | Completado |
 | 1 | Protocolo de la revisión de alcance registrado en OSF (`docs/revision_alcance/`) | Completado |
-| 1 | Preguntas a los autores del script y del dataset ([DIAGNijmegen/cobb-angle-algorithm#1](https://github.com/DIAGNijmegen/cobb-angle-algorithm/issues/1); seguimiento en [#1](https://github.com/FabianND/cobb-rm-lumbar/issues/1)) | Abierto - esperando de respuesta |
+| 1 | Preguntas a los autores del script y del dataset ([DIAGNijmegen/cobb-angle-algorithm#1](https://github.com/DIAGNijmegen/cobb-angle-algorithm/issues/1); seguimiento en [#1](https://github.com/FabianND/cobb-rm-lumbar/issues/1)) | Abierto, esperando de respuesta |
 
 ## Trabajo realizado en la primera semana
 
@@ -76,7 +77,9 @@ Los datos **no** están en este repositorio y los cuadernos no los descargan por
 
 ## Cómo citar
 
-Ver `CITATION.cff` o el botón *Cite this repository* de GitHub. Cada versión publicada recibe un DOI en Zenodo.
+Nossa Díaz, E. F. (2026). *Cobb coronal en RM lumbar sagital: reproducción abierta y prueba de robustez* (versión v0.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23410109
+
+Para citar el proyecto en general (todas las versiones), usa el concept DOI [10.5281/zenodo.23410108](https://doi.org/10.5281/zenodo.23410108). También puedes usar `CITATION.cff` o el botón *Cite this repository* de GitHub. Cada versión publicada recibe su propio DOI en Zenodo.
 
 ## Licencia
 
