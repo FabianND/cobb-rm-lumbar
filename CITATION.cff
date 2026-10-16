@@ -14,6 +14,16 @@ authors:
     affiliation: "Escuela Colombiana de Ingeniería Julio Garavito; Universidad del Rosario"
 license: Apache-2.0
 repository-code: "https://github.com/FabianND/cobb-rm-lumbar"
+version: "0.0.1"
+date-released: "2026-10-16"
+doi: "10.5281/zenodo.23410108"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23410108"
+    description: "Concept DOI: todas las versiones (resuelve siempre a la más reciente)"
+  - type: doi
+    value: "10.5281/zenodo.23410109"
+    description: "DOI de la versión v0.0.1"
 keywords:
   - scoliosis
   - Cobb angle
