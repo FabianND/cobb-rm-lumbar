@@ -1,0 +1,4 @@
+par,n_estudios,media_dif,de_dif,mediana_abs,max_abs
+t1 − t2,190,-0.05,0.78,0.0,7.43
+t2 − t2_SPACE,39,-0.09,1.53,0.56,6.84
+t1 − t2_SPACE,39,-0.46,1.15,0.56,3.33

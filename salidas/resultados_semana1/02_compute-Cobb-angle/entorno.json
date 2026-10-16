@@ -1,0 +1,23 @@
+{
+  "fecha": "2026-10-16T01:23:13",
+  "python": "3.13.16",
+  "plataforma": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "numpy": "2.1.3",
+  "scikit-image": "0.25.2",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.0",
+  "tiger": "6.3.0",
+  "tiger_commit": "4c63f6d58ed3f8e7a0cec04b0352949f7b512919",
+  "script_commit": "72c712f31e1f3069aef77b98b20af448bbc5615a",
+  "script_sha256": "4b6de7ca4f12b134dfb9fc6b373768a4a3b9a8763d66238b5798c7eaa7c89849",
+  "adaptacion": "parte real de np.linalg.eig en PCA() para NumPy 2; validada contra NumPy 1.26 en 5 máscaras",
+  "masks_zip_md5": "49861ff25a0108b3b69d0ce808ae51dc",
+  "n_mascaras": 447,
+  "mascaras_distintas_en_drive": [],
+  "largest_angle": true,
+  "resolucion_resampleo_mm": [
+    0.5,
+    0.5,
+    0.5
+  ]
+}
