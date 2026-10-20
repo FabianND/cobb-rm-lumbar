@@ -50,15 +50,94 @@ El script original solo devuelve un número por serie. Para poder revisarlo caso
 - **Celda interactiva** para elegir a mano el par de discos y comparar el ángulo resultante con el del script.
 - **Nomenclatura de etiquetas** de SPIDER explicada en el propio cuaderno: la numeración va de abajo hacia arriba y no equivale a niveles anatómicos (L1–L5) sin más información.
 
+## Trabajo realizado en la segunda semana
+### 4. El disco más caudal en las 447 series (cuaderno 03)
+
+El caso del estudio 162 planteó una pregunta: ¿se trata de un caso aislado o la cara inferior del disco más caudal también influye en el ángulo calculado en otras series? Para investigarlo, el cuaderno 03 vuelve a ejecutar el script sobre las 447 máscaras y verifica que reproduce exactamente los resultados de la primera semana. Además, guarda los planos estimados para las 6294 caras de disco en `planos_por_disco.csv`, lo que permite explorar variantes del cálculo sin tener que volver a ejecutar el algoritmo original.
+
+A partir de estos planos se evalúan tres variantes exploratorias:
+
+- **A. Exclusión de la cara inferior del disco 201:** se repite el cálculo original, pero se excluye esta cara de la selección del par que define el ángulo.
+- **B. Ángulo alternativo de cada cara:** se utiliza arcsen(n<sub>x</sub>) en lugar de la fórmula original del script, arctan(n<sub>x</sub>/n<sub>z</sub>).
+- **AB. Combinación de ambas variantes:** se excluye la cara inferior del disco 201 y se utiliza la fórmula alternativa para calcular la inclinación de las caras restantes.
+
+Estas variantes se plantean para estudiar la sensibilidad del resultado a la selección de las caras y a la fórmula utilizada. No forman parte del método publicado ni se proponen como correcciones validadas del algoritmo.
+
+Para evitar duplicar observaciones, el análisis se realiza sobre las 340 máscaras únicas: 107 parejas T1/T2 comparten exactamente el mismo archivo de máscara.
+
+### 5. Robustez frente al grosor de corte (cuaderno 04)
+
+El cuaderno 04 estudia cómo influye el grosor de corte en el ángulo calculado mediante tres enfoques complementarios, ordenados desde el análisis descriptivo hasta un experimento controlado.
+
+Primero, describe la distribución de los ángulos según el grosor de corte y el grupo de adquisición, teniendo en cuenta que ambos factores pueden estar relacionados. Después, compara las series T2 SPACE con las series estándar del mismo estudio para caracterizar las diferencias entre adquisiciones. Por último, realiza un experimento de remuestreo en el que cada una de las 41 máscaras T2 SPACE se transforma para simular cortes de 3,3 y 4,4 mm, utilizando dos métodos de remuestreo y tres posiciones iniciales del corte. En total, se obtienen 533 ejecuciones del script para este experimento.
+
+El cuaderno también evalúa el acuerdo entre series mediante el método de Bland–Altman, cuantifica cuánto de la diferencia observada puede asociarse al efecto del grosor en el experimento controlado y calcula intervalos de confianza mediante bootstrap. La combinación de estos enfoques permite distinguir el efecto que se observa en los datos de aquel que puede atribuirse más directamente al grosor de corte bajo las condiciones del experimento.
+
 ## Hallazgos preliminares
 
-Son resultados **descriptivos**. SPIDER no incluye un ángulo de Cobb medido por personas, así que aquí no se calcula exactitud ni se usa ningún umbral para llamar "escoliosis" a una serie.
+Los resultados de esta etapa son descriptivos y exploratorios. SPIDER no proporciona mediciones de referencia del ángulo de Cobb realizadas por observadores humanos, por lo que no es posible estimar la exactitud del algoritmo frente a una referencia clínica. Tampoco se aplica un umbral para clasificar las series como escolióticas o no escolióticas. El objetivo es caracterizar el comportamiento del algoritmo y explorar qué factores pueden influir en sus resultados.
 
-1. **El disco más caudal puede inflar el ángulo.** En el estudio 162 el script devuelve 34,6° (T1/T2) y 36,9° (T2 SPACE), definidos por la cara inferior del disco más caudal (etiqueta 201, probablemente L5–S1), muy inclinada en el plano sagital (≈ −59°), mientras la columna se ve recta en la proyección coronal; con los mismos planos y el par de discos 202–209 el ángulo es 1,8°–2,4°. La explicación propuesta (una inclinación sagital fuerte combinada con una leve rotación axial infla el ángulo coronal calculado como arctan(n<sub>x</sub>/n<sub>z</sub>)) es una inferencia geométrica que falta confirmar.
-2. **Muchas parejas T1/T2 comparten máscara.** En 107 de 190 parejas T1/T2 de un mismo estudio las dos máscaras son idénticas byte a byte, así que su ángulo es igual por construcción. En las 83 parejas con máscaras distintas, la diferencia T1 − T2 tuvo mediana absoluta de 0,48° y máximo de 7,43°.
-3. **La cobertura de la máscara cambia el resultado.** Ese máximo corresponde al estudio 35: la máscara de T2 solo cubre los discos 201–203 y da 15,41°, frente a 7,97° en T1 con nueve discos. Con menos niveles segmentados, el script elige el máximo entre otros pares.
+### 1. La cara inferior del disco más caudal influye en muchas series, aunque el caso extremo sigue siendo excepcional
+La cara inferior del disco 201 el disco más caudal de la máscara, probablemente correspondiente a L5–S1, aunque la etiqueta no permite establecer esa equivalencia anatómica por sí sola forma parte del par seleccionado por el script en 141 de las 340 máscaras únicas (41,5 %). La proporción es similar en las secuencias T1, T2 y T2 SPACE.
 
-Los detalles y las figuras están en `notebooks/02_compute_cobb_angle.ipynb`; las tablas, en `salidas/resultados_semana1/`.
+Al excluir esta cara mediante la variante A, el ángulo máximo disminuye una mediana de 1,44° en esas 141 máscaras (rango intercuartílico: 0,65°–2,64°). La reducción supera los 2° en 55 máscaras y los 5° en solo 5. El estudio 162 constituye el caso más extremo: el ángulo pasa de 36,87° a 11,59° en T2 SPACE y de 34,57° a 10,76° en T1.
+
+En la primera semana se reportó que el ángulo bajaba hasta 1,8°–2,4° al elegir a mano otro par de discos (202–209). Ese resultado corresponde a una intervención distinta: al excluir únicamente la cara inferior del disco 201, el algoritmo selecciona el par 204–209. Por tanto, las dos cifras no deben compararse como si evaluaran la misma modificación.
+
+### 2. La fórmula original amplifica la inclinación de la cara inferior del disco 201, pero no explica por sí sola su selección
+La cara inferior del disco 201 presenta una inclinación sagital considerablemente mayor que las caras inferiores de los demás discos: la mediana de la inclinación absoluta es de aproximadamente 33°–34°, frente a 7,8° en las otras caras.
+
+Las dos fórmulas evaluadas se relacionan mediante la identidad
+
+<p align="center">tan θ<sub>script</sub> = tan θ<sub>B</sub> / cos φ</p>
+
+donde θ<sub>B</sub> = arcsen(n<sub>x</sub>) y φ representa la inclinación sagital. En consecuencia, la fórmula original amplifica la tangente del ángulo coronal en las caras con una inclinación sagital pronunciada. Para la cara inferior del disco 201, el factor de amplificación 1/cos φ tiene una mediana de 1,197, frente a 1,011 para las demás caras.
+
+Sin embargo, este efecto no basta para explicar por qué el algoritmo selecciona unas caras del disco 201 y no otras. Las caras seleccionadas y no seleccionadas presentan inclinaciones sagitales similares (medianas de 33,9° y 33,2°, respectivamente), pero las seleccionadas muestran una mayor inclinación lateral incluso al utilizar la fórmula alternativa basada en arcsen(n<sub>x</sub>): las medianas son de 2,7° y 1,3°.
+
+Además, la reducción del ángulo asociada a la variante A presenta una correlación de Spearman mayor con la inclinación coronal de la cara (0,51) que con su inclinación sagital (0,20). Tampoco se observa evidencia de que las caras seleccionadas hayan sido ajustadas utilizando menos vértices que las demás.
+
+Por su parte, la variante B modifica el ángulo una mediana de solo 0,20°. En conjunto, estos resultados sugieren que la selección de la cara y su inclinación coronal tienen mayor relevancia para el cambio observado que la sustitución aislada de la fórmula angular.
+
+### 3. El grosor de corte modifica el ángulo, pero el efecto es pequeño y aproximadamente proporcional
+En el experimento de remuestreo, aumentar el grosor de corte de las mismas máscaras T2 SPACE reduce el ángulo calculado una mediana de 0,22° para cortes de 3,3 mm (IC del 95 %: 0,16°–0,34°) y de 0,40° para cortes de 4,4 mm (IC del 95 %: 0,29°–0,48°). La reducción máxima observada es de 2,94°.
+
+En términos relativos, las reducciones medianas son del 3,3 % y del 4,8 %, respectivamente. El ángulo coronal de cada cara se multiplica por un factor aproximadamente constante 0,967 para 3,3 mm y 0,95 para 4,4 mm, y el ángulo calculado por el algoritmo refleja ese comportamiento.
+
+La posición inicial de los cortes también modifica el resultado en una magnitud comparable a la del grosor, mientras que las diferencias entre los dos métodos de remuestreo son pequeñas. Los cambios en el par seleccionado se concentran en casos con ángulos de 9,22° o menos, en los que dos pares presentan valores muy próximos.
+
+Estos resultados indican que el grosor influye en la medición, pero su efecto aislado es relativamente pequeño en este experimento. No obstante, el resultado depende también de cómo se sitúan los cortes y de la geometría de las caras reconstruidas.
+
+### 4. Entre series del mismo estudio, el grosor explica poco de la variabilidad observada
+Al comparar las series estándar con las T2 SPACE del mismo estudio, se obtiene un sesgo de −0,32° y unos límites de acuerdo del 95 % de −3,09° a 2,44°. Al restringir el análisis a las comparaciones en las que ambas máscaras contienen el mismo número de discos, el sesgo es de −0,51° y los límites de acuerdo van de −2,59° a 1,58°.
+
+El efecto del grosor observado en el experimento controlado predice casi exactamente la diferencia mediana entre las series: −0,28° frente a −0,29° observados en esa comparación. Sin embargo, la varianza de las diferencias predichas por el grosor es de 0,14, frente a 1,99 para las diferencias observadas.
+
+Por tanto, aunque el grosor explica casi todo el desplazamiento sistemático entre las series, explica poco de la dispersión total. Entre los factores que podrían contribuir a esa variabilidad están las diferencias de segmentación entre adquisiciones, la secuencia utilizada, los cambios de posición del paciente y las diferencias en la cobertura de la máscara. Con estos datos no es posible determinar cuánto aporta cada factor por separado.
+
+### 5. Una parte importante de las parejas T1/T2 comparte exactamente la misma máscara
+En 107 de las 190 parejas T1/T2 correspondientes a un mismo estudio, las máscaras son idénticas byte a byte. En esas parejas, el ángulo calculado es necesariamente idéntico cuando se aplica el mismo algoritmo, por lo que no constituyen observaciones independientes de la variabilidad entre segmentaciones.
+
+En las 83 parejas restantes, cuyas máscaras sí son distintas, la mediana de la diferencia absoluta entre los ángulos T1 y T2 es de 0,48°, y la diferencia máxima alcanza los 7,43°.
+
+Esta distinción es importante al interpretar la concordancia entre secuencias: una parte de la igualdad observada se debe a que se utiliza exactamente la misma máscara, no necesariamente a que el algoritmo produzca resultados equivalentes a partir de segmentaciones independientes.
+
+### 6. La cobertura de la máscara también condiciona el ángulo calculado
+La diferencia máxima de 7,43° entre las parejas T1/T2 corresponde al estudio 35. La máscara T2 cubre únicamente los discos 201–203 y produce un ángulo de 15,41°, mientras que la máscara T1 incluye nueve discos y produce un ángulo de 7,97°.
+
+Cuando cambia el número de discos disponibles, también cambia el conjunto de pares que el algoritmo puede evaluar. Por ello, el máximo seleccionado puede corresponder a pares diferentes en cada secuencia, lo que limita la interpretación directa de la diferencia como un efecto exclusivo de la secuencia o de la segmentación.
+
+Este caso ilustra que la cobertura anatómica representada en la máscara es otro factor que debe considerarse al comparar los resultados entre adquisiciones.
+
+### Pregunta abierta: la cara del extremo craneal de la máscara
+
+En 115 de las 340 máscaras únicas, la cara superior del par seleccionado pertenece al disco más craneal de la máscara. En estos casos, la cara puede encontrarse cerca del límite del campo de visión y estar segmentada de forma incompleta.
+
+Este aspecto queda fuera del análisis de la segunda semana, cuyo objetivo es estudiar la influencia de la cara inferior del disco más caudal y la robustez frente al grosor de corte. No obstante, constituye una línea de investigación pendiente: sería útil determinar en qué medida la cobertura parcial de los discos situados en los extremos de la máscara influye en la selección del par y en el ángulo final.
+
+Los resultados y archivos necesarios para explorar esta cuestión están disponibles en `salidas/resultados_semana2/03_disco_caudal_y_variantes/`. Cualquier comentario, sugerencia o contribución para continuar este análisis es bienvenido en los issues del repositorio.
+
+Los detalles metodológicos, las figuras y la interpretación de cada experimento se encuentran en los cuadernos de `notebooks/`; las tablas de resultados están disponibles en `salidas/`.
 
 ## Revisión de alcance (línea paralela de la etapa 1)
 
