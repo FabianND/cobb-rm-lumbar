@@ -1,0 +1,6 @@
+,abs_coronal_script,abs_coronal_script,abs_coronal_script,abs_coronal_script,abs_coronal_script,abs_coronal_script,abs_coronal_script,abs_coronal_script,abs_arcsen,abs_arcsen,abs_arcsen,abs_arcsen,abs_arcsen,abs_arcsen,abs_arcsen,abs_arcsen
+,count,mean,std,min,25%,50%,75%,max,count,mean,std,min,25%,50%,75%,max
+grupo,,,,,,,,,,,,,,,,
+"201 · cara inferior, elegida por el script",141.0,4.2,4.0,0.0,2.3,3.4,5.2,32.0,141.0,3.1,2.4,0.0,1.9,2.7,4.1,17.7
+"201 · cara inferior, no elegida",199.0,2.2,2.2,0.0,0.7,1.6,2.8,11.7,199.0,1.8,1.8,0.0,0.6,1.3,2.3,10.3
+otros discos · cara inferior,2076.0,2.9,3.0,0.0,1.0,2.1,3.8,24.8,2076.0,2.9,3.0,0.0,1.0,2.1,3.8,24.8

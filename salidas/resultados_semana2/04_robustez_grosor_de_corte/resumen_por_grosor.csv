@@ -1,0 +1,5 @@
+grosor_mm,metodo,corridas,mediana,p25,p75,mediana_abs,p90_abs,maximo_abs,cambia_par,cambia_n_discos
+3.3,mayoritaria,123,-0.22,-0.53,-0.06,0.25,0.84,2.24,19,0
+3.3,vecino,123,-0.23,-0.53,-0.07,0.26,0.75,2.31,17,0
+4.4,mayoritaria,123,-0.42,-0.66,-0.11,0.45,1.22,2.94,24,0
+4.4,vecino,123,-0.39,-0.6,-0.11,0.42,1.05,2.56,26,0

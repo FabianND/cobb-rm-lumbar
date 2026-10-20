@@ -1,0 +1,7 @@
+conjunto,variante,n,series_sin_cambio,mediana,p25,p75,minimo,maximo,cambia_par
+todas las series,A_sin_201,447,266,0.0,0.0,1.14,0.0,25.28,181
+todas las series,B_arcsen,447,0,0.2,0.06,0.51,-0.82,14.37,43
+todas las series,AB,447,0,0.3,0.08,1.17,-0.01,25.39,187
+máscaras únicas,A_sin_201,340,199,0.0,0.0,1.14,0.0,25.28,141
+máscaras únicas,B_arcsen,340,0,0.2,0.05,0.52,-0.82,14.37,35
+máscaras únicas,AB,340,0,0.33,0.07,1.17,-0.01,25.39,145

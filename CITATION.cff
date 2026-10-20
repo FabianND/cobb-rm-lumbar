@@ -14,8 +14,8 @@ authors:
     affiliation: "Escuela Colombiana de Ingeniería Julio Garavito; Universidad del Rosario"
 license: Apache-2.0
 repository-code: "https://github.com/FabianND/cobb-rm-lumbar"
-version: "0.0.1"
-date-released: "2026-10-16"
+version: "0.0.2"
+date-released: "2026-10-20"
 doi: "10.5281/zenodo.23410108"
 identifiers:
   - type: doi

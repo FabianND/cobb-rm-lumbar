@@ -1,0 +1,11 @@
+conjunto,comparaciones,estudios,medida,valor,ic95_inferior,ic95_superior
+todas las comparaciones,59,39,sesgo,-0.32,-0.7,0.05
+todas las comparaciones,59,39,lim_inferior,-3.09,-4.02,-1.92
+todas las comparaciones,59,39,lim_superior,2.44,1.13,3.76
+todas las comparaciones,59,39,error_absoluto_medio,0.89,0.6,1.21
+todas las comparaciones,59,39,"percentiles 2,5 y 97,5 (sin suponer normalidad)",,-2.65,2.78
+misma cantidad de discos,53,38,sesgo,-0.51,-0.84,-0.19
+misma cantidad de discos,53,38,lim_inferior,-2.59,-3.25,-1.75
+misma cantidad de discos,53,38,lim_superior,1.58,0.89,2.26
+misma cantidad de discos,53,38,error_absoluto_medio,0.8,0.55,1.07
+misma cantidad de discos,53,38,"percentiles 2,5 y 97,5 (sin suponer normalidad)",,-2.67,2.02

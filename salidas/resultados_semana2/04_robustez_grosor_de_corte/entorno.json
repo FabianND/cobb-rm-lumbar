@@ -1,0 +1,71 @@
+{
+  "fecha": "2026-10-19T02:49:51",
+  "python": "3.13.16",
+  "plataforma": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "numpy": "2.1.3",
+  "scikit-image": "0.25.2",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.0",
+  "SimpleITK": "2.5.6",
+  "tiger": "6.3.0",
+  "tiger_commit": "4c63f6d58ed3f8e7a0cec04b0352949f7b512919",
+  "script_commit": "72c712f31e1f3069aef77b98b20af448bbc5615a",
+  "script_sha256": "4b6de7ca4f12b134dfb9fc6b373768a4a3b9a8763d66238b5798c7eaa7c89849",
+  "adaptacion": "parte real de np.linalg.eig en PCA() para NumPy 2; validada contra NumPy 1.26 en 5 máscaras (cuaderno 02)",
+  "masks_zip_md5": "49861ff25a0108b3b69d0ce808ae51dc",
+  "n_mascaras_space": 41,
+  "experimento": {
+    "grosores_mm": [
+      3.3,
+      4.4
+    ],
+    "metodos": [
+      "vecino",
+      "mayoritaria"
+    ],
+    "desfases": [
+      0,
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "condiciones": [
+      "base",
+      "vecino_3.3mm_d0",
+      "vecino_3.3mm_d1",
+      "vecino_3.3mm_d2",
+      "mayoritaria_3.3mm_d0",
+      "mayoritaria_3.3mm_d1",
+      "mayoritaria_3.3mm_d2",
+      "vecino_4.4mm_d0",
+      "vecino_4.4mm_d1",
+      "vecino_4.4mm_d2",
+      "mayoritaria_4.4mm_d0",
+      "mayoritaria_4.4mm_d1",
+      "mayoritaria_4.4mm_d2"
+    ]
+  },
+  "variantes": {
+    "original": {
+      "angulo_por_cara": "angulo_coronal_script",
+      "discos_excluidos": []
+    },
+    "A_sin_201": {
+      "angulo_por_cara": "angulo_coronal_script",
+      "discos_excluidos": [
+        201
+      ]
+    },
+    "B_arcsen": {
+      "angulo_por_cara": "arcsen_nx",
+      "discos_excluidos": []
+    },
+    "AB": {
+      "angulo_por_cara": "arcsen_nx",
+      "discos_excluidos": [
+        201
+      ]
+    }
+  },
+  "n_corridas_ok": 533,
+  "n_caras_guardadas": 8268
+}

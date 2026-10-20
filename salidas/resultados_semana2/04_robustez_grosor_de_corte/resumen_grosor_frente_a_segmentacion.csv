@@ -1,0 +1,3 @@
+conjunto,comparaciones,mediana_observada,mediana_predicha_por_grosor,mediana_residuo,media_abs_observada,media_abs_residuo,varianza_observada,varianza_predicha,varianza_residuo,dentro_de_lo_simulado
+todas las comparaciones,59,-0.29,-0.28,-0.05,0.89,0.7,1.99,0.14,1.72,18
+misma cantidad de discos,53,-0.36,-0.31,-0.1,0.8,0.57,1.13,0.15,0.87,18

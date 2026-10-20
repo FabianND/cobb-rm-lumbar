@@ -1,0 +1,5 @@
+grosor_mm,metodo,mediana_abs_original,p90_abs_original,mediana_abs_A_sin_201,p90_abs_A_sin_201,mediana_abs_B_arcsen,p90_abs_B_arcsen,mediana_abs_AB,p90_abs_AB
+3.3,mayoritaria,0.25,0.84,0.23,0.8,0.25,0.82,0.23,0.79
+3.3,vecino,0.26,0.75,0.23,0.79,0.25,0.78,0.23,0.74
+4.4,mayoritaria,0.45,1.22,0.34,1.05,0.38,1.02,0.33,1.02
+4.4,vecino,0.42,1.05,0.33,0.94,0.36,1.0,0.33,0.92

@@ -1,0 +1,5 @@
+grupo_adquisicion,grosor_lr_rango,n,mediana,p25,p75,minimo,maximo,pct_par_con_201
+SIEMENS | Avanto_fit | 1.5 T,4–5 mm,32,6.68,4.2,9.15,0.98,17.22,28.1
+SIEMENS | Avanto_fit | 1.5 T,≥5 mm,3,2.54,2.06,3.25,1.58,3.97,33.3
+UMC (inferido por SPACE),3–4 mm,58,6.7,4.59,13.89,1.69,35.31,41.4
+UMC (inferido por SPACE),<1 mm,40,6.69,4.94,11.34,1.87,36.87,37.5

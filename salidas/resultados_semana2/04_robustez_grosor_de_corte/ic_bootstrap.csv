@@ -1,0 +1,11 @@
+parte,medida,conjunto,unidades,valor,ic95_inferior,ic95_superior
+experimento,mediana del cambio [°],"3,3 mm (6 corridas por máscara)",41,-0.22,-0.34,-0.16
+experimento,mediana del cambio absoluto [°],"3,3 mm (6 corridas por máscara)",41,0.26,0.19,0.35
+experimento,mediana del cambio relativo [%],"3,3 mm (6 corridas por máscara)",41,-3.29,-3.94,-2.68
+experimento,mediana del rango entre posiciones del primer corte [°],"3,3 mm (2 métodos por máscara)",41,0.31,0.24,0.37
+experimento,mediana del cambio [°],"4,4 mm (6 corridas por máscara)",41,-0.4,-0.48,-0.29
+experimento,mediana del cambio absoluto [°],"4,4 mm (6 corridas por máscara)",41,0.42,0.34,0.49
+experimento,mediana del cambio relativo [%],"4,4 mm (6 corridas por máscara)",41,-4.82,-5.4,-3.81
+experimento,mediana del rango entre posiciones del primer corte [°],"4,4 mm (2 métodos por máscara)",41,0.43,0.3,0.52
+misma columna,mediana de la diferencia estándar − SPACE [°],59 comparaciones,39,-0.29,-0.6,-0.1
+misma columna,mediana de la diferencia absoluta [°],59 comparaciones,39,0.56,0.27,0.7
