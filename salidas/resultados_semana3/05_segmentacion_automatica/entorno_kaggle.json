@@ -1,0 +1,16 @@
+{
+  "fecha": "2026-10-25T23:39:46",
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "tiger_commit": "4c63f6d58ed3f8e7a0cec04b0352949f7b512919",
+  "iis_commit": "438049a8a679d04f5446c34676e8372fd7b86ead",
+  "iis_pesos_sha256": "5925c72bde416f41ecbbd39b57d39fd174b973155a87baf4d89f2dd9a1a1e201",
+  "iis_parametros": "valores por defecto de TestSpine.py con --export_original",
+  "limite_horas": 11,
+  "procesos_en_paralelo": 2
+}

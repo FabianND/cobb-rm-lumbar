@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-10-27T09:30:22",
+  "python": "3.13.16",
+  "plataforma": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "paquetes": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-image": "0.25.2",
+    "matplotlib": "3.10.0",
+    "tiger": "6.3.0"
+  },
+  "tiger_commit": "4c63f6d58ed3f8e7a0cec04b0352949f7b512919",
+  "masks_zip_md5": "49861ff25a0108b3b69d0ce808ae51dc",
+  "caras_de_disco": {
+    "origen": "planos_por_disco.csv del cuaderno 03",
+    "script_commit": "72c712f31e1f3069aef77b98b20af448bbc5615a"
+  },
+  "platillos": {
+    "espacio": "máscara reorientada y remuestreada a 0,5 mm con Tiger, como el script",
+    "cuerpo": "vóxeles de la vértebra delante del borde del canal en cada corte axial; mayor componente conexo",
+    "superficie": "marching cubes, nivel 0,5",
+    "angulo_max_normal_eje": 45.0,
+    "eje": "1.ª pasada: disco de abajo a disco de arriba sin componente lateral; 2.ª: normal media de los dos platillos",
+    "min_vertices": 50,
+    "angulo": "atan(nx/nz) con nz >= 0, como el script",
+    "contacto_con_disco_mm": 3.0,
+    "exclusion": "platillo sin disco vecino (por altura)"
+  },
+  "cobb_platillos": "max |sup(U) − inf(L)| con L <= U",
+  "bootstrap": {
+    "repeticiones": 2000,
+    "semilla": 2026,
+    "unidad": "estudio"
+  },
+  "n_mascaras_unicas": 340,
+  "n_platillos_validos": 4469
+}

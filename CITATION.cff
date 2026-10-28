@@ -5,7 +5,8 @@ abstract: >-
   Research-only, open and independent reproduction of automated coronal Cobb
   angle measurement on routine sagittal lumbar MRI, using the public SPIDER
   dataset, with a robustness analysis across slice thickness, sequence and
-  acquisition site. Not a medical device; not for diagnosis.
+  acquisition site, automatic segmentation and an exploratory endplate-based
+  measurement. Not a medical device; not for diagnosis.
 type: software
 authors:
   - family-names: "Nossa Díaz"
@@ -14,8 +15,8 @@ authors:
     affiliation: "Escuela Colombiana de Ingeniería Julio Garavito; Universidad del Rosario"
 license: Apache-2.0
 repository-code: "https://github.com/FabianND/cobb-rm-lumbar"
-version: "0.0.2"
-date-released: "2026-10-20"
+version: "0.0.3"
+date-released: "2026-10-27"
 doi: "10.5281/zenodo.23410108"
 identifiers:
   - type: doi
@@ -24,6 +25,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23410109"
     description: "DOI de la versión v0.0.1"
+  - type: doi
+    value: "10.5281/zenodo.23491212"
+    description: "DOI de la versión v0.0.2"
 keywords:
   - scoliosis
   - Cobb angle
@@ -106,6 +110,20 @@ references:
     version: "v4"
     doi: "10.5281/zenodo.10159290"
     license: CC-BY-4.0
+  - type: software
+    title: "SPIDER-Baseline-IIS"
+    authors:
+      - name: "DIAG Nijmegen (Diagnostic Image Analysis Group, Radboud University Medical Center)"
+    repository-code: "https://github.com/DIAGNijmegen/SPIDER-Baseline-IIS"
+    commit: "438049a8a679d04f5446c34676e8372fd7b86ead"
+    license: Apache-2.0
+  - type: software
+    title: "TotalSpineSeg"
+    authors:
+      - name: "NeuroPoly (Polytechnique Montréal)"
+    repository-code: "https://github.com/neuropoly/totalspineseg"
+    version: "20260807"
+    license: LGPL-3.0
   - type: report
     title: "Automated and semi-automated measurement of coronal spinal curvature and detection of scoliosis on MRI and CT in adults: a scoping review protocol"
     authors:

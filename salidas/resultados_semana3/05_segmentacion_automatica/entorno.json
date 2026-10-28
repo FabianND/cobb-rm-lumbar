@@ -1,0 +1,51 @@
+{
+  "fecha": "2026-10-27T10:31:50",
+  "python": "3.13.16",
+  "plataforma": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "paquetes": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "SimpleITK": "2.5.6",
+    "scikit-image": "0.25.2",
+    "matplotlib": "3.10.0",
+    "tiger": "6.3.0"
+  },
+  "script": {
+    "commit": "72c712f31e1f3069aef77b98b20af448bbc5615a",
+    "sha256": "4b6de7ca4f12b134dfb9fc6b373768a4a3b9a8763d66238b5798c7eaa7c89849",
+    "adaptacion": "parte real de np.linalg.eig (NumPy 2)"
+  },
+  "tiger_commit": "4c63f6d58ed3f8e7a0cec04b0352949f7b512919",
+  "masks_zip_md5": "49861ff25a0108b3b69d0ce808ae51dc",
+  "spider_baseline_iis": {
+    "commit": "438049a8a679d04f5446c34676e8372fd7b86ead",
+    "pesos_sha256": "5925c72bde416f41ecbbd39b57d39fd174b973155a87baf4d89f2dd9a1a1e201",
+    "parametros": "valores por defecto de TestSpine.py con --export_original",
+    "plataforma": "Kaggle (ver entorno_kaggle.json)"
+  },
+  "totalspineseg": {
+    "version": "20260807",
+    "pesos_release": "r20260730",
+    "pesos_sha256": {
+      "Dataset101_TotalSpineSeg_step1_r20260730.zip": "781f81e8c94feccd3cef17d819ba5c293b506e9b1f2b106fc5e31b9dd85887b0",
+      "Dataset102_TotalSpineSeg_step2_r20260730.zip": "494c640ab8cb25475bd0fc4338c0931d37079af9dd19403879335c3908c06b46"
+    },
+    "kornia": "0.8.2",
+    "plataforma": "Colab (424 series) y Kaggle (23 series, sin registro de entorno)"
+  },
+  "comparacion": {
+    "reglas": {
+      "script": "cara inferior del disco caudal contra cara superior del craneal",
+      "articulo": "cara superior del disco caudal contra cara inferior del craneal"
+    },
+    "umbral_pareja_mm": 10.0,
+    "umbral_salto": 1.5,
+    "disco_pequeno": "menos de 0,25 veces el volumen mediano de los discos de la máscara",
+    "bootstrap": {
+      "repeticiones": 2000,
+      "semilla": 2026,
+      "unidad": "estudio"
+    }
+  }
+}
