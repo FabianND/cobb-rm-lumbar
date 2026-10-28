@@ -25,7 +25,11 @@ Lo que no hace es diagnosticar escoliosis, predecir su aparición o progresión,
 | 1 | Ejecución de `compute-Cobb-angle.py` sobre las 447 máscaras, con versiones fijadas y verificadas (`notebooks/02_compute_cobb_angle.ipynb`) | Completado |
 | 1 | Celdas de inspección visual e interactiva del algoritmo (cuaderno 02) | Completado |
 | 1 | Protocolo de la revisión de alcance registrado en OSF (`docs/revision_alcance/`) | Completado |
-| 1 | Preguntas a los autores del script y del dataset ([DIAGNijmegen/cobb-angle-algorithm#1](https://github.com/DIAGNijmegen/cobb-angle-algorithm/issues/1); seguimiento en [#1](https://github.com/FabianND/cobb-rm-lumbar/issues/1)) | Abierto, esperando de respuesta |
+| 1 | Preguntas a los autores del script y del dataset ([DIAGNijmegen/cobb-angle-algorithm#1](https://github.com/DIAGNijmegen/cobb-angle-algorithm/issues/1); seguimiento en [#1](https://github.com/FabianND/cobb-rm-lumbar/issues/1)) | Respondido |
+| 2 | El disco más caudal en las 447 series y tres variantes del cálculo (`notebooks/03_disco_caudal_y_variantes.ipynb`) | Completado |
+| 2 | Robustez frente al grosor de corte (`notebooks/04_robustez_grosor_de_corte.ipynb`) | Completado |
+| 3 | Ángulo con segmentación automática (SPIDER-Baseline-IIS y TotalSpineSeg) frente a la manual (`notebooks/05_segmentacion_automatica.ipynb`) | Completado |
+| 3 | Ángulo medido en los platillos vertebrales frente a las caras de disco (`notebooks/06_cobb_por_platillos.ipynb`) | Completado |
 
 ## Trabajo realizado en la primera semana
 
@@ -72,6 +76,22 @@ El cuaderno 04 estudia cómo influye el grosor de corte en el ángulo calculado 
 Primero, describe la distribución de los ángulos según el grosor de corte y el grupo de adquisición, teniendo en cuenta que ambos factores pueden estar relacionados. Después, compara las series T2 SPACE con las series estándar del mismo estudio para caracterizar las diferencias entre adquisiciones. Por último, realiza un experimento de remuestreo en el que cada una de las 41 máscaras T2 SPACE se transforma para simular cortes de 3,3 y 4,4 mm, utilizando dos métodos de remuestreo y tres posiciones iniciales del corte. En total, se obtienen 533 ejecuciones del script para este experimento.
 
 El cuaderno también evalúa el acuerdo entre series mediante el método de Bland–Altman, cuantifica cuánto de la diferencia observada puede asociarse al efecto del grosor en el experimento controlado y calcula intervalos de confianza mediante bootstrap. La combinación de estos enfoques permite distinguir el efecto que se observa en los datos de aquel que puede atribuirse más directamente al grosor de corte bajo las condiciones del experimento.
+
+## Trabajo realizado en la tercera semana
+ 
+### 6. Segmentación automática frente a manual (cuaderno 05)
+ 
+Hasta este punto, el cálculo del ángulo se había realizado sobre las máscaras manuales de SPIDER, revisadas y corregidas a mano por los anotadores del dataset. Sin embargo, en una aplicación automatizada no se dispondría de estas máscaras de antemano: sería necesario generarlas mediante un segmentador automático. Por eso, en el cuaderno 05 se evaluó cuánto cambia el ángulo de Cobb al utilizar máscaras generadas por dos herramientas públicas en lugar de las máscaras manuales.
+ 
+Se compararon **SPIDER-Baseline-IIS**, el modelo de referencia del reto SPIDER, y **TotalSpineSeg**, de NeuroPoly, utilizando ambos modelos tal como fueron publicados, sin entrenarlos ni modificarlos. Cada uno se fijó a una versión concreta y sus pesos se verificaron por su huella antes de usarlos. Como los dos numeran los discos en sentido contrario a SPIDER, sus máscaras se renumeraron por la altura de cada estructura y después se procesaron con el mismo script fijado. El ángulo de cada máscara automática se comparó con el de la máscara manual de la misma serie, con las dos reglas de selección de caras de disco y emparejando los discos por posición, porque un segmentador puede omitir alguno. El cuaderno marca automáticamente las segmentaciones sospechosas (posible disco omitido, discos sin pareja o muy pequeños) y compara también la T1 y la T2 de un mismo estudio.
+ 
+No entrené ningún modelo, los dos segmentadores se usaron tal como los publicaron sus autores. Por límites de cómputo, SPIDER-Baseline-IIS corrió en Kaggle y TotalSpineSeg en Colab, salvo 23 series que también corrieron en Kaggle, con el mismo código, los mismos pesos y la misma configuración. Los registros de la corrida de SPIDER-Baseline-IIS quedaron como hojas de cálculo en Drive y no se publican, y los de las 23 series de TotalSpineSeg en Kaggle no se conservaron; los detalles están en `docs/fuentes_externas.md`.
+ 
+### 7. Ángulo medido en los platillos vertebrales (cuaderno 06)
+ 
+El script mide el ángulo en las caras de los discos, mientras que el método de Cobb se traza sobre los platillos vertebrales. Por eso, el cuaderno 06 aísla el cuerpo de cada vértebra en las 340 máscaras manuales únicas, ajusta un plano a cada platillo y compara el ángulo resultante con las dos reglas de caras de disco, reutilizando los planos guardados en el cuaderno 03.
+
+Esta medición es una propuesta exploratoria del proyecto, no parte del método publicado. En su versión final exige que cada punto del platillo esté a menos de 3 mm del disco que toca; esa condición se agregó después de una primera corrida en la que el ajuste falló en algunas máscaras (hallazgo 10), como 53_t1; la primera corrida se conserva en `salidas/resultados_semana3/06_cobb_por_platillos/version_sin_contacto/` y el cuaderno mide cuánto cambió el resultado con la corrección.
 
 ## Hallazgos preliminares
 
@@ -120,7 +140,9 @@ En 107 de las 190 parejas T1/T2 correspondientes a un mismo estudio, las máscar
 
 En las 83 parejas restantes, cuyas máscaras sí son distintas, la mediana de la diferencia absoluta entre los ángulos T1 y T2 es de 0,48°, y la diferencia máxima alcanza los 7,43°.
 
-Esta distinción es importante al interpretar la concordancia entre secuencias: una parte de la igualdad observada se debe a que se utiliza exactamente la misma máscara, no necesariamente a que el algoritmo produzca resultados equivalentes a partir de segmentaciones independientes.
+Esta distinción es importante al interpretar la concordancia entre secuencias ya que una parte de la igualdad observada se debe a que se utiliza exactamente la misma máscara, no necesariamente a que el algoritmo produzca resultados equivalentes a partir de segmentaciones independientes.
+
+**Corrección tras la respuesta de los autores.** En los cuadernos 02 y 03 se dijo que el artículo de SPIDER no explica por qué hay máscaras idénticas. Jasper van der Graaf aclaró en el issue que, en cada estudio, se elegía la mejor segmentación entre la T1 y la T2, se corregía a mano y se reutilizaba para la otra secuencia cuando coincidía con ella. Por lo tanto, las parejas idénticas son una decisión de la anotación y no un error de los archivos.
 
 ### 6. La cobertura de la máscara también condiciona el ángulo calculado
 La diferencia máxima de 7,43° entre las parejas T1/T2 corresponde al estudio 35. La máscara T2 cubre únicamente los discos 201–203 y produce un ángulo de 15,41°, mientras que la máscara T1 incluye nueve discos y produce un ángulo de 7,97°.
@@ -128,6 +150,64 @@ La diferencia máxima de 7,43° entre las parejas T1/T2 corresponde al estudio 3
 Cuando cambia el número de discos disponibles, también cambia el conjunto de pares que el algoritmo puede evaluar. Por ello, el máximo seleccionado puede corresponder a pares diferentes en cada secuencia, lo que limita la interpretación directa de la diferencia como un efecto exclusivo de la secuencia o de la segmentación.
 
 Este caso ilustra que la cobertura anatómica representada en la máscara es otro factor que debe considerarse al comparar los resultados entre adquisiciones.
+
+**Actualización de la tercera semana.** El cuaderno 05 confirmó que la máscara parcial de 35_t2 se debe al campo de visión de la serie y no a una segmentación incompleta, en los resultados obtenido se observó que la T1 y la T2 cubren casi la misma longitud (unos 299 mm), pero el campo de la T2 está desplazado unos 158 mm hacia caudal, y los dos segmentadores automáticos también encuentran solo tres discos en ella.
+
+### 7. La segmentación automática suele cambiar poco el ángulo, pero puede presentar errores importantes
+
+En comparación con las máscaras manuales, ambos segmentadores produjeron diferencias pequeñas en la mayoría de los casos. Con la regla del artículo, la mitad de las diferencias no superó 0,44° con SPIDER-Baseline-IIS ni 0,61° con TotalSpineSeg, y nueve de cada diez quedaron por debajo de 1,55° y 1,68°, respectivamente; con la regla del script, las cifras son parecidas. La principal diferencia entre las herramientas no está tanto en el comportamiento habitual como en los errores que pueden producir.
+
+TotalSpineSeg no omitió discos según los criterios de evaluación del cuaderno, y su ángulo prácticamente no tuvo sesgo respecto al de la máscara manual, siguiendo la regla del artículo, la diferencia media fue de 0,03°, con límites de acuerdo de aproximadamente ±2,2°. Las mayores discrepancias aparecieron en series que no recibieron ninguna marca de calidad, es decir, que los controles automáticos no habrían detectado. El caso más claro fue el estudio 65, en el que las tres series presentaron ángulos entre 4,0° y 6,6° superiores a los calculados con la máscara manual. Al revisar las segmentaciones, se observó que el modelo representaba con mayor inclinación la cara superior del disco más caudal.
+
+SPIDER-Baseline-IIS mostró un acuerdo incluso más estrecho cuando la segmentación era adecuada, al excluir su peor caso, las diferencias se situaron entre −2,0° y 1,6°. Sin embargo, presentó fallos que afectaron directamente al cálculo. Se detectaron posibles discos omitidos en 21 series; en 29_t2 y 74_t2 solo se segmentó un disco, y en 64_t1 se identificaron únicamente dos de los siete esperados. El caso más llamativo fue 167_t1, donde el ángulo calculado alcanzó 73,2°, frente a 7,1° con la máscara manual. La causa fue la presencia de un plano casi vertical junto a un disco omitido.
+
+Estos resultados muestran que una diferencia angular pequeña en la mayoría de las imágenes no garantiza un funcionamiento fiable en todos los casos. Por ello, una herramienta que calcule el ángulo a partir de segmentaciones automáticas debería incorporar controles de calidad capaces de detectar discos ausentes, planos anómalos y resultados potencialmente incorrectos antes de entregar una medición.
+
+Las cifras deben interpretarse como estimaciones optimistas del rendimiento, ambos segmentadores fueron entrenados con datos de SPIDER y no se dispone de un ángulo de referencia medido independientemente por especialistas para esta evaluación.
+
+### 8. Los discos que definen el ángulo son menos estables que el valor angular
+
+Aunque el ángulo calculado suele cambiar poco, los discos que determinan su valor máximo no siempre son los mismos. Con los dos segmentadores automáticos, el par de discos seleccionado coincidió con el de la máscara manual en solo el 64 % de las series con SPIDER-Baseline-IIS y el 57 % con TotalSpineSeg, con la regla del artículo. Al cambiar de regla o contar solo los discos presentes en las dos máscaras, la coincidencia nunca superó el 68 %, de modo que en al menos un tercio de las series el par cambia.
+
+El cuaderno 06 permite entender esta diferencia. En aproximadamente tres de cada cuatro máscaras existen varios pares de discos cuyo ángulo queda a menos de 1° del máximo. Además, la diferencia mediana entre el mayor ángulo y el segundo mayor es de apenas 0,46°. En estas condiciones, una pequeña variación en la segmentación o en el ajuste de los planos puede cambiar cuál de los pares resulta seleccionado, sin modificar sustancialmente el ángulo final.
+
+También se evaluó la reproducibilidad entre las secuencias T1 y T2 de un mismo estudio. Al segmentarlas y procesarlas por separado, las diferencias angulares fueron del orden de ±1,5° a 2°, una variabilidad comparable a la observada al utilizar distintas máscaras manuales.
+
+En conjunto, estos resultados indican que el valor del ángulo puede ser relativamente estable incluso cuando cambia el par de discos que lo determina. Por tanto, conviene evaluar por separado la reproducibilidad de la medición angular y la estabilidad de los niveles anatómicos seleccionados.
+
+### 9. La medición basada en platillos vertebrales concuerda con la regla del artículo
+
+Se exploró una alternativa para calcular el ángulo a partir de los platillos vertebrales, en lugar de utilizar directamente las caras de los discos. Con la versión final del método, la inclinación de cada platillo quedó próxima a la de la cara del disco correspondiente, con límites de acuerdo de aproximadamente ±1,4°.
+
+El ángulo calculado mediante los platillos fue, en promedio, 0,26° mayor que el obtenido con la regla del artículo (IC del 95 %: 0,13°–0,40°). Los límites de acuerdo se situaron entre −1,7° y 2,2°. Además, la reproducibilidad entre las secuencias T1 y T2 de un mismo estudio fue similar a la de la regla del artículo: aproximadamente ±1,6° frente a ±1,45°.
+
+La comparación con la regla implementada en el script original mostró un acuerdo menor, con límites de −3,5° a 3,3°. Esta diferencia se explica, al menos en parte, porque la regla del script usa la otra cara de cada disco, la que no está en contacto con los platillos que se comparan.
+
+Aunque los resultados respaldan la coherencia geométrica del método alternativo, el acuerdo entre ambos no constituye una validación independiente. El platillo vertebral y la cara del disco son superficies enfrentadas de una misma interfaz anatómica, por lo que es esperable que sus inclinaciones estén relacionadas.
+
+Revisando el estudio 162 se observa un resultado diferente, el ángulo elevado se mantuvo al medir sobre los platillos, con valores de 23,7° y 25,9°. Esto indica que la curvatura observada no se explica únicamente por el ajuste de las caras de los discos. En cambio, los grados adicionales que aparecen con la regla del script proceden de la cara inferior del disco 201, en contacto con el sacro que es una superficie que no cuenta con un platillo vertebral correspondiente en las máscaras de SPIDER, porque el sacro no forma parte de la segmentación utilizada.
+
+### 10. Se corrigió el método de medición por platillos y se documentó el cambio
+
+La primera versión del método basado en platillos aceptaba cualquier superficie del cuerpo vertebral cuya orientación se pareciera a la de un platillo. Esto podía fallar cuando la etiqueta de una vértebra se extendía más allá de su platillo.
+
+Un ejemplo fue el estudio 53_t1, donde la etiqueta de la vértebra 1 rodeaba al disco 201. Como consecuencia, el plano ajustado combinaba dos superficies distintas y producía un ángulo de 18,1°, frente a los 1,8° obtenidos con la regla del artículo.
+
+Para corregirlo, se incorporó una condición adicional la cual consistia que el platillo seleccionado debía estar en contacto con el disco correspondiente. Con este cambio, el ángulo disminuyó en promedio 1,25° por máscara (IC del 95 %: 0,98°–1,54°).
+
+La simulación incluida en el cuaderno 06 ayuda a explicar este comportamiento. Cuando aumenta el ruido en los planos, también aumenta la posibilidad de que el mayor ángulo observado sea artificialmente elevado, incluso si los planos individuales no presentan un sesgo sistemático. Con un ruido de 1,5° en cada cara, el máximo aumenta en promedio 1,42°, muy cerca del sesgo de 1,5° que tenía la primera versión frente a la regla del artículo. Por tanto, seleccionar el máximo entre varios pares puede amplificar pequeñas imprecisiones geométricas.
+
+Se conservaron los resultados de ambas versiones para dejar constancia del problema identificado, la corrección aplicada y su efecto sobre las mediciones. La primera corrida está en `salidas/resultados_semana3/06_cobb_por_platillos/version_sin_contacto/`.
+
+### Respuesta de los autores del algoritmo original
+
+Esta semana también llegó la respuesta a las dudas sobre la implementación publicada que se plantearon en el issue DIAGNijmegen/cobb-angle-algorithm#1. Las respondió Jasper van der Graaf el autor del articulo de referencia.
+
+Según su respuesta, el código publicado corresponde al utilizado en el artículo. La opción largest_angle=False estaba destinada a un análisis de consenso cuyos datos no llegaron a publicarse. Tampoco fue posible confirmar qué versión de Tiger se utilizó originalmente, dado que el código data de 2022.
+
+El autor señaló, además, que la inclinación en el plano sagital es una limitación general de la medición de Cobb proyectada y explicó que las máscaras idénticas entre T1 y T2 se relacionan con el procedimiento de anotación descrito en el hallazgo 5.
+
+Aunque el repositorio ya no cuenta con mantenimiento activo, quedó abierta la posibilidad de proponer cambios en dos puntos del script. Esta respuesta permitió aclarar varias decisiones de implementación y distinguir las limitaciones del método de los problemas propios de su reproducción.
 
 ### Pregunta abierta: la cara del extremo craneal de la máscara
 
@@ -145,15 +225,35 @@ Protocolo registrado en OSF el 12-oct-2026: *Automated and semi-automated measur
 
 ## Cómo ejecutar
 
-Los datos **no** están en este repositorio y los cuadernos no los descargan por ti. Antes de ejecutar, descarga SPIDER desde Zenodo (doi:[10.5281/zenodo.10159290](https://doi.org/10.5281/zenodo.10159290), versión v4) y guárdalo en Google Drive con la estructura que indica la primera celda de cada cuaderno. Luego abre el cuaderno en Google Colab y usa *Entorno de ejecución → Reiniciar y ejecutar todo*. Los cuadernos verifican las sumas MD5 de los datos y la huella SHA-256 del script antes de usarlos.
+Los datos de SPIDER **no** no están incluidos en este repositorio ni se descargan automáticamente desde los cuadernos. Antes de empezar, es necesario descargar el conjunto de datos desde Zenodo (DOI: 10.5281/zenodo.10159290, versión v4) y guardarlo en Google Drive, respetando la estructura de carpetas indicada en la primera celda de cada cuaderno.
 
-Los cuadernos se corren en orden, porque cada uno usa salidas de los anteriores: el 04 necesita el inventario del 01 y la tabla de variantes del 03. En Colab gratuito, el 02 tarda cerca de hora y media, el 03 cerca de dos horas y el 04 unas tres horas; los tres guardan cada resultado al terminarlo y retoman donde iban si Colab se desconecta.
+Una vez configurado el acceso a los archivos, se puede abrir cada cuaderno en Google Colab y ejecutar Entorno de ejecución → Reiniciar y ejecutar todo. Los cuadernos verifican las sumas MD5 de los datos y la huella SHA-256 del script antes de utilizarlos, lo que permite comprobar que los archivos corresponden a las versiones previstas.
+
+Los cuadernos deben ejecutarse en orden, ya que los posteriores utilizan resultados generados por los anteriores. En particular, el cuaderno 04 necesita el inventario del 01 y la tabla de variantes del 03. Los cuadernos 05 y 06 también requieren el inventario del 01, los planos y la tabla de variantes del 03.
+
+En las pruebas realizadas con Colab gratuito, los tiempos aproximados de ejecución fueron los siguientes:
+
+- Cuaderno 02: una hora y media.
+- Cuaderno 03: dos horas.
+- Cuaderno 04: tres horas.
+- Cuaderno 06: 40 minutos.
+
+Los cuadernos guardan los resultados a medida que completan cada etapa y permiten continuar a partir de los resultados existentes si la sesión de Colab se interrumpe. Los tiempos indicados son orientativos y pueden variar según los recursos disponibles y las condiciones de ejecución.
+
+El cuaderno 05 requiere consideraciones adicionales. Además de las máscaras manuales, necesita las 447 imágenes de SPIDER para generar las segmentaciones automáticas. Esta etapa requiere GPU y puede distribuirse en varias sesiones. En las pruebas, el procesamiento tomó entre 2 y 13 minutos por serie con SPIDER-Baseline-IIS y entre 1 y 2 minutos con TotalSpineSeg.
+
+Para evitar ejecutar este proceso por accidente, las celdas de segmentación solo se activan al establecer CORRER_SEGMENTACION = True. Una vez generadas y guardadas las máscaras automáticas en Google Drive, el resto del cuaderno puede ejecutarse sin GPU.
+
+Las máscaras automáticas no se incluyen en el repositorio porque pueden generarse nuevamente a partir de los datos originales y del cuaderno correspondiente.
 
 ## Datos, código y trabajos de referencia
 
 - SPIDER: van der Graaf JW *et al.* *Sci Data* 2024;11:264. doi:[10.1038/s41597-024-03090-w](https://doi.org/10.1038/s41597-024-03090-w). Datos: doi:[10.5281/zenodo.10159290](https://doi.org/10.5281/zenodo.10159290) (CC-BY 4.0).
 - Método original: van der Graaf JW *et al.* *Eur Radiol* 2024;34(9):5748-5757. doi:[10.1007/s00330-024-10616-8](https://doi.org/10.1007/s00330-024-10616-8). Código: [DIAGNijmegen/cobb-angle-algorithm](https://github.com/DIAGNijmegen/cobb-angle-algorithm) (Apache-2.0), commit `72c712f`.
-- Aplicación poblacional: Niglas M *et al.* *Eur Spine J* 2026. doi:[10.1007/s00586-026-10239-1](https://doi.org/10.1007/s00586-026-10239-1).
+- Aplicación poblacional: Niglas M et al. Eur Spine J 2026. doi:10.1007/s00586-026-10239-1.
+- Segmentador SPIDER-Baseline-IIS: DIAGNijmegen/SPIDER-Baseline-IIS (Apache-2.0), commit `438049a`. Método: Lessmann N et al. Med Image Anal 2019;53:142-155. doi:10.1016/j.media.2019.02.005.
+- Segmentador TotalSpineSeg: neuropoly/totalspineseg (LGPL-3.0), versión `20260807` con los pesos `r20260730`; basado en nnU-Net (Isensee F et al. Nat Methods 2021;18:203-211).
+- Método de Cobb: Cobb JR. Outline for the study of scoliosis. Instr Course Lect 1948;5:261-275.
 - Versiones exactas de todo el código y los datos usados: [`docs/fuentes_externas.md`](docs/fuentes_externas.md).
 
 ## Cómo citar
@@ -175,3 +275,5 @@ Research-only, open and independent reproduction of automated coronal Cobb angle
 Week 1: a verified inventory of SPIDER (counts match the Sci Data paper; age is available for only 41 of 218 patients; no hospital column, so site is approximated by scanner), and a pinned, checksum-verified run of the published script (commit `72c712f`) on all 447 masks, plus visual and interactive notebook cells to inspect which disc planes drive each angle. Preliminary, descriptive findings: (1) in some cases the maximum angle is driven by the lower face of the most caudal disc when it is strongly tilted in the sagittal plane (study 162: 34.6°–36.9° vs. 1.8°–2.4° with another disc pair); (2) 107 of 190 T1/T2 pairs share byte-identical masks; (3) mask coverage changes the result (study 35). Questions were sent to the authors in [DIAGNijmegen/cobb-angle-algorithm#1](https://github.com/DIAGNijmegen/cobb-angle-algorithm/issues/1). A parallel scoping review is registered on OSF (doi:[10.17605/OSF.IO/WXQ5G](https://doi.org/10.17605/OSF.IO/WXQ5G)).
 
 Week 2, all descriptive (SPIDER has no reference Cobb angle): (1) the lower face of the most caudal disc (label 201) is part of the selected pair in 141 of 340 unique masks (41.5%); removing it lowers the angle by a median of 1.44°, with study 162 as the extreme case (36.87° to 11.59°). (2) The script's formula, arctan(n<sub>x</sub>/n<sub>z</sub>), relates exactly to arcsin(n<sub>x</sub>) through the face's sagittal tilt and inflates that face's tangent by about 20%, but the selected faces also carry more true lateral tilt. (3) Simulating 3.3 and 4.4 mm slices on the 41 high-resolution masks lowers the angle by a median of 0.22° and 0.40° (about 3–5%, proportional to the angle, maximum 2.94°). (4) Between the T2 SPACE and the standard series of the same patient, limits of agreement are about ±3°; slice thickness explains the median bias but little of the spread. Questions and results were shared with the authors in DIAGNijmegen/cobb-angle-algorithm#1. A parallel scoping review is registered on OSF (doi:10.17605/OSF.IO/WXQ5G).
+
+Week 3, also descriptive: (1) Automatic masks from two public segmenters (SPIDER-Baseline-IIS and TotalSpineSeg, both used as published; no model was trained here) usually change the angle little compared with the manual masks (half of the differences under 0.44° with SPIDER-Baseline-IIS and 0.61° with TotalSpineSeg; limits of agreement about ±2.2° for TotalSpineSeg), but failures can be severe: SPIDER-Baseline-IIS skipped discs in some series and in one case gave 73.2° instead of 7.1°. Both segmenters were trained on SPIDER, so these are optimistic bounds. (2) The disc pair that defines the angle is much less stable than the angle itself: in three out of four masks several pairs lie within 1° of the maximum. (3) An exploratory endplate-based Cobb angle, requiring each endplate to touch its disc, stays within −1.7° to 2.2° of the article's disc-face rule and is as reproducible between T1 and T2; since endplate and disc face are two sides of the same interface, this agreement is partly expected. The large angle of study 162 persists on the endplates; the extra degrees of the script's rule come from the disc face that touches the sacrum. A first version of the endplate method failed on some masks and was corrected; the correction lowered the endplate angle by 1.25° on average, and both runs are kept. The authors answered the questions in DIAGNijmegen/cobb-angle-algorithm#1: among other points, identical T1/T2 masks come from reusing the best corrected segmentation for both sequences.
