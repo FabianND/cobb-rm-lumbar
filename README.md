@@ -11,11 +11,11 @@
 
 ## Alcance
 
-Este proyecto está en su **etapa 1 (validación técnica con datos públicos)**. Trabaja sobre el dataset público SPIDER y no usa datos de pacientes de ninguna institución.
+Este proyecto está en su **etapa 1 (validación técnica con datos públicos)**. Trabaja solo con datos públicos (SPIDER y, desde la cuarta semana, RSNA LumbarDISC y el Lumbar Spine MRI Dataset de Mendeley) y no usa datos de pacientes de ninguna institución.
 
 Lo que sí hace es ejecutar y examinar el código publicado por van der Graaf *et al.* (2024) en las condiciones exactas en que se descargó (commit y huella registrados), documentar cada decisión y medir la variabilidad del resultado ante cambios técnicos de la imagen.
 
-Lo que no hace es diagnosticar escoliosis, predecir su aparición o progresión, ni reemplazar la radiografía de pie. El valor medido es un **"Cobb coronal en decúbito en RM"**, que no equivale al Cobb radiográfico en bipedestación.
+Lo que no hace es diagnosticar escoliosis, predecir su aparición o progresión, ni reemplazar la radiografía de pie. El valor medido es un **"ángulo coronal lumbar en decúbito estimado en RM sagital"**, que no equivale al Cobb radiográfico en bipedestación.
 
 ## Estado
 
@@ -30,6 +30,10 @@ Lo que no hace es diagnosticar escoliosis, predecir su aparición o progresión,
 | 2 | Robustez frente al grosor de corte (`notebooks/04_robustez_grosor_de_corte.ipynb`) | Completado |
 | 3 | Ángulo con segmentación automática (SPIDER-Baseline-IIS y TotalSpineSeg) frente a la manual (`notebooks/05_segmentacion_automatica.ipynb`) | Completado |
 | 3 | Ángulo medido en los platillos vertebrales frente a las caras de disco (`notebooks/06_cobb_por_platillos.ipynb`) | Completado |
+| 4 | Cierre de las preguntas pendientes de los cuadernos 01 a 06 y regla correcta de emparejamiento de caras (`notebooks/07_regla_del_articulo_y_preguntas_pendientes.ipynb`) | Completado |
+| 4 | Inventario de RSNA LumbarDISC y Mendeley, conversión a NIfTI y selección de una T1 y una T2 por estudio (`notebooks/08_rsna_y_mendeley.ipynb`) | Completado |
+| 4 | Segmentación externa con TotalSpineSeg, revisión técnica y comparación T1 frente a T2 sin ángulos (`notebooks/09_segmentacion_externa.ipynb`; segmentación en `notebooks/kaggle/`) | Completado |
+| 4 | Plan de análisis del cuaderno 10 preregistrado en OSF ([doi:10.17605/OSF.IO/KP5DU](https://doi.org/10.17605/OSF.IO/KP5DU)) | Completado |
 
 ## Trabajo realizado en la primera semana
 
@@ -93,9 +97,59 @@ El script mide el ángulo en las caras de los discos, mientras que el método de
 
 Esta medición es una propuesta exploratoria del proyecto, no parte del método publicado. En su versión final exige que cada punto del platillo esté a menos de 3 mm del disco que toca; esa condición se agregó después de una primera corrida en la que el ajuste falló en algunas máscaras (hallazgo 10), como 53_t1; la primera corrida se conserva en `salidas/resultados_semana3/06_cobb_por_platillos/version_sin_contacto/` y el cuaderno mide cuánto cambió el resultado con la corrección.
 
+## Trabajo realizado en la cuarta semana
+
+### 8. Cierre de las preguntas pendientes y definición de la regla de referencia (cuaderno 07)
+
+El cuaderno 07 marca el primer cierre de las preguntas que fueron surgiendo durante los cuadernos 01 a 06. Su propósito fue reunir los problemas que seguían abiertos, contrastarlos con los datos de SPIDER y establecer cuáles podían resolverse y cuáles requerían información adicional.
+
+La principal pregunta era por qué el script, al ejecutarse sobre las máscaras manuales de SPIDER, seleccionaba caras de disco diferentes de las descritas en el artículo original. La segunda respuesta de Jasper van der Graaf en el issue permitió aclarar el problema: el algoritmo fue desarrollado utilizando las salidas de SPIDER-Baseline-IIS, que numera los discos de arriba hacia abajo, mientras que SPIDER utiliza el orden contrario, de abajo hacia arriba.
+
+El cuaderno comprobó que, al utilizar la convención de numeración de SPIDER-Baseline-IIS, la regla implementada en el script coincide exactamente con la del artículo. Por tanto, la discrepancia no se debía a un error en el cálculo, sino a la diferencia en el orden de las etiquetas. Al aplicar directamente la regla original a las máscaras de SPIDER, sin corregir esta convención, se obtiene una sobreestimación media de **0,39°**. A partir de este análisis, el proyecto adopta la regla de emparejamiento descrita en el artículo como referencia para calcular los ángulos.
+
+También se evaluaron cinco formas de estimar la inclinación coronal de cada cara de disco, comparándolas con el borde del disco en la proyección coronal. Tres de ellas parten de la normal del plano y las otras dos miden directamente el borde proyectado. Las comparaciones se realizaron con discos sintéticos, más de mil discos reales rotados y las máscaras de SPIDER.
+
+Entre las fórmulas que parten de la normal, la que utiliza el eje lateral proyectado, expresada como
+
+$$\arctan\left(\frac{n_x n_z}{1-n_x^2}\right),$$
+
+fue la que más se aproximó a la inclinación del borde proyectado y presentó mayor reproducibilidad entre segmentaciones. Su ventaja frente a la alternativa basada en $\arcsin(n_x)$ fue pequeña, por lo que no debe interpretarse como una superioridad concluyente. Las dos formas que miden directamente el borde se acercaron más a la referencia en el banco de pruebas, pero solo porque miden lo mismo que ella, y en datos reales resultaron mucho más ruidosas.
+
+Esta fórmula se adopta como la principal del proyecto a partir del cuaderno 08, mientras que $\arctan(n_x/n_z)$, correspondiente al método publicado, se conserva para comparar los resultados. Es importante señalar que el uso del eje lateral proyectado es una propuesta metodológica de este proyecto y todavía no ha sido validado frente a mediciones clínicas.
+
+### 9. Incorporación de dos conjuntos externos: RSNA LumbarDISC y Mendeley (cuaderno 08)
+
+Una vez terminada la validación inicial con SPIDER, el siguiente paso fue comprobar el comportamiento del procedimiento en conjuntos de datos independientes. Para ello, el cuaderno 08 incorpora dos bases públicas de resonancias magnéticas lumbares sagitales de rutina.
+
+La primera es **RSNA LumbarDISC**, perteneciente a la competición *RSNA 2024 Lumbar Spine Degenerative Classification*. El conjunto de entrenamiento reúne 1975 estudios, procedentes originalmente de ocho instituciones de seis países, e incluye puntos anatómicos marcados por anotadores en los niveles comprendidos entre L1-L2 y L5-S1. Sin embargo, las cabeceras disponibles no conservan información como la institución de origen, el fabricante y modelo del escáner, el sexo o la edad del paciente. Esta limitación debe tenerse en cuenta al interpretar los resultados.
+
+El segundo conjunto es **Lumbar Spine MRI Dataset**, publicado en Mendeley Data, con 515 pacientes adquiridos en un único escáner Siemens de 1,5 T. También se incorporaron las notas de los radiólogos asociadas a los estudios, que permiten disponer de información clínica descriptiva en texto libre, aunque no proporcionan una medición angular de referencia.
+
+El cuaderno lee las cabeceras DICOM, caracteriza las series disponibles, convierte las imágenes sagitales a formato NIfTI y comprueba cada conversión. Posteriormente, selecciona una secuencia T1 y una T2 sagital por estudio, que se utilizan como entrada para la segmentación automática realizada en Kaggle.
+
+Las condiciones de uso de ambos conjuntos son diferentes. RSNA restringe la utilización de sus datos a los términos de la competición, que incluyen el uso no comercial y la prohibición de compartir o redistribuir cualquier parte de los datos. Por esta razón, el repositorio únicamente conserva resultados agregados, mientras que las tablas detalladas por estudio, serie y punto anatómico permanecen en una carpeta privada.
+
+Mendeley, por su parte, publica los datos bajo licencia CC BY 4.0, por lo que sus tablas por serie pueden incluirse en el repositorio, respetando la atribución correspondiente.
+
+### 10. Segmentación externa, revisión técnica y preparación del análisis (cuaderno 09)
+
+Una vez seleccionadas las imágenes del cuaderno 08, se realizó su segmentación automática mediante TotalSpineSeg en Kaggle, utilizando la misma versión del programa y los mismos pesos empleados en el cuaderno 05. Para las imágenes de RSNA, el procesamiento recupera directamente de las cabeceras DICOM la información de espaciado, origen y orientación necesaria para conservar correctamente la geometría de las imágenes.
+
+El cuaderno 09 se dedicó exclusivamente a revisar las máscaras obtenidas. A propósito, todavía no calcula ningún ángulo coronal, ya que primero era necesario comprobar que las segmentaciones fueran técnicamente utilizables y que la identificación de los discos fuera coherente.
+
+Para ello, las máscaras se adaptaron a la convención de numeración de SPIDER, se aplicaron marcas de calidad y se contrastó la identificación de los discos con los puntos anatómicos disponibles en RSNA y con la otra secuencia del mismo estudio. También se describieron las características de adquisición y la muestra que finalmente quedó disponible para el análisis.
+
+La revisión permitió comprobar que entre el 89,9 % y el 95,3 % de las máscaras cumplían los criterios de utilización. Además, la numeración lumbar presentó una concordancia muy alta entre T1 y T2, con valores del 98,7 % al 99,2 % de los estudios. Las dos secuencias también mostraron un comportamiento muy similar en las medidas técnicas evaluadas.
+
+En Mendeley se encontró un problema adicional durante la selección de las imágenes. En 21 estudios, la serie inicialmente elegida en el cuaderno 08 correspondía a una resonancia cervical, a pesar de presentar una descripción similar a la de las series lumbares. Se revisaron los casos y se sustituyeron 37 de las 38 series afectadas por la correspondiente serie lumbar del mismo estudio.
+
+La secuencia principal del análisis siguiente se eligió con una regla fijada el 30 de octubre de 2026, antes de comparar las dos secuencias: la T2 solo pasaría a ser la principal si resultaba claramente mejor en al menos dos de tres medidas técnicas y no peor en la tercera. La T2 fue claramente mejor solo en una, la coincidencia con los niveles marcados en RSNA. Los datos sugieren que esa ventaja depende sobre todo del tipo de punto que se marca en cada secuencia (forámenes en la T1, canal en la T2), porque con los mismos puntos de la T2 las máscaras de ambas secuencias coinciden de forma muy parecida; esa comparación es descriptiva y se confirmará en el cuaderno 10 como análisis exploratorio. Por eso T1 quedó como secuencia principal y la T2 se analizará completa como corroboración. Que no haya una diferencia clara en estas medidas técnicas no demuestra que las dos secuencias sean equivalentes; el acuerdo T1–T2 del ángulo, que es el análisis principal del cuaderno 10, es el que lo evaluará.
+
+El cuaderno 09, por tanto, cierra la etapa de preparación y control de calidad de los datos externos. El cálculo de los ángulos se reservó para el cuaderno 10, evitando que los resultados influyeran en las decisiones sobre la selección de imágenes, los criterios de calidad o la secuencia principal.
+
 ## Hallazgos preliminares
 
-Los resultados de esta etapa son descriptivos y exploratorios. SPIDER no proporciona mediciones de referencia del ángulo de Cobb realizadas por observadores humanos, por lo que no es posible estimar la exactitud del algoritmo frente a una referencia clínica. Tampoco se aplica un umbral para clasificar las series como escolióticas o no escolióticas. El objetivo es caracterizar el comportamiento del algoritmo y explorar qué factores pueden influir en sus resultados.
+Los resultados de esta etapa son descriptivos y exploratorios. Ninguno de los conjuntos usados (SPIDER, RSNA LumbarDISC ni Mendeley) proporciona mediciones de referencia del ángulo de Cobb realizadas por observadores humanos, por lo que no es posible estimar la exactitud del algoritmo frente a una referencia clínica. Tampoco se aplica un umbral para clasificar las series como escolióticas o no escolióticas. El objetivo es caracterizar el comportamiento del algoritmo y explorar qué factores pueden influir en sus resultados.
 
 ### 1. La cara inferior del disco más caudal influye en muchas series, aunque el caso extremo sigue siendo excepcional
 La cara inferior del disco 201 el disco más caudal de la máscara, probablemente correspondiente a L5–S1, aunque la etiqueta no permite establecer esa equivalencia anatómica por sí sola forma parte del par seleccionado por el script en 141 de las 340 máscaras únicas (41,5 %). La proporción es similar en las secuencias T1, T2 y T2 SPACE.
@@ -151,7 +205,7 @@ Cuando cambia el número de discos disponibles, también cambia el conjunto de p
 
 Este caso ilustra que la cobertura anatómica representada en la máscara es otro factor que debe considerarse al comparar los resultados entre adquisiciones.
 
-**Actualización de la tercera semana.** El cuaderno 05 confirmó que la máscara parcial de 35_t2 se debe al campo de visión de la serie y no a una segmentación incompleta, en los resultados obtenido se observó que la T1 y la T2 cubren casi la misma longitud (unos 299 mm), pero el campo de la T2 está desplazado unos 158 mm hacia caudal, y los dos segmentadores automáticos también encuentran solo tres discos en ella.
+**Actualización de la tercera semana.** El cuaderno 05 confirmó que la máscara parcial de 35_t2 se debe al campo de visión de la serie y no a una segmentación incompleta, en los resultados obtenidos se observó que la T1 y la T2 cubren casi la misma longitud (unos 299 mm), pero el campo de la T2 está desplazado unos 158 mm hacia caudal, y los dos segmentadores automáticos también encuentran solo tres discos en ella.
 
 ### 7. La segmentación automática suele cambiar poco el ángulo, pero puede presentar errores importantes
 
@@ -193,15 +247,55 @@ La primera versión del método basado en platillos aceptaba cualquier superfici
 
 Un ejemplo fue el estudio 53_t1, donde la etiqueta de la vértebra 1 rodeaba al disco 201. Como consecuencia, el plano ajustado combinaba dos superficies distintas y producía un ángulo de 18,1°, frente a los 1,8° obtenidos con la regla del artículo.
 
-Para corregirlo, se incorporó una condición adicional la cual consistia que el platillo seleccionado debía estar en contacto con el disco correspondiente. Con este cambio, el ángulo disminuyó en promedio 1,25° por máscara (IC del 95 %: 0,98°–1,54°).
+Para corregirlo, se incorporó una condición adicional que consistia en que el platillo seleccionado debía estar en contacto con el disco correspondiente. Con este cambio, el ángulo disminuyó en promedio 1,25° por máscara (IC del 95 %: 0,98°–1,54°).
 
 La simulación incluida en el cuaderno 06 ayuda a explicar este comportamiento. Cuando aumenta el ruido en los planos, también aumenta la posibilidad de que el mayor ángulo observado sea artificialmente elevado, incluso si los planos individuales no presentan un sesgo sistemático. Con un ruido de 1,5° en cada cara, el máximo aumenta en promedio 1,42°, muy cerca del sesgo de 1,5° que tenía la primera versión frente a la regla del artículo. Por tanto, seleccionar el máximo entre varios pares puede amplificar pequeñas imprecisiones geométricas.
 
 Se conservaron los resultados de ambas versiones para dejar constancia del problema identificado, la corrección aplicada y su efecto sobre las mediciones. La primera corrida está en `salidas/resultados_semana3/06_cobb_por_platillos/version_sin_contacto/`.
 
+### 11. La diferencia entre el script y el artículo se debe a la convención de numeración de las etiquetas
+
+Al ejecutar el script sin modificaciones sobre las máscaras de SPIDER, se obtiene una sobreestimación media de 0,39° frente a la regla de emparejamiento descrita en el artículo. La diferencia supera los 2° en 40 máscaras y los 5° en cuatro casos, entre ellos los dos correspondientes al estudio 162.
+
+También se comprobó que eliminar la cara inferior del disco 201, como se había propuesto en la variante A, no resuelve correctamente el problema, sino que introduce una corrección excesiva al descartar también la cara que debería conservarse. La solución adecuada es utilizar el emparejamiento previsto por los autores, respetando la convención de numeración con la que se desarrolló el algoritmo.
+
+Al aplicar esta regla, el efecto del grosor de corte se mantiene prácticamente igual al observado en los análisis anteriores, con una reducción mediana de unos 0,25° para 3,3 mm y 0,38° para 4,4 mm. También se comprobó que el ángulo se conserva mientras la máscara contiene al menos seis discos. Esto permite mantener las conclusiones previas sobre el efecto del grosor de corte sin que el problema de numeración altere su interpretación.
+
+### 12. RSNA no permite estudiar las diferencias entre instituciones o escáneres
+
+La anonimización de RSNA eliminó de las cabeceras DICOM información sobre la institución de procedencia, el fabricante y modelo del escáner, el campo magnético, el sexo y la edad de los pacientes. Aunque el conjunto original reúne estudios de ocho instituciones, no es posible identificar a cuál pertenece cada imagen.
+
+Por esta razón, el cambio de dominio no puede analizarse directamente según el hospital o el equipo utilizado. La comparación debe centrarse en las características que todavía pueden recuperarse de las imágenes, como el grosor de corte, el tamaño del píxel, la cobertura lateral y las combinaciones de parámetros de adquisición. Estas variables permiten describir diferencias técnicas entre los estudios, pero no deben interpretarse como sustitutos de la institución o del escáner de origen.
+
+Mendeley conserva información sobre sexo y edad, lo que permite una caracterización demográfica más completa. Sin embargo, todos sus estudios proceden de un único escáner. Además, las notas de los radiólogos mencionan escoliosis en solamente cinco pacientes y ninguna proporciona un ángulo de Cobb de referencia. Por tanto, esta información sirve como contexto descriptivo, pero no permite evaluar la exactitud diagnóstica del procedimiento.
+
+### 13. Las máscaras externas son mayoritariamente utilizables y presentan una numeración consistente
+
+La revisión de las segmentaciones mostró que los cinco discos lumbares están presentes en entre el 98,4 % y el 99,9 % de las máscaras. Asimismo, la proporción de máscaras sin ninguna marca de calidad es elevada en ambos conjuntos. En Mendeley alcanza el 95,3 % en T1 y el 94,2 % en T2, mientras que en RSNA corresponde al 89,9 % y al 90,2 %, respectivamente.
+
+La marca de calidad más frecuente corresponde a un disco lumbar que alcanza el borde del campo de visión. Este hallazgo está relacionado principalmente con la cobertura lateral de las imágenes. En RSNA, aparece aproximadamente en la mitad de las series cuya cobertura está entre 50 y 60 mm, pero en menos del 2 % de aquellas con una cobertura superior a 80 mm. Esto refuerza la importancia de considerar las características de adquisición al interpretar la calidad de las segmentaciones.
+
+La numeración de los discos también mostró una concordancia muy alta entre las dos secuencias de un mismo estudio. T1 y T2 asignan la misma numeración lumbar en el 99,2 % de los estudios de Mendeley y el 98,7 % de los de RSNA.
+
+Al contrastar las máscaras con los puntos anatómicos de RSNA, los cinco niveles coinciden en el 89,0 % de los estudios al utilizar los puntos de T1 y en el 97,1 % al utilizar los de T2/STIR. Los datos sugieren que esta diferencia depende sobre todo del tipo de referencia anatómica empleado en cada secuencia, ya que en T1 se marcan los forámenes y en T2 el canal espinal: cuando se utilizan los mismos puntos de T2, la máscara T1 coincide en el 96,4 % de los estudios, frente al 97,1 % de la máscara T2. Esta comparación es descriptiva y se confirmará en el cuaderno 10 como análisis exploratorio.
+
+Por último, se identificaron casos con una sexta vértebra lumbar en menos del 1 % de las máscaras. Ninguna de esas máscaras coincidió con RSNA en los cinco niveles. Aunque son situaciones poco frecuentes, muestran que las variantes anatómicas pueden afectar la correspondencia entre la numeración automática y las referencias anatómicas disponibles.
+
+### 14. T1 y T2 presentan un comportamiento técnico muy similar
+
+La comparación entre secuencias mostró que T1 y T2 tienen un comportamiento muy similar en las principales medidas técnicas evaluadas. La T2 obtuvo una mejor coincidencia con los niveles anatómicos de RSNA, aunque esta diferencia parece depender sobre todo del tipo de punto utilizado como referencia y no necesariamente de una mejor segmentación.
+
+En cuanto a la orientación de las caras de disco frente a las máscaras manuales de SPIDER, las diferencias fueron pequeñas: la mediana del error fue de 0,83° en T1 y 0,79° en T2. Tampoco se encontraron diferencias claras en la proporción de máscaras que cumplían los criterios de utilización.
+
+La regla de selección, definida antes de comparar las secuencias, establecía que T2 solo pasaría a ser la principal si resultaba claramente mejor en al menos dos de las tres medidas. Como solo lo fue en una, T1 se estableció como la secuencia principal del cuaderno 10, mientras que T2 se analizará completa para corroborar los resultados. 
+
+Es importante precisar que la ausencia de diferencias claras en estas medidas no demuestra que ambas secuencias sean equivalentes. Simplemente indica que, con los criterios técnicos evaluados, no se encontró una ventaja suficientemente marcada que justificara cambiar la secuencia principal a T2.
+
+Finalmente, 478 estudios de Mendeley y 1738 de RSNA tienen las dos máscaras utilizables según las marcas de calidad del cuaderno 09. El cuaderno 10 analizará todos los estudios con ángulo en ambas secuencias y repetirá los resultados sin los estudios marcados, incluidas las marcas que solo pueden evaluarse con el ángulo, como la inclinación sagital de las caras del par elegido.
+
 ### Respuesta de los autores del algoritmo original
 
-Esta semana también llegó la respuesta a las dudas sobre la implementación publicada que se plantearon en el issue DIAGNijmegen/cobb-angle-algorithm#1. Las respondió Jasper van der Graaf el autor del articulo de referencia.
+En la tercera semana llegó la primera respuesta a las dudas sobre la implementación publicada que se plantearon en el issue DIAGNijmegen/cobb-angle-algorithm#1. Las respondió Jasper van der Graaf, autor del artículo de referencia; su segunda respuesta, sobre la numeración de las etiquetas, se resume en la sección 8.
 
 Según su respuesta, el código publicado corresponde al utilizado en el artículo. La opción largest_angle=False estaba destinada a un análisis de consenso cuyos datos no llegaron a publicarse. Tampoco fue posible confirmar qué versión de Tiger se utilizó originalmente, dado que el código data de 2022.
 
@@ -217,34 +311,44 @@ Este aspecto queda fuera del análisis de la segunda semana, cuyo objetivo es es
 
 Los resultados y archivos necesarios para explorar esta cuestión están disponibles en `salidas/resultados_semana2/03_disco_caudal_y_variantes/`. Cualquier comentario, sugerencia o contribución para continuar este análisis es bienvenido en los issues del repositorio.
 
+**Actualización de la cuarta semana.** El cuaderno 07 retomó esta pregunta. Su análisis permitió descartar que el corte por el campo de visión fuera una explicación general, ya que, al aplicar la regla del artículo, solo en dos máscaras el par elegido incluye un disco cortado. Sin embargo, los datos sugieren otra posibilidad: en las curvas de mayor magnitud, la vértebra límite craneal podría encontrarse justo en el borde del campo de visión o incluso quedar fuera de él. En ese escenario, el ángulo lumbar calculado podría ser menor que el correspondiente a la curva completa. Esta hipótesis es compatible con los resultados, pero SPIDER no dispone de información suficiente para comprobarla.
+
 Los detalles metodológicos, las figuras y la interpretación de cada experimento se encuentran en los cuadernos de `notebooks/`; las tablas de resultados están disponibles en `salidas/`.
 
 ## Revisión de alcance (línea paralela de la etapa 1)
 
 Protocolo registrado en OSF el 12-oct-2026: *Automated and semi-automated measurement of coronal spinal curvature and detection of scoliosis on MRI and CT in adults: a scoping review protocol*. doi:[10.17605/OSF.IO/WXQ5G](https://doi.org/10.17605/OSF.IO/WXQ5G) · proyecto [osf.io/5pm9q](https://osf.io/5pm9q). Pregunta, criterios PCC y búsqueda de registros existentes en [`docs/revision_alcance/`](docs/revision_alcance/).
 
+## Preregistro del análisis del cuaderno 10
+
+Antes de calcular cualquier ángulo en RSNA o Mendeley, el 31 de octubre de 2026 se registró públicamente en OSF el plan de análisis del cuaderno 10, titulado *Measurement properties of an automated lumbar coronal angle estimated on routine sagittal MRI in two external datasets (RSNA LumbarDISC and Mendeley Lumbar Spine MRI): preregistered analysis plan*.
+
+El registro está disponible en OSF, DOI: [10.17605/OSF.IO/KP5DU](https://doi.org/10.17605/OSF.IO/KP5DU). La versión del documento utilizada también se conserva en [`salidas/resultados_semana4/09_segmentacion_externa/plan_analisis_cuaderno_10.md`](salidas/resultados_semana4/09_segmentacion_externa/plan_analisis_cuaderno_10.md), con SHA-256 `14548723494df98ce3fa0e78135a7c7dbe1317e985dadbdee97943f3e35f970b`.
+
+El estudio está planteado como una evaluación de propiedades de medición, no como una validación de exactitud diagnóstica. Ninguno de los dos conjuntos dispone de un ángulo de referencia con el que pueda establecerse la exactitud de la medición automática. Por tanto, los resultados permitirán estudiar el comportamiento, la consistencia y la reproducibilidad del procedimiento en datos externos, pero no demostrar su capacidad para diagnosticar escoliosis. Cualquier modificación posterior respecto al plan registrado se documentará como una desviación del protocolo.
+
 ## Cómo ejecutar
 
-Los datos de SPIDER **no** no están incluidos en este repositorio ni se descargan automáticamente desde los cuadernos. Antes de empezar, es necesario descargar el conjunto de datos desde Zenodo (DOI: 10.5281/zenodo.10159290, versión v4) y guardarlo en Google Drive, respetando la estructura de carpetas indicada en la primera celda de cada cuaderno.
+Ningún conjunto de datos está incluido en este repositorio ni se descarga automáticamente desde los cuadernos. Antes de empezar hay que descargarlos y guardarlos en Google Drive, respetando la estructura de carpetas que indica la tabla "Antes de ejecutar" de cada cuaderno. SPIDER se descarga desde Zenodo (DOI: 10.5281/zenodo.10159290, versión v4) y lo usan todos los cuadernos. Los cuadernos 08 y 09 necesitan además los dos conjuntos externos: RSNA LumbarDISC, que se descarga con la API de Kaggle después de aceptar las reglas de la competición y cuyo uso está limitado a fines no comerciales y sin redistribución, y el Lumbar Spine MRI Dataset de Mendeley, con sus imágenes y las notas de los radiólogos, que se descarga de Mendeley Data.
 
-Una vez configurado el acceso a los archivos, se puede abrir cada cuaderno en Google Colab y ejecutar Entorno de ejecución → Reiniciar y ejecutar todo. Los cuadernos verifican las sumas MD5 de los datos y la huella SHA-256 del script antes de utilizarlos, lo que permite comprobar que los archivos corresponden a las versiones previstas.
+Una vez configurado el acceso a los archivos, cada cuaderno se abre en Google Colab y se ejecuta con Entorno de ejecución → Reiniciar y ejecutar todo. Los cuadernos verifican las sumas MD5 de los datos y la huella SHA-256 del script y de los pesos de los segmentadores antes de usarlos, lo que permite comprobar que los archivos corresponden a las versiones previstas.
 
-Los cuadernos deben ejecutarse en orden, ya que los posteriores utilizan resultados generados por los anteriores. En particular, el cuaderno 04 necesita el inventario del 01 y la tabla de variantes del 03. Los cuadernos 05 y 06 también requieren el inventario del 01, los planos y la tabla de variantes del 03.
+Los cuadernos deben ejecutarse en orden, porque los posteriores usan resultados de los anteriores. El 04 necesita el inventario del 01 y la tabla de variantes del 03; el 05 y el 06 necesitan además los planos del 03; el 07 reúne los resultados de los cuadernos 01 a 06 y no necesita datos nuevos; el 08 usa el inventario del 01 para comparar los conjuntos externos con SPIDER, y el 09 parte de la selección del 08, de las máscaras generadas en Kaggle y de los planos de los cuadernos 03 y 05.
 
-En las pruebas realizadas con Colab gratuito, los tiempos aproximados de ejecución fueron los siguientes:
+En las pruebas realizadas con Colab gratuito, los tiempos aproximados fueron los siguientes:
 
 - Cuaderno 02: una hora y media.
 - Cuaderno 03: dos horas.
 - Cuaderno 04: tres horas.
 - Cuaderno 06: 40 minutos.
+- Cuaderno 08: unos 8 minutos para leer las cabeceras de RSNA y algo menos de dos horas para convertir sus series a NIfTI.
+- Cuaderno 09: unos 40 minutos para recorrer las máscaras.
 
-Los cuadernos guardan los resultados a medida que completan cada etapa y permiten continuar a partir de los resultados existentes si la sesión de Colab se interrumpe. Los tiempos indicados son orientativos y pueden variar según los recursos disponibles y las condiciones de ejecución.
+Los tiempos son orientativos y pueden variar según los recursos disponibles. Los cuadernos guardan los resultados a medida que completan cada etapa, así que, si la sesión de Colab se interrumpe, pueden continuar desde lo que ya quedó guardado.
 
-El cuaderno 05 requiere consideraciones adicionales. Además de las máscaras manuales, necesita las 447 imágenes de SPIDER para generar las segmentaciones automáticas. Esta etapa requiere GPU y puede distribuirse en varias sesiones. En las pruebas, el procesamiento tomó entre 2 y 13 minutos por serie con SPIDER-Baseline-IIS y entre 1 y 2 minutos con TotalSpineSeg.
+Solo la segmentación automática necesita GPU, y en los dos casos se separa del resto del análisis. En el cuaderno 05, que necesita también las 447 imágenes de SPIDER, el procesamiento tomó entre 2 y 13 minutos por serie con SPIDER-Baseline-IIS y entre 1 y 2 minutos con TotalSpineSeg; para no ejecutarlo por accidente, sus celdas solo se activan al establecer `CORRER_SEGMENTACION = True`. Las series de RSNA y Mendeley se segmentan en Kaggle con los cuadernos de `notebooks/kaggle/`, con dos GPU T4 y entre 24 y 27 segundos por serie en cada GPU. Una vez guardadas las máscaras en Google Drive, el resto de los cuadernos corre sin GPU.
 
-Para evitar ejecutar este proceso por accidente, las celdas de segmentación solo se activan al establecer CORRER_SEGMENTACION = True. Una vez generadas y guardadas las máscaras automáticas en Google Drive, el resto del cuaderno puede ejecutarse sin GPU.
-
-Las máscaras automáticas no se incluyen en el repositorio porque pueden generarse nuevamente a partir de los datos originales y del cuaderno correspondiente.
+Las máscaras automáticas no se incluyen en el repositorio porque pueden generarse de nuevo a partir de los datos originales y de los cuadernos correspondientes.
 
 ## Datos, código y trabajos de referencia
 
@@ -255,25 +359,29 @@ Las máscaras automáticas no se incluyen en el repositorio porque pueden genera
 - Segmentador TotalSpineSeg: neuropoly/totalspineseg (LGPL-3.0), versión `20260807` con los pesos `r20260730`; basado en nnU-Net (Isensee F et al. Nat Methods 2021;18:203-211).
 - Método de Cobb: Cobb JR. Outline for the study of scoliosis. Instr Course Lect 1948;5:261-275.
 - Versiones exactas de todo el código y los datos usados: [`docs/fuentes_externas.md`](docs/fuentes_externas.md).
+- RSNA LumbarDISC: competición [RSNA 2024 Lumbar Spine Degenerative Classification](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification) en Kaggle; descripción del conjunto en [arXiv:2506.09162](https://arxiv.org/abs/2506.09162). Uso no comercial y sin redistribución: el repositorio solo contiene resúmenes agregados.
+- Lumbar Spine MRI Dataset: Sudirman S *et al.*, Mendeley Data, v2. doi:[10.17632/k57fr854j2.2](https://doi.org/10.17632/k57fr854j2.2). Notas de los radiólogos: doi:[10.17632/s6bgczr8s2.2](https://doi.org/10.17632/s6bgczr8s2.2) (CC BY 4.0).
 
 ## Cómo citar
 
-Nossa Díaz, E. F. (2026). *Cobb coronal en RM lumbar sagital: reproducción abierta y prueba de robustez* (versión v0.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23410109
+Nossa Díaz, E. F. (2026). *Cobb coronal en RM lumbar sagital: reproducción abierta y prueba de robustez* (versión v0.0.4) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23748362
 
 Para citar el proyecto en general (todas las versiones), usa el concept DOI [10.5281/zenodo.23410108](https://doi.org/10.5281/zenodo.23410108). También puedes usar `CITATION.cff` o el botón *Cite this repository* de GitHub. Cada versión publicada recibe su propio DOI en Zenodo.
 
 ## Licencia
 
-Código bajo [Apache-2.0](LICENSE). Los datos de SPIDER conservan su licencia CC-BY 4.0 y deben citarse según lo indican sus autores.
+El código se distribuye bajo [Apache-2.0](LICENSE). Los datos de SPIDER y Mendeley conservan sus respectivas condiciones de uso y deben citarse según las indicaciones de sus autores. En el caso de RSNA, el repositorio no contiene imágenes ni tablas individuales de los estudios, sino únicamente resultados agregados, de acuerdo con las restricciones de la competición.
 
 ---
 
 ## English summary
 
-Research-only, open and independent reproduction of automated coronal Cobb angle measurement on routine sagittal lumbar MRI (van der Graaf et al., Eur Radiol 2024), using the public SPIDER dataset, plus a robustness analysis across slice thickness, sequence (T1/T2) and acquisition site. **Not a medical device; not for diagnosis.**
+Research-only, open and independent reproduction of automated coronal Cobb angle measurement on routine sagittal lumbar MRI (van der Graaf et al., Eur Radiol 2024), using public datasets (SPIDER and, since week 4, RSNA LumbarDISC and the Mendeley Lumbar Spine MRI Dataset)”, plus a robustness analysis across slice thickness, sequence (T1/T2) and acquisition site. **Not a medical device; not for diagnosis.**
 
 Week 1: a verified inventory of SPIDER (counts match the Sci Data paper; age is available for only 41 of 218 patients; no hospital column, so site is approximated by scanner), and a pinned, checksum-verified run of the published script (commit `72c712f`) on all 447 masks, plus visual and interactive notebook cells to inspect which disc planes drive each angle. Preliminary, descriptive findings: (1) in some cases the maximum angle is driven by the lower face of the most caudal disc when it is strongly tilted in the sagittal plane (study 162: 34.6°–36.9° vs. 1.8°–2.4° with another disc pair); (2) 107 of 190 T1/T2 pairs share byte-identical masks; (3) mask coverage changes the result (study 35). Questions were sent to the authors in [DIAGNijmegen/cobb-angle-algorithm#1](https://github.com/DIAGNijmegen/cobb-angle-algorithm/issues/1). A parallel scoping review is registered on OSF (doi:[10.17605/OSF.IO/WXQ5G](https://doi.org/10.17605/OSF.IO/WXQ5G)).
 
 Week 2, all descriptive (SPIDER has no reference Cobb angle): (1) the lower face of the most caudal disc (label 201) is part of the selected pair in 141 of 340 unique masks (41.5%); removing it lowers the angle by a median of 1.44°, with study 162 as the extreme case (36.87° to 11.59°). (2) The script's formula, arctan(n<sub>x</sub>/n<sub>z</sub>), relates exactly to arcsin(n<sub>x</sub>) through the face's sagittal tilt and inflates that face's tangent by about 20%, but the selected faces also carry more true lateral tilt. (3) Simulating 3.3 and 4.4 mm slices on the 41 high-resolution masks lowers the angle by a median of 0.22° and 0.40° (about 3–5%, proportional to the angle, maximum 2.94°). (4) Between the T2 SPACE and the standard series of the same patient, limits of agreement are about ±3°; slice thickness explains the median bias but little of the spread. Questions and results were shared with the authors in DIAGNijmegen/cobb-angle-algorithm#1. A parallel scoping review is registered on OSF (doi:10.17605/OSF.IO/WXQ5G).
 
 Week 3, also descriptive: (1) Automatic masks from two public segmenters (SPIDER-Baseline-IIS and TotalSpineSeg, both used as published; no model was trained here) usually change the angle little compared with the manual masks (half of the differences under 0.44° with SPIDER-Baseline-IIS and 0.61° with TotalSpineSeg; limits of agreement about ±2.2° for TotalSpineSeg), but failures can be severe: SPIDER-Baseline-IIS skipped discs in some series and in one case gave 73.2° instead of 7.1°. Both segmenters were trained on SPIDER, so these are optimistic bounds. (2) The disc pair that defines the angle is much less stable than the angle itself: in three out of four masks several pairs lie within 1° of the maximum. (3) An exploratory endplate-based Cobb angle, requiring each endplate to touch its disc, stays within −1.7° to 2.2° of the article's disc-face rule and is as reproducible between T1 and T2; since endplate and disc face are two sides of the same interface, this agreement is partly expected. The large angle of study 162 persists on the endplates; the extra degrees of the script's rule come from the disc face that touches the sacrum. A first version of the endplate method failed on some masks and was corrected; the correction lowered the endplate angle by 1.25° on average, and both runs are kept. The authors answered the questions in DIAGNijmegen/cobb-angle-algorithm#1: among other points, identical T1/T2 masks come from reusing the best corrected segmentation for both sequences.
+
+Week 4: (1) Notebook 07 closes the open questions of notebooks 01–06. The mismatch between the script and the article is a label-order convention (SPIDER numbers discs bottom-up, SPIDER-Baseline-IIS top-down); run unchanged on SPIDER, the script inflates the angle by 0.39° on average, so the article's pairing rule is now the project's reference. Among the formulas based on the face normal, the projected lateral axis is closest to the projected disc edge and the most reproducible (two direct-projection candidates were closer on the test bench but much noisier on real data); it becomes the primary formula (a proposal of this project, not validated clinically), with arctan(n<sub>x</sub>/n<sub>z</sub>) reported alongside. (2) Notebook 08 adds two public external datasets, RSNA LumbarDISC (1,975 studies, eight institutions, but headers stripped of institution, scanner, sex and age) and the Mendeley Lumbar Spine MRI Dataset (515 patients, one scanner, five radiology reports mentioning scoliosis, none with an angle). Only aggregated RSNA results are published. (3) Notebook 09 reviews the TotalSpineSeg masks without computing any coronal angle: 89.9–95.3% of masks are usable, lumbar numbering agrees between T1 and T2 in 98.7–99.2% of studies, T1 and T2 behave very similarly on technical measures, so T1 was chosen as the primary sequence by a pre-specified rule. (4) The analysis plan for notebook 10 was preregistered on OSF before looking at any angle: doi:[10.17605/OSF.IO/KP5DU](https://doi.org/10.17605/OSF.IO/KP5DU).
