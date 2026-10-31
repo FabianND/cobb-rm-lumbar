@@ -6,7 +6,10 @@ abstract: >-
   angle measurement on routine sagittal lumbar MRI, using the public SPIDER
   dataset, with a robustness analysis across slice thickness, sequence and
   acquisition site, automatic segmentation and an exploratory endplate-based
-  measurement. Not a medical device; not for diagnosis.
+  measurement. Since version 0.0.4 it adds two public external datasets
+  (RSNA LumbarDISC and the Mendeley Lumbar Spine MRI Dataset), a technical
+  review of their automatic segmentations and a preregistered analysis plan
+  for the external measurement study. Not a medical device; not for diagnosis.
 type: software
 authors:
   - family-names: "Nossa Díaz"
@@ -15,8 +18,8 @@ authors:
     affiliation: "Escuela Colombiana de Ingeniería Julio Garavito; Universidad del Rosario"
 license: Apache-2.0
 repository-code: "https://github.com/FabianND/cobb-rm-lumbar"
-version: "0.0.3"
-date-released: "2026-10-27"
+version: "0.0.4"
+date-released: "2026-10-31"
 doi: "10.5281/zenodo.23410108"
 identifiers:
   - type: doi
@@ -28,12 +31,18 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23491212"
     description: "DOI de la versión v0.0.2"
+  - type: doi
+    value: "10.5281/zenodo.23748362"
+    description: "DOI de la versión v0.0.3"
 keywords:
   - scoliosis
   - Cobb angle
   - lumbar MRI
   - reproducibility
   - SPIDER dataset
+  - RSNA LumbarDISC
+  - Mendeley Lumbar Spine MRI Dataset
+  - preregistration
 references:
   - type: article
     title: "Development and validation of AI-based automatic measurement of coronal Cobb angles in degenerative scoliosis using sagittal lumbar MRI"
@@ -133,3 +142,41 @@ references:
     year: 2026
     doi: "10.17605/OSF.IO/WXQ5G"
     url: "https://osf.io/5pm9q"
+  - type: data
+    title: "RSNA 2024 Lumbar Spine Degenerative Classification (RSNA LumbarDISC)"
+    authors:
+      - name: "Radiological Society of North America (RSNA)"
+    year: 2024
+    url: "https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification"
+    notes: "Competition data; non-commercial use, no redistribution. Dataset description: Richards TJ et al., arXiv:2506.09162 (2025)."
+  - type: data
+    title: "Lumbar Spine MRI Dataset"
+    authors:
+      - family-names: "Sudirman"
+        given-names: "Sud"
+      - family-names: "Al Kafri"
+        given-names: "Ala"
+      - family-names: "Natalia"
+        given-names: "Friska"
+      - family-names: "Meidia"
+        given-names: "Hira"
+      - family-names: "Afriliana"
+        given-names: "Nunik"
+      - family-names: "Al-Rashdan"
+        given-names: "Wasfi"
+      - family-names: "Bashtawi"
+        given-names: "Mohammad"
+      - family-names: "Al-Jumaily"
+        given-names: "Mohammed"
+    year: 2019
+    version: "2"
+    doi: "10.17632/k57fr854j2.2"
+    license: CC-BY-4.0
+  - type: report
+    title: "Measurement properties of an automated lumbar coronal angle estimated on routine sagittal MRI in two external datasets (RSNA LumbarDISC and Mendeley Lumbar Spine MRI): preregistered analysis plan"
+    authors:
+      - family-names: "Nossa Díaz"
+        given-names: "Edwar Fabian"
+        orcid: "https://orcid.org/0009-0002-1941-0985"
+    year: 2026
+    doi: "10.17605/OSF.IO/KP5DU"
