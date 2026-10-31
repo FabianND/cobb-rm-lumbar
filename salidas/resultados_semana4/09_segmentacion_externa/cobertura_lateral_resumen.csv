@@ -1,0 +1,12 @@
+conjunto,tramo_cobertura_mm,mascaras,ancho_disco_mediana_mm,disco_toca_lateral_pct
+mendeley,50–60,4,48.0,100.0
+mendeley,60–70,73,50.8,6.8
+mendeley,70–80,944,52.8,3.7
+mendeley,80–90,1,59.4,100.0
+mendeley,≥90,2,48.8,0.0
+rsna,<50,11,46.2,100.0
+rsna,50–60,132,49.5,50.0
+rsna,60–70,914,50.6,24.2
+rsna,70–80,1445,52.0,4.8
+rsna,80–90,1127,53.8,0.5
+rsna,≥90,316,55.0,1.9

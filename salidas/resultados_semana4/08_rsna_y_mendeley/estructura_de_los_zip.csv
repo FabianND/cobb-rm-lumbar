@@ -1,0 +1,9 @@
+conjunto,primer_nivel,extension,archivos,bytes
+rsna,sample_submission.csv,csv,1,2545
+rsna,test_images,dcm,97,32000432
+rsna,test_series_descriptions.csv,csv,1,136
+rsna,train.csv,csv,1,568972
+rsna,train_images,dcm,147218,35301825858
+rsna,train_label_coordinates.csv,csv,1,4642067
+rsna,train_series_descriptions.csv,csv,1,213642
+mendeley,01_MRI_Data,ima,48345,13450027900

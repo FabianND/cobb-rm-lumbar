@@ -1,0 +1,448 @@
+serie,estudio,centro_proxy,hospital_inferido
+100_t1,100,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+100_t2,100,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+101_t1,101,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+101_t2,101,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+104_t1,104,otro: SIEMENS | Aera | 1.5 T,RH1
+104_t2,104,otro: SIEMENS | Aera | 1.5 T,RH1
+105_t1,105,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+105_t2,105,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+106_t1,106,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+106_t2,106,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+107_t1,107,UMC (inferido por SPACE),UMC
+107_t2,107,UMC (inferido por SPACE),UMC
+107_t2_SPACE,107,UMC (inferido por SPACE),UMC
+108_t1,108,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+108_t2,108,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+109_t1,109,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+109_t2,109,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+10_t1,10,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+10_t2,10,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+110_t1,110,UMC (inferido por SPACE),UMC
+110_t2,110,UMC (inferido por SPACE),UMC
+110_t2_SPACE,110,UMC (inferido por SPACE),UMC
+112_t1,112,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+112_t2,112,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+113_t1,113,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+113_t2,113,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+115_t1,115,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+115_t2,115,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+116_t1,116,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+116_t2,116,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+117_t1,117,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+117_t2,117,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+118_t1,118,UMC (inferido por SPACE),UMC
+118_t2,118,UMC (inferido por SPACE),UMC
+118_t2_SPACE,118,UMC (inferido por SPACE),UMC
+11_t1,11,UMC (inferido por SPACE),UMC
+11_t2,11,UMC (inferido por SPACE),UMC
+11_t2_SPACE,11,UMC (inferido por SPACE),UMC
+120_t2,120,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+121_t1,121,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+121_t2,121,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+122_t1,122,otro: SIEMENS | Aera | 1.5 T,RH1
+122_t2,122,otro: SIEMENS | Aera | 1.5 T,RH1
+123_t2,123,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+124_t2,124,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+125_t1,125,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+125_t2,125,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+126_t1,126,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+127_t1,127,UMC (inferido por SPACE),UMC
+127_t2,127,UMC (inferido por SPACE),UMC
+127_t2_SPACE,127,UMC (inferido por SPACE),UMC
+129_t1,129,UMC (inferido por SPACE),UMC
+129_t2,129,UMC (inferido por SPACE),UMC
+129_t2_SPACE,129,UMC (inferido por SPACE),UMC
+12_t1,12,otro: SIEMENS | Aera | 1.5 T,RH1
+12_t2,12,otro: SIEMENS | Aera | 1.5 T,RH1
+130_t1,130,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+130_t2,130,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+131_t1,131,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+131_t2,131,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+132_t1,132,otro: SIEMENS | Aera | 1.5 T,RH1
+133_t1,133,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+133_t2,133,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+134_t2,134,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+136_t1,136,UMC (inferido por SPACE),UMC
+136_t2,136,UMC (inferido por SPACE),UMC
+136_t2_SPACE,136,UMC (inferido por SPACE),UMC
+137_t1,137,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+137_t2,137,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+138_t1,138,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+138_t2,138,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+13_t1,13,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+13_t2,13,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+140_t1,140,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+140_t2,140,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+141_t2_SPACE,141,UMC (inferido por SPACE),UMC
+142_t1,142,UMC (inferido por SPACE),UMC
+142_t2,142,UMC (inferido por SPACE),UMC
+142_t2_SPACE,142,UMC (inferido por SPACE),UMC
+143_t1,143,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+143_t2,143,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+144_t1,144,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+144_t2,144,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+145_t1,145,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+145_t2,145,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+146_t1,146,UMC (inferido por SPACE),UMC
+146_t2,146,UMC (inferido por SPACE),UMC
+146_t2_SPACE,146,UMC (inferido por SPACE),UMC
+147_t2,147,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+149_t1,149,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+149_t2,149,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+151_t2,151,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+152_t1,152,UMC (inferido por SPACE),UMC
+152_t2,152,UMC (inferido por SPACE),UMC
+152_t2_SPACE,152,UMC (inferido por SPACE),UMC
+154_t1,154,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+154_t2,154,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+155_t1,155,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+155_t2,155,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+156_t1,156,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+156_t2,156,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+159_t2,159,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+15_t1,15,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+15_t2,15,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+160_t1,160,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+160_t2,160,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+161_t1,161,UMC (inferido por SPACE),UMC
+161_t2,161,UMC (inferido por SPACE),UMC
+161_t2_SPACE,161,UMC (inferido por SPACE),UMC
+162_t1,162,UMC (inferido por SPACE),UMC
+162_t2,162,UMC (inferido por SPACE),UMC
+162_t2_SPACE,162,UMC (inferido por SPACE),UMC
+163_t1,163,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+163_t2,163,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+165_t1,165,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+165_t2,165,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+166_t1,166,UMC (inferido por SPACE),UMC
+166_t2,166,UMC (inferido por SPACE),UMC
+166_t2_SPACE,166,UMC (inferido por SPACE),UMC
+167_t1,167,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+167_t2,167,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+168_t1,168,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+168_t2,168,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+169_t1,169,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+169_t2,169,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+16_t1,16,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+16_t2,16,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+170_t1,170,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+170_t2,170,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+171_t1,171,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+171_t2,171,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+172_t1,172,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+172_t2,172,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+173_t1,173,otro: SIEMENS | Aera | 1.5 T,RH1
+173_t2,173,otro: SIEMENS | Aera | 1.5 T,RH1
+174_t1,174,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+174_t2,174,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+175_t1,175,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+175_t2,175,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+177_t1,177,UMC (inferido por SPACE),UMC
+177_t2,177,UMC (inferido por SPACE),UMC
+177_t2_SPACE,177,UMC (inferido por SPACE),UMC
+179_t1,179,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+179_t2,179,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+17_t1,17,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+17_t2,17,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+180_t1,180,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+181_t1,181,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+181_t2,181,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+182_t1,182,otro: SIEMENS | Aera | 1.5 T,RH1
+182_t2,182,otro: SIEMENS | Aera | 1.5 T,RH1
+183_t2,183,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+184_t1,184,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+184_t2,184,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+185_t1,185,UMC (inferido por SPACE),UMC
+185_t2,185,UMC (inferido por SPACE),UMC
+185_t2_SPACE,185,UMC (inferido por SPACE),UMC
+186_t1,186,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+186_t2,186,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+187_t1,187,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+187_t2,187,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+188_t1,188,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+188_t2,188,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+189_t1,189,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+189_t2,189,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+18_t1,18,UMC (inferido por SPACE),UMC
+18_t2,18,UMC (inferido por SPACE),UMC
+18_t2_SPACE,18,UMC (inferido por SPACE),UMC
+190_t1,190,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+190_t2,190,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+191_t1,191,UMC (inferido por SPACE),UMC
+191_t2,191,UMC (inferido por SPACE),UMC
+191_t2_SPACE,191,UMC (inferido por SPACE),UMC
+192_t1,192,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+192_t2,192,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+193_t1,193,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+193_t2,193,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+195_t1,195,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+195_t2,195,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+196_t1,196,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+196_t2,196,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+197_t2,197,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+198_t1,198,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+198_t2,198,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+19_t1,19,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+19_t2,19,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+1_t1,1,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+1_t2,1,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+200_t1,200,UMC (inferido por SPACE),UMC
+200_t2,200,UMC (inferido por SPACE),UMC
+200_t2_SPACE,200,UMC (inferido por SPACE),UMC
+201_t2,201,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+202_t1,202,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+202_t2,202,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+203_t1,203,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+203_t2,203,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+204_t1,204,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+204_t2,204,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+205_t1,205,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+205_t2,205,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+207_t1,207,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+207_t2,207,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+208_t2,208,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+209_t1,209,UMC (inferido por SPACE),UMC
+209_t2,209,UMC (inferido por SPACE),UMC
+209_t2_SPACE,209,UMC (inferido por SPACE),UMC
+20_t2,20,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+210_t1,210,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+210_t2,210,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+212_t1,212,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+212_t2,212,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+213_t1,213,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+213_t2,213,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+214_t1,214,otro: SIEMENS | Avanto | 1.5 T,RH2
+214_t2,214,otro: SIEMENS | Avanto | 1.5 T,RH2
+215_t1,215,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+215_t2,215,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+217_t1,217,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+217_t2,217,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+218_t1,218,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+218_t2,218,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+219_t1,219,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+21_t2,21,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+220_t1,220,UMC (inferido por SPACE),UMC
+220_t2,220,UMC (inferido por SPACE),UMC
+220_t2_SPACE,220,UMC (inferido por SPACE),UMC
+221_t1,221,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+221_t2,221,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+222_t1,222,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+222_t2,222,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+223_t1,223,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+223_t2,223,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+224_t1,224,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+224_t2,224,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+225_t1,225,otro: SIEMENS | Aera | 1.5 T,RH1
+225_t2,225,otro: SIEMENS | Aera | 1.5 T,RH1
+226_t1,226,otro: SIEMENS | Aera | 1.5 T,RH1
+226_t2,226,otro: SIEMENS | Aera | 1.5 T,RH1
+227_t1,227,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+227_t2,227,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+228_t1,228,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+228_t2,228,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+229_t1,229,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+229_t2,229,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+22_t1,22,UMC (inferido por SPACE),UMC
+22_t2,22,UMC (inferido por SPACE),UMC
+22_t2_SPACE,22,UMC (inferido por SPACE),UMC
+231_t1,231,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+231_t2,231,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+232_t1,232,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+232_t2,232,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+233_t1,233,otro: SIEMENS | Aera | 1.5 T,RH1
+233_t2,233,otro: SIEMENS | Aera | 1.5 T,RH1
+234_t1,234,UMC (inferido por SPACE),UMC
+234_t2,234,UMC (inferido por SPACE),UMC
+234_t2_SPACE,234,UMC (inferido por SPACE),UMC
+236_t1,236,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+236_t2,236,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+237_t1,237,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+237_t2,237,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+239_t1,239,UMC (inferido por SPACE),UMC
+239_t2,239,UMC (inferido por SPACE),UMC
+239_t2_SPACE,239,UMC (inferido por SPACE),UMC
+23_t1,23,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+23_t2,23,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+241_t1,241,UMC (inferido por SPACE),UMC
+241_t2,241,UMC (inferido por SPACE),UMC
+241_t2_SPACE,241,UMC (inferido por SPACE),UMC
+242_t1,242,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+242_t2,242,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+243_t1,243,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+243_t2,243,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+244_t1,244,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+244_t2,244,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+245_t1,245,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+245_t2,245,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+246_t2,246,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+249_t1,249,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+249_t2,249,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+24_t1,24,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+24_t2,24,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+250_t1,250,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+250_t2,250,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+251_t1,251,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+251_t2,251,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+252_t1,252,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+252_t2,252,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+253_t1,253,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+253_t2,253,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+254_t1,254,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+254_t2,254,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+255_t1,255,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+255_t2,255,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+256_t1,256,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+256_t2,256,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+257_t1,257,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+257_t2,257,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+25_t1,25,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+25_t2,25,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+28_t1,28,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+28_t2,28,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+29_t1,29,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+29_t2,29,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+2_t1,2,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+2_t2,2,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+30_t1,30,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+30_t2,30,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+31_t1,31,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+31_t2,31,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+32_t1,32,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+32_t2,32,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+33_t1,33,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+33_t2,33,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+34_t1,34,UMC (inferido por SPACE),UMC
+34_t2,34,UMC (inferido por SPACE),UMC
+34_t2_SPACE,34,UMC (inferido por SPACE),UMC
+35_t1,35,UMC (inferido por SPACE),UMC
+35_t2,35,UMC (inferido por SPACE),UMC
+35_t2_SPACE,35,UMC (inferido por SPACE),UMC
+36_t1,36,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+36_t2,36,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+37_t1,37,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+37_t2,37,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+38_t1,38,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+38_t2,38,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+39_t1,39,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+39_t2,39,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+3_t1,3,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+3_t2,3,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+40_t1,40,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+40_t2,40,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+41_t2_SPACE,41,UMC (inferido por SPACE),UMC
+42_t2,42,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+44_t1,44,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+44_t2,44,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+45_t1,45,UMC (inferido por SPACE),UMC
+45_t2,45,UMC (inferido por SPACE),UMC
+45_t2_SPACE,45,UMC (inferido por SPACE),UMC
+47_t1,47,otro: SIEMENS | Aera | 1.5 T,RH1
+47_t2,47,otro: SIEMENS | Aera | 1.5 T,RH1
+48_t1,48,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+48_t2,48,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+4_t1,4,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+4_t2,4,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+50_t1,50,UMC (inferido por SPACE),UMC
+50_t2,50,UMC (inferido por SPACE),UMC
+50_t2_SPACE,50,UMC (inferido por SPACE),UMC
+51_t1,51,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+51_t2,51,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+52_t1,52,UMC (inferido por SPACE),UMC
+52_t2,52,UMC (inferido por SPACE),UMC
+52_t2_SPACE,52,UMC (inferido por SPACE),UMC
+53_t1,53,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+53_t2,53,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+55_t1,55,UMC (inferido por SPACE),UMC
+55_t2,55,UMC (inferido por SPACE),UMC
+55_t2_SPACE,55,UMC (inferido por SPACE),UMC
+56_t1,56,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+56_t2,56,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+57_t1,57,UMC (inferido por SPACE),UMC
+57_t2,57,UMC (inferido por SPACE),UMC
+57_t2_SPACE,57,UMC (inferido por SPACE),UMC
+58_t1,58,otro: SIEMENS | Aera | 1.5 T,RH1
+58_t2,58,otro: SIEMENS | Aera | 1.5 T,RH1
+59_t1,59,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+59_t2,59,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+5_t1,5,UMC (inferido por SPACE),UMC
+5_t2,5,UMC (inferido por SPACE),UMC
+5_t2_SPACE,5,UMC (inferido por SPACE),UMC
+60_t1,60,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+60_t2,60,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+61_t1,61,UMC (inferido por SPACE),UMC
+61_t2,61,UMC (inferido por SPACE),UMC
+61_t2_SPACE,61,UMC (inferido por SPACE),UMC
+62_t1,62,otro: SIEMENS | Aera | 1.5 T,RH1
+62_t2,62,otro: SIEMENS | Aera | 1.5 T,RH1
+63_t1,63,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+63_t2,63,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+64_t1,64,otro: SIEMENS | Aera | 1.5 T,RH1
+64_t2,64,otro: SIEMENS | Aera | 1.5 T,RH1
+65_t1,65,UMC (inferido por SPACE),UMC
+65_t2,65,UMC (inferido por SPACE),UMC
+65_t2_SPACE,65,UMC (inferido por SPACE),UMC
+66_t1,66,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+66_t2,66,otro: Philips Medical Systems | Ingenia | 1.5 T,RH2
+67_t1,67,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+67_t2,67,otro: SIEMENS | Skyra_fit | 3.0 T,RH1
+68_t1,68,otro: SIEMENS | Aera | 1.5 T,RH1
+68_t2,68,otro: SIEMENS | Aera | 1.5 T,RH1
+69_t1,69,UMC (inferido por SPACE),UMC
+69_t2,69,UMC (inferido por SPACE),UMC
+69_t2_SPACE,69,UMC (inferido por SPACE),UMC
+6_t2,6,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+71_t1,71,otro: SIEMENS | Aera | 1.5 T,RH1
+71_t2,71,otro: SIEMENS | Aera | 1.5 T,RH1
+72_t1,72,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+73_t1,73,otro: SIEMENS | Aera | 1.5 T,RH1
+73_t2,73,otro: SIEMENS | Aera | 1.5 T,RH1
+74_t1,74,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+74_t2,74,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+75_t1,75,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+75_t2,75,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+77_t1,77,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+78_t1,78,UMC (inferido por SPACE),UMC
+78_t2,78,UMC (inferido por SPACE),UMC
+78_t2_SPACE,78,UMC (inferido por SPACE),UMC
+7_t1,7,UMC (inferido por SPACE),UMC
+7_t2,7,UMC (inferido por SPACE),UMC
+7_t2_SPACE,7,UMC (inferido por SPACE),UMC
+80_t1,80,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+80_t2,80,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+81_t1,81,UMC (inferido por SPACE),UMC
+81_t2,81,UMC (inferido por SPACE),UMC
+81_t2_SPACE,81,UMC (inferido por SPACE),UMC
+82_t1,82,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+82_t2,82,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+83_t1,83,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+83_t2,83,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+85_t1,85,otro: SIEMENS | Aera | 1.5 T,RH1
+85_t2,85,otro: SIEMENS | Aera | 1.5 T,RH1
+86_t1,86,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+86_t2,86,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+87_t1,87,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+87_t2,87,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+88_t1,88,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+88_t2,88,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+89_t2,89,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+8_t1,8,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+8_t2,8,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+90_t1,90,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+90_t2,90,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+91_t2,91,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+93_t1,93,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+93_t2,93,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+94_t1,94,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+94_t2,94,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+95_t1,95,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+95_t2,95,otro: Philips Healthcare | Ingenia | 3.0 T,OH
+96_t1,96,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+96_t2,96,otro: SIEMENS | SymphonyTim | 1.5 T,RH1
+97_t2,97,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+98_t1,98,UMC (inferido por SPACE),UMC
+98_t2,98,UMC (inferido por SPACE),UMC
+98_t2_SPACE,98,UMC (inferido por SPACE),UMC
+99_t2,99,otro: Philips Medical Systems | Ingenia | 3.0 T,RH2
+9_t1,9,otro: SIEMENS | Avanto_fit | 1.5 T,RH2
+9_t2,9,otro: SIEMENS | Avanto_fit | 1.5 T,RH2

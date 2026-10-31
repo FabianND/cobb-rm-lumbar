@@ -1,0 +1,174 @@
+{
+  "fecha": "2026-10-29T08:51:18",
+  "python": "3.13.18",
+  "plataforma": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "paquetes": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.3",
+    "scikit-image": "0.25.2",
+    "tiger": "6.3.0"
+  },
+  "tiger_commit": "4c63f6d58ed3f8e7a0cec04b0352949f7b512919",
+  "masks_zip_md5": "49861ff25a0108b3b69d0ce808ae51dc",
+  "entradas": {
+    "inventario": "inventario_series.csv del cuaderno 01",
+    "caras_de_disco": "planos_por_disco.csv del cuaderno 03",
+    "script_commit": "72c712f31e1f3069aef77b98b20af448bbc5615a",
+    "variantes": "angulos_variantes.csv del cuaderno 03",
+    "grosor": "planos_engrosamiento.csv y bland_altman_comparaciones.csv del cuaderno 04",
+    "segmentacion_automatica": "comparacion_por_serie.csv y planos_por_disco_iis/tss.csv del cuaderno 05",
+    "platillos": "cobb_por_serie.csv y platillos_por_vertebra.csv del cuaderno 06"
+  },
+  "tabla_1_spider": {
+    "UMC": {
+      "estudios": 41,
+      "t1": 39,
+      "t2": 39,
+      "t2_SPACE": 41,
+      "mujeres_pct": 55
+    },
+    "RH1": {
+      "estudios": 43,
+      "t1": 43,
+      "t2": 37,
+      "t2_SPACE": 0,
+      "mujeres_pct": 58
+    },
+    "RH2": {
+      "estudios": 44,
+      "t1": 24,
+      "t2": 44,
+      "t2_SPACE": 0,
+      "mujeres_pct": 59
+    },
+    "OH": {
+      "estudios": 90,
+      "t1": 90,
+      "t2": 90,
+      "t2_SPACE": 0,
+      "mujeres_pct": 68
+    }
+  },
+  "reglas": {
+    "script": "max |inf(a) − sup(b)|, a < b, discos de caudal a craneal",
+    "articulo": "max |sup(a) − inf(b)|, a < b, discos de caudal a craneal",
+    "script_invertido": "max |inf(a) − sup(b)|, a antes que b, discos de craneal a caudal"
+  },
+  "disco_cortado": "toca el borde craneal o el primer o último corte sagital de la máscara reorientada con Tiger",
+  "banco_formula": {
+    "formas_sinteticas_mm": {
+      "elipse_18x18_g7": [
+        18,
+        18,
+        7
+      ],
+      "elipse_18x18_g11": [
+        18,
+        18,
+        11
+      ],
+      "elipse_22x15_g7": [
+        22,
+        15,
+        7
+      ],
+      "elipse_22x15_g11": [
+        22,
+        15,
+        11
+      ],
+      "elipse_15x22_g7": [
+        15,
+        22,
+        7
+      ],
+      "elipse_15x22_g11": [
+        15,
+        22,
+        11
+      ],
+      "elipse_25x18_g7": [
+        25,
+        18,
+        7
+      ],
+      "elipse_25x18_g11": [
+        25,
+        18,
+        11
+      ],
+      "elipse_20x13_g7": [
+        20,
+        13,
+        7
+      ],
+      "elipse_20x13_g11": [
+        20,
+        13,
+        11
+      ]
+    },
+    "inclinaciones_desarrollo": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "direcciones_desarrollo": [
+      5,
+      15,
+      30,
+      50,
+      70,
+      90
+    ],
+    "discos_reales_prueba": 1000,
+    "inclinaciones_prueba": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "direcciones_prueba": [
+      5,
+      15,
+      30,
+      60
+    ],
+    "grosor_simulado_mm": 3.3,
+    "regla_por_tramos": {
+      "debajo": "eje_lateral",
+      "umbral": 15
+    },
+    "referencia": "recta del borde en la proyección coronal de la máscara fina, 60 % central del ancho"
+  },
+  "platillos": {
+    "distancias_mm": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "angulo_max_grados": 45.0,
+    "min_vertices": 50
+  },
+  "bootstrap": {
+    "repeticiones": 2000,
+    "semilla": 2026,
+    "unidad": "estudio"
+  },
+  "n_mascaras_unicas": 340
+}

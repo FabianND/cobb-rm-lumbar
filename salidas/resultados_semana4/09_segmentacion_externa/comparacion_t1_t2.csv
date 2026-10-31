@@ -1,0 +1,4 @@
+medida,estudios_pareados,diferencia_T2_menos_T1,ic95_inf,ic95_sup,mejor_es,T2_claramente_mejor,T2_claramente_peor
+Error de las caras en SPIDER (grados),190,-0.0255,-0.0597,0.0109,menor,False,False
+Cinco niveles coinciden en RSNA (proporción),1895,0.077,0.0628,0.0918,mayor,True,False
+Máscara utilizable en RSNA y Mendeley (proporción),2487,0.0,-0.0076,0.0072,mayor,False,False

@@ -1,0 +1,21 @@
+variable,tramo,series,fallo_pct
+cortes,"(7.999, 15.0]",1556,0.0
+cortes,"(15.0, 17.0]",750,0.0
+cortes,"(17.0, 19.0]",931,0.0
+cortes,"(19.0, 29.0]",709,0.0
+espaciado_i,"(0.272, 0.536]",1068,0.0
+espaciado_i,"(0.536, 0.647]",905,0.0
+espaciado_i,"(0.647, 0.781]",1023,0.0
+espaciado_i,"(0.781, 1.176]",950,0.0
+paso_cortes,"(2.999, 4.4]",987,0.0
+paso_cortes,"(4.4, 4.48]",986,0.0
+paso_cortes,"(4.48, 4.8]",986,0.0
+paso_cortes,"(4.8, 6.6]",987,0.0
+cobertura_lr_mm,"(47.999, 69.0]",987,0.0
+cobertura_lr_mm,"(69.0, 75.0]",986,0.0
+cobertura_lr_mm,"(75.0, 80.64]",986,0.0
+cobertura_lr_mm,"(80.64, 135.0]",987,0.0
+campo_mayor_mm,"(199.986, 267.188]",989,0.0
+campo_mayor_mm,"(267.188, 280.013]",1154,0.0
+campo_mayor_mm,"(280.013, 300.0]",873,0.0
+campo_mayor_mm,"(300.0, 521.094]",930,0.0

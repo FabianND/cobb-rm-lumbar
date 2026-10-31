@@ -1,0 +1,5 @@
+conjunto,clase,series,con_mascara,cinco_lumbares,posible_disco_omitido,disco_lumbar_pequeno,disco_lumbar_cortado,seis_discos_o_mas,utilizable
+mendeley,T1,515,515,99.8,0.0,0.0,4.5,99.8,95.3
+mendeley,T2,515,510,98.4,0.0,0.0,4.5,98.6,94.2
+rsna,T1,1973,1972,99.8,0.1,0.3,9.7,99.9,89.9
+rsna,T2,1974,1974,99.9,0.1,0.3,9.5,100.0,90.2

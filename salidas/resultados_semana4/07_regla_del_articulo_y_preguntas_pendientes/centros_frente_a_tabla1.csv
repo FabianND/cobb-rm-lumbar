@@ -1,0 +1,5 @@
+,estudios,t1,t2,t2_SPACE,mujeres_pct,grupos_de_escaner,mujeres_inventario,mujeres_pct_inventario,diferencia_en_pacientes
+UMC,41,39,39,41,55,UMC (inferido por SPACE),23.0,56.1,0.4
+RH1,43,43,37,0,58,SIEMENS | Aera | 1.5 T + SIEMENS | Skyra_fit | 3.0 T + SIEMENS | SymphonyTim | 1.5 T,24.0,55.8,-0.9
+RH2,44,24,44,0,59,Philips Medical Systems | Ingenia | 1.5 T + Philips Medical Systems | Ingenia | 3.0 T + SIEMENS | Avanto | 1.5 T + SIEMENS | Avanto_fit | 1.5 T,27.0,61.4,1.0
+OH,90,90,90,0,68,Philips Healthcare | Ingenia | 3.0 T,62.0,68.9,0.8

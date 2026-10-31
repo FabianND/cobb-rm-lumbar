@@ -1,0 +1,3 @@
+tipo,series,estudios,cortes_mediana,grosor_mm_mediana,espaciado_real_mm_mediana,cobertura_lateral_mm_p10,cobertura_lateral_mm_mediana,cobertura_lateral_mm_p90,pixel_mm_mediana,extension_cc_mm_mediana
+Sagittal T1,1980,1973,17.0,4.0,4.48,62.0,74.4,89.0,0.68,299.98
+Sagittal T2/STIR,1974,1974,17.0,4.0,4.48,62.0,74.4,89.0,0.58,280.0

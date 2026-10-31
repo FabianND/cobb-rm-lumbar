@@ -1,0 +1,54 @@
+{
+  "fecha": "2026-10-31T20:57:14",
+  "python": "3.13.18",
+  "plataforma": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "paquetes": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "SimpleITK": "2.5.7",
+    "matplotlib": "3.10.0"
+  },
+  "entradas_sha256": {
+    "mascaras_mendeley_A.zip": "94206bbb94829d7f845d726518973e5c1c228e8c50dd62fd6c234db33bb13f2d",
+    "mascaras_mendeley_B.zip": "483f9ddc0b82e601474a7ad743333da3846b065ea8ba489d77869c529c3d07fb",
+    "mascaras_mendeley_lumbares.zip": "def7a81e6e4825cc312b4ace9c776a7d9c232238e5a64d991eb5613431f343e7",
+    "lista_mendeley_lumbares.csv": "4c3d435229e4c499b6ad5780db8715bbfb0f467d9ba73815788c986d77c7c93d",
+    "registro_mendeley_A.csv": "8aee1beb26866b24d2a727556c4c95edeffad13f0463e67171b3c0fc5b14c176",
+    "registro_mendeley_B.csv": "ec46204e271c23332e8b7b7e8a1bf9cd89bb9929309a4b3b9f82f248d370f472",
+    "registro_mendeley_lumbares.csv": "9a7b4c9a0a322a0f785aed301320f5fc42d468b83c142bc0625e443e0daa45a2",
+    "mascaras_rsna_A.zip": "44b4006fe7f598b42b6fe1048ce9af55f50f3c6a2b2813cc42d4bf86b20a261e",
+    "mascaras_rsna_B.zip": "f1715f2a146e2ced48b139e4ef59ad3ef377cc93c5cecfdb66730c7ec0e6d040",
+    "geometria_rsna_A.csv": "e59cbbcced941f2e0780e28960f7b050b3dcc8358a95e6fb8d558d11bacc722f",
+    "geometria_rsna_B.csv": "e787189c0dd5ead2dfb2d3bd39160a3f772be80c47066ddcf68cfa609d63dfe5",
+    "registro_rsna_A.csv": "846e5f14495fbaebc24b8e356af3c68f0f3a3e11771efb7baf75e6a71a8b4dcd",
+    "registro_rsna_B.csv": "0b5914c734bffda0d659ee0a2dc4b68ea588dfe76aede50ec4671344ceb0502f",
+    "lista_A.csv": "9527fa6d54ae26b8d2c1d8364ef9079d4dabc3d1683a041630d6d8653d2ee7c4",
+    "lista_B.csv": "e480d09b6a33547613339a3122f46575f4fd67de5f0ad0f6eca8fc3d47450046",
+    "planos_por_disco.csv": "2ddb1c1c8ad2bd624c5650debe4159ab8d140be1e5171dc26a9d184e3d57c559",
+    "planos_por_disco_tss.csv": "afc49632cc809254e4400d5521d669e29d809646ec00bb3958c919d74aa13963"
+  },
+  "totalspineseg": {
+    "version": "20260807",
+    "pesos_release": "r20260730"
+  },
+  "parametros": {
+    "max_pareja_t1_t2_mm": 15.0,
+    "umbral_salto": 1.5,
+    "fraccion_disco_pequeno": 0.25,
+    "umbral_pareja_mm": 10.0,
+    "distancia_radial_max_mm": 40.0,
+    "bootstrap": 2000,
+    "semilla": 2026,
+    "regla_fijada": "2026-10-30"
+  },
+  "decision": {
+    "fecha": "2026-10-31T20:57:03",
+    "regla_fijada": "2026-10-30",
+    "T2_mejor_en": 1,
+    "T2_peor_en": 0,
+    "secuencia_principal": "T1",
+    "secuencia_de_corroboracion": "T2"
+  },
+  "plan_sha256": "14548723494df98ce3fa0e78135a7c7dbe1317e985dadbdee97943f3e35f970b"
+}
