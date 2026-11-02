@@ -9,7 +9,11 @@ abstract: >-
   measurement. Since version 0.0.4 it adds two public external datasets
   (RSNA LumbarDISC and the Mendeley Lumbar Spine MRI Dataset), a technical
   review of their automatic segmentations and a preregistered analysis plan
-  for the external measurement study. Not a medical device; not for diagnosis.
+  for the external measurement study. Version 0.0.5 adds that preregistered
+  study (T1-T2 agreement, per-face error, noise floor and distribution of the
+  angle in both external datasets) and an exploratory follow-up of its
+  results. Not a medical device; not for diagnosis.
+
 type: software
 authors:
   - family-names: "Nossa Díaz"
@@ -18,8 +22,8 @@ authors:
     affiliation: "Escuela Colombiana de Ingeniería Julio Garavito; Universidad del Rosario"
 license: Apache-2.0
 repository-code: "https://github.com/FabianND/cobb-rm-lumbar"
-version: "0.0.4"
-date-released: "2026-10-31"
+version: "0.0.5"
+date-released: "2026-11-02"
 doi: "10.5281/zenodo.23410108"
 identifiers:
   - type: doi
@@ -34,6 +38,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23748362"
     description: "DOI de la versión v0.0.3"
+  - type: doi
+    value: "10.5281/zenodo.23848342"
+    description: "DOI de la versión v0.0.4"
 keywords:
   - scoliosis
   - Cobb angle
@@ -43,6 +50,8 @@ keywords:
   - RSNA LumbarDISC
   - Mendeley Lumbar Spine MRI Dataset
   - preregistration
+  - measurement properties
+
 references:
   - type: article
     title: "Development and validation of AI-based automatic measurement of coronal Cobb angles in degenerative scoliosis using sagittal lumbar MRI"
