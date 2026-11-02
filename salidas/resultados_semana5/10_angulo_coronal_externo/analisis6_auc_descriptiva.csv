@@ -1,0 +1,17 @@
+subconjunto,secuencia,formula,estudios,casos_presentes,auc_exacta
+completo,T1,eje lateral proyectado,515,5,0.9705882352941176
+completo,T1,arctan(nx/nz),515,5,0.9596078431372549
+completo,T1,arcsen(nx),515,5,0.9647058823529412
+completo,T1,centroides,515,5,0.9741176470588235
+completo,T2,eje lateral proyectado,510,5,0.9659405940594059
+completo,T2,arctan(nx/nz),510,5,0.9572277227722772
+completo,T2,arcsen(nx),510,5,0.9611881188118812
+completo,T2,centroides,508,5,0.9705765407554672
+sin_marcas,T1,eje lateral proyectado,349,3,0.9566473988439307
+sin_marcas,T1,arctan(nx/nz),349,3,0.9479768786127167
+sin_marcas,T1,arcsen(nx),349,3,0.9508670520231214
+sin_marcas,T1,centroides,349,3,0.9633911368015414
+sin_marcas,T2,eje lateral proyectado,349,3,0.9518304431599229
+sin_marcas,T2,arctan(nx/nz),349,3,0.9431599229287091
+sin_marcas,T2,arcsen(nx),349,3,0.9479768786127167
+sin_marcas,T2,centroides,349,3,0.9556840077071291

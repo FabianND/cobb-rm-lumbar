@@ -1,0 +1,3 @@
+segmentador,series,caras,caras_solo_guardadas,caras_solo_nuevas,dif_normal_max_grados,dif_normal_mediana_grados,dif_angulo_cara_max_grados,caras_con_otro_numero_de_vertices,dif_angulo_serie_max_grados,cumple
+manual,447,6294,0,0,0.0,0.0,0.0,0,0.0,True
+tss,447,6430,0,0,0.0,0.0,0.0,0,0.0,True

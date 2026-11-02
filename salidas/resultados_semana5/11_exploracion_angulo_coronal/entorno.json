@@ -1,0 +1,121 @@
+{
+  "fecha": "2026-11-02T06:08:36",
+  "python": "3.13.18",
+  "plataforma": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "paquetes": {
+    "numpy": "2.5.4",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "SimpleITK": "2.5.7",
+    "matplotlib": "3.10.0",
+    "tiger": "6.3.0"
+  },
+  "parametros": {
+    "bootstrap": 2000,
+    "semilla": 2026,
+    "umbral_angulo": 10.0,
+    "n_revision": 20,
+    "discos_lumbares_tss": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      100
+    ],
+    "spline": "scipy make_smoothing_spline, lam por GCV",
+    "formula": "eje_lateral"
+  },
+  "revision_visual": {
+    "men_0362_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0263_2": [
+      "error de segmentación",
+      "mal centroide v7, inclinación de más v7"
+    ],
+    "men_0421_2": [
+      "dudoso",
+      "doble ángulo presente de v4-v7, v1-v4"
+    ],
+    "men_0557_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0254_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0395_2": [
+      "dudoso",
+      "disco del par en el borde, v7, todas las vértebras cortadas"
+    ],
+    "men_0551_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0259_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0008_2": [
+      "error de segmentación",
+      " v2-v5 o v6"
+    ],
+    "men_0378_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0518_2": [
+      "error de segmentación",
+      "v2-v7 (207)"
+    ],
+    "men_0125_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0040_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0187_2": [
+      "dudoso",
+      "v6 a v8 cortadas, 202-204"
+    ],
+    "men_0532_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0438_2": [
+      "dudoso",
+      "v6, v7 tocando el borde pero está bien segmentado"
+    ],
+    "men_0170_2": [
+      "dudoso",
+      "v5 a v7 cortadas o tocando borde, correcta segmentación"
+    ],
+    "men_0050_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0447_2": [
+      "curva",
+      "correcta segmentación"
+    ],
+    "men_0477_2": [
+      "curva",
+      "correcta segmentación"
+    ]
+  },
+  "entradas_sha256": {
+    "angulos_por_serie.csv": "b3e49c62387365f9d47acc7ced8e905a43d69e88917139efc7f931c2f91d2228",
+    "planos_por_cara.csv": "5077f8f570ae7ce994b578a8cda7ed843fa8b0aa85a4241f6c51f90e9dce6440",
+    "centroides_por_vertebra.csv": "8de6c01b7cbdb88d0c514d4693c8647394f493031b0685b6ef2f877c002ba9d9",
+    "marcas_por_serie.csv": "e93980c53606b25cc0f4e560ff2fcd89414ba0f4bb9116d1f425ffadef354ae2",
+    "marcas_por_estudio.csv": "5b6893cac316a033119ec7ad6dd955f3bedff8760c8eff302faabe5795670a7d",
+    "traduccion_etiquetas.csv": "33ce13fb72a5a8b1745ff65b20337debc019ac35791569475f720d15d8b68d17",
+    "mendeley_menciones_escoliosis.csv": "5286538ef7ecc4f1b61dad9c6ecb41fd8b989671600766aa9951ce8241bb80fb"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "fecha": "2026-11-02T02:58:25",
+  "criterio_grados": 0.001,
+  "cumple_version_caja": true,
+  "version_que_se_usa": "caja",
+  "diagnostico": null,
+  "scikit_image": "0.25.2",
+  "numpy": "2.5.4",
+  "sha256_version_caja": "4684cde2df797ff87a76b7b6ba5087d111f7875d99c245c53b158bf179522adc"
+}

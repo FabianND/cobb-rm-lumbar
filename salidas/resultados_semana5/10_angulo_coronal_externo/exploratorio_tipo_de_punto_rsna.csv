@@ -1,0 +1,3 @@
+comparacion,estudios,proporcion_a,proporcion_b,diferencia_a_menos_b,ic95_inf,ic95_sup
+misma T2/STIR de puntos: máscara T2 − máscara T1 (solo cambia la máscara),1895,0.9709762532981531,0.9641160949868074,0.006860158311345646,0.0021108179419525065,0.011609498680738786
+misma máscara T1: puntos T1 − puntos T2/STIR (solo cambia el tipo de punto),1895,0.8939313984168865,0.9641160949868074,-0.07018469656992084,-0.08443271767810026,-0.05593667546174143

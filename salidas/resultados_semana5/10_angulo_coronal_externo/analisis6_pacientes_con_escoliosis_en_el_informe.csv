@@ -1,0 +1,81 @@
+subconjunto,secuencia,formula,paciente,lado_informe,estudios,en_el_grupo,angulo,posicion,percentil,lado_por_signo,piso_de_ruido,lado_coincide
+completo,T1,eje lateral proyectado,91,,515,True,14.790570075632303,4.0,99.22330097087378,izquierda,2.061416769622485,
+completo,T1,eje lateral proyectado,196,izquierda,515,True,18.379807163534863,3.0,99.41747572815534,izquierda,2.061416769622485,True
+completo,T1,eje lateral proyectado,197,izquierda,515,True,6.7213287064298335,80.0,84.46601941747572,derecha,1.931666992896991,False
+completo,T1,eje lateral proyectado,230,,515,True,32.746820885797355,1.0,99.80582524271844,derecha,2.061416769622485,
+completo,T1,eje lateral proyectado,401,izquierda,515,True,25.46481075324325,2.0,99.6116504854369,izquierda,1.931666992896991,True
+completo,T1,arctan(nx/nz),91,,515,True,16.767476135154286,5.0,99.02912621359224,izquierda,2.1744960826036803,
+completo,T1,arctan(nx/nz),196,izquierda,515,True,19.091222148435904,3.0,99.41747572815534,izquierda,2.1744960826036803,True
+completo,T1,arctan(nx/nz),197,izquierda,515,True,6.827114711403418,107.0,79.22330097087378,derecha,2.037628863239806,False
+completo,T1,arctan(nx/nz),230,,515,True,32.9100619204884,1.0,99.80582524271844,derecha,2.1744960826036803,
+completo,T1,arctan(nx/nz),401,izquierda,515,True,25.882606369009647,2.0,99.6116504854369,izquierda,2.037628863239806,True
+completo,T1,arcsen(nx),91,,515,True,15.712487785611508,4.0,99.22330097087378,izquierda,2.11074609654294,
+completo,T1,arcsen(nx),196,izquierda,515,True,18.73084829214208,3.0,99.41747572815534,izquierda,2.11074609654294,True
+completo,T1,arcsen(nx),197,izquierda,515,True,6.774016265100618,95.0,81.55339805825243,derecha,1.9778914313503162,False
+completo,T1,arcsen(nx),230,,515,True,32.8283096907798,1.0,99.80582524271844,derecha,2.11074609654294,
+completo,T1,arcsen(nx),401,izquierda,515,True,25.67284872527256,2.0,99.6116504854369,izquierda,1.9778914313503162,True
+completo,T1,centroides,91,,515,True,23.170465132633517,5.0,99.02912621359224,izquierda,,
+completo,T1,centroides,196,izquierda,515,True,27.76311484587132,4.0,99.22330097087378,izquierda,,True
+completo,T1,centroides,197,izquierda,515,True,9.523400377844752,67.0,86.99029126213593,derecha,,False
+completo,T1,centroides,230,,515,True,44.50532636217689,2.0,99.6116504854369,derecha,,
+completo,T1,centroides,401,izquierda,515,True,37.067409220288,3.0,99.41747572815534,izquierda,,True
+completo,T2,eje lateral proyectado,91,,510,True,14.921645822482741,5.0,99.01960784313725,izquierda,2.061416769622485,
+completo,T2,eje lateral proyectado,196,izquierda,510,True,18.83244759681601,3.0,99.41176470588235,izquierda,2.061416769622485,True
+completo,T2,eje lateral proyectado,197,izquierda,510,True,6.577793525049792,90.0,82.3529411764706,derecha,1.931666992896991,False
+completo,T2,eje lateral proyectado,230,,510,True,30.596610180980335,1.0,99.80392156862744,derecha,2.061416769622485,
+completo,T2,eje lateral proyectado,401,izquierda,510,True,25.89931696719615,2.0,99.6078431372549,izquierda,1.931666992896991,True
+completo,T2,arctan(nx/nz),91,,510,True,17.087732476366494,5.0,99.01960784313725,izquierda,2.1744960826036803,
+completo,T2,arctan(nx/nz),196,izquierda,510,True,19.66059127240165,3.0,99.41176470588235,izquierda,2.1744960826036803,True
+completo,T2,arctan(nx/nz),197,izquierda,510,True,6.666724797393645,112.0,78.0392156862745,derecha,2.037628863239806,False
+completo,T2,arctan(nx/nz),230,,510,True,30.635534236903204,1.0,99.80392156862744,derecha,2.1744960826036803,
+completo,T2,arctan(nx/nz),401,izquierda,510,True,26.275037959439466,2.0,99.6078431372549,izquierda,2.037628863239806,True
+completo,T2,arcsen(nx),91,,510,True,15.969023498026383,5.0,99.01960784313725,izquierda,2.11074609654294,
+completo,T2,arcsen(nx),196,izquierda,510,True,19.240400878065863,3.0,99.41176470588235,izquierda,2.11074609654294,True
+completo,T2,arcsen(nx),197,izquierda,510,True,6.622109741093264,102.0,80.0,derecha,1.9778914313503162,False
+completo,T2,arcsen(nx),230,,510,True,30.616064673451586,1.0,99.80392156862744,derecha,2.11074609654294,
+completo,T2,arcsen(nx),401,izquierda,510,True,26.086409772359865,2.0,99.6078431372549,izquierda,1.9778914313503162,True
+completo,T2,centroides,91,,508,True,23.75678311858146,5.0,99.01574803149607,izquierda,,
+completo,T2,centroides,196,izquierda,508,True,26.77744898815335,4.0,99.21259842519686,izquierda,,True
+completo,T2,centroides,197,izquierda,508,True,9.3166952038968,77.0,84.84251968503938,derecha,,False
+completo,T2,centroides,230,,508,True,52.01765961881334,1.0,99.80314960629921,derecha,,
+completo,T2,centroides,401,izquierda,508,True,39.56361880629288,2.0,99.60629921259843,izquierda,,True
+sin_marcas,T1,eje lateral proyectado,91,,349,True,14.790570075632303,2.0,99.4269340974212,izquierda,1.8644531718930801,
+sin_marcas,T1,eje lateral proyectado,196,izquierda,349,True,18.379807163534863,1.0,99.7134670487106,izquierda,1.8644531718930801,True
+sin_marcas,T1,eje lateral proyectado,197,izquierda,349,True,6.7213287064298335,48.0,86.24641833810888,derecha,1.7471006858101379,False
+sin_marcas,T1,eje lateral proyectado,230,,349,False,,,,,,
+sin_marcas,T1,eje lateral proyectado,401,izquierda,349,False,,,,,,
+sin_marcas,T1,arctan(nx/nz),91,,349,True,16.767476135154286,2.0,99.4269340974212,izquierda,1.9443069776520092,
+sin_marcas,T1,arctan(nx/nz),196,izquierda,349,True,19.091222148435904,1.0,99.7134670487106,izquierda,1.9443069776520092,True
+sin_marcas,T1,arctan(nx/nz),197,izquierda,349,True,6.827114711403418,57.0,83.66762177650429,derecha,1.8219283301345697,False
+sin_marcas,T1,arctan(nx/nz),230,,349,False,,,,,,
+sin_marcas,T1,arctan(nx/nz),401,izquierda,349,False,,,,,,
+sin_marcas,T1,arcsen(nx),91,,349,True,15.712487785611508,2.0,99.4269340974212,izquierda,1.9000374233684394,
+sin_marcas,T1,arcsen(nx),196,izquierda,349,True,18.73084829214208,1.0,99.7134670487106,izquierda,1.9000374233684394,True
+sin_marcas,T1,arcsen(nx),197,izquierda,349,True,6.774016265100618,54.0,84.52722063037248,derecha,1.7804451919065378,False
+sin_marcas,T1,arcsen(nx),230,,349,False,,,,,,
+sin_marcas,T1,arcsen(nx),401,izquierda,349,False,,,,,,
+sin_marcas,T1,centroides,91,,349,True,23.170465132633517,2.0,99.4269340974212,izquierda,,
+sin_marcas,T1,centroides,196,izquierda,349,True,27.76311484587132,1.0,99.7134670487106,izquierda,,True
+sin_marcas,T1,centroides,197,izquierda,349,True,9.523400377844752,41.0,88.25214899713467,derecha,,False
+sin_marcas,T1,centroides,230,,349,False,,,,,,
+sin_marcas,T1,centroides,401,izquierda,349,False,,,,,,
+sin_marcas,T2,eje lateral proyectado,91,,349,True,14.921645822482741,2.0,99.4269340974212,izquierda,1.8644531718930801,
+sin_marcas,T2,eje lateral proyectado,196,izquierda,349,True,18.83244759681601,1.0,99.7134670487106,izquierda,1.8644531718930801,True
+sin_marcas,T2,eje lateral proyectado,197,izquierda,349,True,6.577793525049792,53.0,84.81375358166189,derecha,1.7471006858101379,False
+sin_marcas,T2,eje lateral proyectado,230,,349,False,,,,,,
+sin_marcas,T2,eje lateral proyectado,401,izquierda,349,False,,,,,,
+sin_marcas,T2,arctan(nx/nz),91,,349,True,17.087732476366494,2.0,99.4269340974212,izquierda,1.9443069776520092,
+sin_marcas,T2,arctan(nx/nz),196,izquierda,349,True,19.66059127240165,1.0,99.7134670487106,izquierda,1.9443069776520092,True
+sin_marcas,T2,arctan(nx/nz),197,izquierda,349,True,6.666724797393645,62.0,82.23495702005731,derecha,1.8219283301345697,False
+sin_marcas,T2,arctan(nx/nz),230,,349,False,,,,,,
+sin_marcas,T2,arctan(nx/nz),401,izquierda,349,False,,,,,,
+sin_marcas,T2,arcsen(nx),91,,349,True,15.969023498026383,2.0,99.4269340974212,izquierda,1.9000374233684394,
+sin_marcas,T2,arcsen(nx),196,izquierda,349,True,19.240400878065863,1.0,99.7134670487106,izquierda,1.9000374233684394,True
+sin_marcas,T2,arcsen(nx),197,izquierda,349,True,6.622109741093264,57.0,83.66762177650429,derecha,1.7804451919065378,False
+sin_marcas,T2,arcsen(nx),230,,349,False,,,,,,
+sin_marcas,T2,arcsen(nx),401,izquierda,349,False,,,,,,
+sin_marcas,T2,centroides,91,,349,True,23.75678311858146,2.0,99.4269340974212,izquierda,,
+sin_marcas,T2,centroides,196,izquierda,349,True,26.77744898815335,1.0,99.7134670487106,izquierda,,True
+sin_marcas,T2,centroides,197,izquierda,349,True,9.3166952038968,49.0,85.95988538681948,derecha,,False
+sin_marcas,T2,centroides,230,,349,False,,,,,,
+sin_marcas,T2,centroides,401,izquierda,349,False,,,,,,

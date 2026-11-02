@@ -1,0 +1,17 @@
+subconjunto,secuencia,formula,estudios,casos_presentes,auc_exacta_sin_0196_0197,auc_exacta_registrada,posiciones_de_los_casos
+completo,T1,eje lateral proyectado,513,3,1.0,0.9705882352941176,3 1 2
+completo,T1,arctan(nx/nz),513,3,0.9993464052287582,0.9596078431372549,4 1 2
+completo,T1,arcsen(nx),513,3,1.0,0.9647058823529412,3 1 2
+completo,T1,centroides,513,3,0.9980392156862745,0.9741176470588235,4 2 3
+completo,T2,eje lateral proyectado,508,3,0.9993399339933994,0.9659405940594059,4 1 2
+completo,T2,arctan(nx/nz),508,3,0.9993399339933994,0.9572277227722772,4 1 2
+completo,T2,arcsen(nx),508,3,0.9993399339933994,0.9611881188118812,4 1 2
+completo,T2,centroides,506,3,0.9993373094764745,0.9705765407554672,4 1 2
+sin_marcas,T1,eje lateral proyectado,347,1,1.0,0.9566473988439307,1
+sin_marcas,T1,arctan(nx/nz),347,1,1.0,0.9479768786127167,1
+sin_marcas,T1,arcsen(nx),347,1,1.0,0.9508670520231214,1
+sin_marcas,T1,centroides,347,1,1.0,0.9633911368015414,1
+sin_marcas,T2,eje lateral proyectado,347,1,1.0,0.9518304431599229,1
+sin_marcas,T2,arctan(nx/nz),347,1,1.0,0.9431599229287091,1
+sin_marcas,T2,arcsen(nx),347,1,1.0,0.9479768786127167,1
+sin_marcas,T2,centroides,347,1,1.0,0.9556840077071291,1

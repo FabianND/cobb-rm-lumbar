@@ -1,0 +1,21 @@
+id_serie,posicion,angulo_T1,angulo_T2,juicio,comentario
+men_0362_2,5,13.938646011329114,15.947247935852612,curva,correcta segmentación
+men_0263_2,6,13.738348521988453,11.55968393693322,error de segmentación,"mal centroide v7, inclinación de más v7"
+men_0421_2,7,12.925105660095475,12.350873729515335,dudoso,"doble ángulo presente de v4-v7, v1-v4"
+men_0557_2,8,12.6816622396411,12.482307590571338,curva,correcta segmentación
+men_0254_2,9,12.545784803639023,11.341519187370205,curva,correcta segmentación
+men_0395_2,10,12.502325958594689,9.32005936645005,dudoso,"disco del par en el borde, v7, todas las vértebras cortadas"
+men_0551_2,11,12.01387155398806,11.925308860756305,curva,correcta segmentación
+men_0259_2,12,11.556811449759966,12.083435842034625,curva,correcta segmentación
+men_0008_2,13,11.377259232314092,10.46465282032992,error de segmentación, v2-v5 o v6
+men_0378_2,14,11.310512522136568,11.558802599621686,curva,correcta segmentación
+men_0518_2,15,11.176757498110463,10.522552134960858,error de segmentación,v2-v7 (207)
+men_0125_2,16,10.89820483001863,9.742066014038649,curva,correcta segmentación
+men_0040_2,17,10.514343279553154,8.765768988557761,curva,correcta segmentación
+men_0187_2,18,10.44831219123385,11.279351857074486,dudoso,"v6 a v8 cortadas, 202-204"
+men_0532_2,19,10.424917680803864,10.74317525172968,curva,correcta segmentación
+men_0438_2,20,10.383915833530631,10.255134477994009,dudoso,"v6, v7 tocando el borde pero está bien segmentado"
+men_0170_2,21,10.17078056645288,9.673504564917954,dudoso,"v5 a v7 cortadas o tocando borde, correcta segmentación"
+men_0050_2,22,9.810617289723089,9.059988342323305,curva,correcta segmentación
+men_0447_2,23,9.756191737445702,11.015366643659236,curva,correcta segmentación
+men_0477_2,24,9.74751584006443,9.44830509552001,curva,correcta segmentación

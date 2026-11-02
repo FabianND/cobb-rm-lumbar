@@ -1,0 +1,88 @@
+conjunto,subconjunto,factor,secuencia_del_factor,formula,estudios,spearman_factor_vs_abs_dif
+Mendeley,completo,grosor_mm,T2,eje lateral proyectado,510,0.001388861667178534
+Mendeley,completo,grosor_mm,T2,arctan(nx/nz),510,-0.0017388944207703699
+Mendeley,completo,grosor_mm,T2,arcsen(nx),510,-0.0008701302011239007
+Mendeley,completo,espaciado_mm,T1,eje lateral proyectado,510,0.014776963087759148
+Mendeley,completo,espaciado_mm,T1,arctan(nx/nz),510,0.03456669155533352
+Mendeley,completo,espaciado_mm,T1,arcsen(nx),510,0.04142401313745532
+Mendeley,completo,espaciado_mm,T2,eje lateral proyectado,510,0.055113697491933566
+Mendeley,completo,espaciado_mm,T2,arctan(nx/nz),510,0.06391303529972157
+Mendeley,completo,espaciado_mm,T2,arcsen(nx),510,0.07198028441747772
+Mendeley,completo,pixel_mm,T1,eje lateral proyectado,510,0.17687578105250448
+Mendeley,completo,pixel_mm,T1,arctan(nx/nz),510,0.14865269840214992
+Mendeley,completo,pixel_mm,T1,arcsen(nx),510,0.1737437498425341
+Mendeley,completo,pixel_mm,T2,eje lateral proyectado,510,0.01515026691124386
+Mendeley,completo,pixel_mm,T2,arctan(nx/nz),510,0.0038434463400881637
+Mendeley,completo,pixel_mm,T2,arcsen(nx),510,0.012353013844491011
+Mendeley,completo,cobertura_lateral_mm,T1,eje lateral proyectado,510,-0.01002998341962751
+Mendeley,completo,cobertura_lateral_mm,T1,arctan(nx/nz),510,0.013193086647831538
+Mendeley,completo,cobertura_lateral_mm,T1,arcsen(nx),510,0.022480331022484427
+Mendeley,completo,cobertura_lateral_mm,T2,eje lateral proyectado,510,0.054482590633740204
+Mendeley,completo,cobertura_lateral_mm,T2,arctan(nx/nz),510,0.06281830107114728
+Mendeley,completo,cobertura_lateral_mm,T2,arcsen(nx),510,0.0707981996157094
+Mendeley,sin_marcas,espaciado_mm,T1,eje lateral proyectado,349,0.030948446687938766
+Mendeley,sin_marcas,espaciado_mm,T1,arctan(nx/nz),349,0.049304558929900176
+Mendeley,sin_marcas,espaciado_mm,T1,arcsen(nx),349,0.03698815446162951
+Mendeley,sin_marcas,espaciado_mm,T2,eje lateral proyectado,349,0.08720427716042167
+Mendeley,sin_marcas,espaciado_mm,T2,arctan(nx/nz),349,0.09521916540823956
+Mendeley,sin_marcas,espaciado_mm,T2,arcsen(nx),349,0.0969578192251144
+Mendeley,sin_marcas,pixel_mm,T1,eje lateral proyectado,349,0.20717791504557112
+Mendeley,sin_marcas,pixel_mm,T1,arctan(nx/nz),349,0.1923418667849555
+Mendeley,sin_marcas,pixel_mm,T1,arcsen(nx),349,0.20145779508458256
+Mendeley,sin_marcas,pixel_mm,T2,eje lateral proyectado,349,0.00013029248101246896
+Mendeley,sin_marcas,pixel_mm,T2,arctan(nx/nz),349,-0.0017623772431686593
+Mendeley,sin_marcas,pixel_mm,T2,arcsen(nx),349,0.0032552547756115277
+Mendeley,sin_marcas,cobertura_lateral_mm,T1,eje lateral proyectado,349,0.01784143881132243
+Mendeley,sin_marcas,cobertura_lateral_mm,T1,arctan(nx/nz),349,0.02976341185992171
+Mendeley,sin_marcas,cobertura_lateral_mm,T1,arcsen(nx),349,0.03287065697821226
+Mendeley,sin_marcas,cobertura_lateral_mm,T2,eje lateral proyectado,349,0.08720427716042167
+Mendeley,sin_marcas,cobertura_lateral_mm,T2,arctan(nx/nz),349,0.09521916540823956
+Mendeley,sin_marcas,cobertura_lateral_mm,T2,arcsen(nx),349,0.0969578192251144
+RSNA,completo,grosor_mm,T1,eje lateral proyectado,1971,0.07035787536183853
+RSNA,completo,grosor_mm,T1,arctan(nx/nz),1971,0.06345132047378181
+RSNA,completo,grosor_mm,T1,arcsen(nx),1971,0.07290759230823456
+RSNA,completo,grosor_mm,T2,eje lateral proyectado,1971,0.06677037379465015
+RSNA,completo,grosor_mm,T2,arctan(nx/nz),1971,0.06281715007017889
+RSNA,completo,grosor_mm,T2,arcsen(nx),1971,0.07087517957018748
+RSNA,completo,espaciado_mm,T1,eje lateral proyectado,1971,0.0026058596600537286
+RSNA,completo,espaciado_mm,T1,arctan(nx/nz),1971,0.006733423230644698
+RSNA,completo,espaciado_mm,T1,arcsen(nx),1971,0.004689596440353797
+RSNA,completo,espaciado_mm,T2,eje lateral proyectado,1971,0.0027719535433318324
+RSNA,completo,espaciado_mm,T2,arctan(nx/nz),1971,0.006352395727230732
+RSNA,completo,espaciado_mm,T2,arcsen(nx),1971,0.00456408325054379
+RSNA,completo,pixel_mm,T1,eje lateral proyectado,1971,0.07111792270351837
+RSNA,completo,pixel_mm,T1,arctan(nx/nz),1971,0.07069859106435389
+RSNA,completo,pixel_mm,T1,arcsen(nx),1971,0.07383246662364386
+RSNA,completo,pixel_mm,T2,eje lateral proyectado,1971,0.0287620200681854
+RSNA,completo,pixel_mm,T2,arctan(nx/nz),1971,0.038934637626309304
+RSNA,completo,pixel_mm,T2,arcsen(nx),1971,0.034291753111100984
+RSNA,completo,cobertura_lateral_mm,T1,eje lateral proyectado,1971,0.05795249067534053
+RSNA,completo,cobertura_lateral_mm,T1,arctan(nx/nz),1971,0.05706458080146415
+RSNA,completo,cobertura_lateral_mm,T1,arcsen(nx),1971,0.061445858716546876
+RSNA,completo,cobertura_lateral_mm,T2,eje lateral proyectado,1971,0.05801354037964007
+RSNA,completo,cobertura_lateral_mm,T2,arctan(nx/nz),1971,0.05360046772434636
+RSNA,completo,cobertura_lateral_mm,T2,arcsen(nx),1971,0.05945622933127049
+RSNA,sin_marcas,grosor_mm,T1,eje lateral proyectado,1235,0.03331257050759663
+RSNA,sin_marcas,grosor_mm,T1,arctan(nx/nz),1235,0.029897427027613898
+RSNA,sin_marcas,grosor_mm,T1,arcsen(nx),1235,0.031432555247141364
+RSNA,sin_marcas,grosor_mm,T2,eje lateral proyectado,1235,0.03331257050759663
+RSNA,sin_marcas,grosor_mm,T2,arctan(nx/nz),1235,0.029897427027613898
+RSNA,sin_marcas,grosor_mm,T2,arcsen(nx),1235,0.031432555247141364
+RSNA,sin_marcas,espaciado_mm,T1,eje lateral proyectado,1235,-0.007675609521512809
+RSNA,sin_marcas,espaciado_mm,T1,arctan(nx/nz),1235,0.0038628736002882754
+RSNA,sin_marcas,espaciado_mm,T1,arcsen(nx),1235,-0.004003275058916611
+RSNA,sin_marcas,espaciado_mm,T2,eje lateral proyectado,1235,-0.004190589024888876
+RSNA,sin_marcas,espaciado_mm,T2,arctan(nx/nz),1235,0.006032262653559068
+RSNA,sin_marcas,espaciado_mm,T2,arcsen(nx),1235,-0.0010804200180463209
+RSNA,sin_marcas,pixel_mm,T1,eje lateral proyectado,1235,0.06691754472715403
+RSNA,sin_marcas,pixel_mm,T1,arctan(nx/nz),1235,0.06011653085316455
+RSNA,sin_marcas,pixel_mm,T1,arcsen(nx),1235,0.06609390865032481
+RSNA,sin_marcas,pixel_mm,T2,eje lateral proyectado,1235,0.00839329851413046
+RSNA,sin_marcas,pixel_mm,T2,arctan(nx/nz),1235,0.0011834944197520356
+RSNA,sin_marcas,pixel_mm,T2,arcsen(nx),1235,0.006413864224701981
+RSNA,sin_marcas,cobertura_lateral_mm,T1,eje lateral proyectado,1235,0.03906044303332291
+RSNA,sin_marcas,cobertura_lateral_mm,T1,arctan(nx/nz),1235,0.03981630207608557
+RSNA,sin_marcas,cobertura_lateral_mm,T1,arcsen(nx),1235,0.042765402689692956
+RSNA,sin_marcas,cobertura_lateral_mm,T2,eje lateral proyectado,1235,0.04034093837906016
+RSNA,sin_marcas,cobertura_lateral_mm,T2,arctan(nx/nz),1235,0.038574166436776115
+RSNA,sin_marcas,cobertura_lateral_mm,T2,arcsen(nx),1235,0.04256042362040848

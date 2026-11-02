@@ -1,0 +1,199 @@
+conjunto,subconjunto,formula,tramo_angulo_medio,desde,k,n,pct,ic95_inf_pct,ic95_sup_pct
+Mendeley,completo,eje lateral proyectado,"[0.0, 2.0)",0.0,0,22,0.0,0.0,15.437251281557455
+Mendeley,completo,eje lateral proyectado,"[2.0, 4.0)",2.0,0,223,0.0,0.0,1.640599177024701
+Mendeley,completo,eje lateral proyectado,"[4.0, 6.0)",4.0,0,150,0.0,0.0,2.429259716610854
+Mendeley,completo,eje lateral proyectado,"[6.0, 8.0)",6.0,0,69,0.0,0.0,5.205805786307967
+Mendeley,completo,eje lateral proyectado,"[8.0, 10.0)",8.0,3,26,11.538461538461538,2.445807531796222,30.154040010756766
+Mendeley,completo,eje lateral proyectado,"[10.0, 12.0)",10.0,3,12,25.0,5.486064452799275,57.18584618781891
+Mendeley,completo,eje lateral proyectado,"[12.0, 14.0)",12.0,0,3,0.0,0.0,70.75982261787132
+Mendeley,completo,eje lateral proyectado,"[14.0, 16.0)",14.0,0,2,0.0,0.0,84.1886116991581
+Mendeley,completo,eje lateral proyectado,"[18.0, 20.0)",18.0,0,1,0.0,0.0,97.5
+Mendeley,completo,eje lateral proyectado,"[24.0, 26.0)",24.0,0,1,0.0,0.0,97.5
+Mendeley,completo,eje lateral proyectado,"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+Mendeley,completo,eje lateral proyectado,todos,,6,510,1.1764705882352942,0.43293414479237574,2.5429929926236556
+Mendeley,completo,arctan(nx/nz),"[0.0, 2.0)",0.0,0,14,0.0,0.0,23.163576165011648
+Mendeley,completo,arctan(nx/nz),"[2.0, 4.0)",2.0,0,195,0.0,0.0,1.8739520830286005
+Mendeley,completo,arctan(nx/nz),"[4.0, 6.0)",4.0,0,158,0.0,0.0,2.3076897989719516
+Mendeley,completo,arctan(nx/nz),"[6.0, 8.0)",6.0,0,82,0.0,0.0,4.398945418684236
+Mendeley,completo,arctan(nx/nz),"[8.0, 10.0)",8.0,4,31,12.903225806451612,3.6301661979209046,29.833582900779724
+Mendeley,completo,arctan(nx/nz),"[10.0, 12.0)",10.0,3,13,23.076923076923077,5.038107349115152,53.8131539234041
+Mendeley,completo,arctan(nx/nz),"[12.0, 14.0)",12.0,0,10,0.0,0.0,30.849710781876077
+Mendeley,completo,arctan(nx/nz),"[14.0, 16.0)",14.0,0,2,0.0,0.0,84.1886116991581
+Mendeley,completo,arctan(nx/nz),"[16.0, 18.0)",16.0,0,1,0.0,0.0,97.5
+Mendeley,completo,arctan(nx/nz),"[18.0, 20.0)",18.0,0,2,0.0,0.0,84.1886116991581
+Mendeley,completo,arctan(nx/nz),"[26.0, 28.0)",26.0,0,1,0.0,0.0,97.5
+Mendeley,completo,arctan(nx/nz),"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+Mendeley,completo,arctan(nx/nz),todos,,7,510,1.3725490196078431,0.553569160001543,2.8074313616505626
+Mendeley,completo,arcsen(nx),"[0.0, 2.0)",0.0,0,18,0.0,0.0,18.53019681378522
+Mendeley,completo,arcsen(nx),"[2.0, 4.0)",2.0,0,206,0.0,0.0,1.774780100747047
+Mendeley,completo,arcsen(nx),"[4.0, 6.0)",4.0,0,159,0.0,0.0,2.2933437430960932
+Mendeley,completo,arcsen(nx),"[6.0, 8.0)",6.0,0,79,0.0,0.0,4.562125275861111
+Mendeley,completo,arcsen(nx),"[8.0, 10.0)",8.0,2,22,9.090909090909092,1.1205586024151,29.161274155393347
+Mendeley,completo,arcsen(nx),"[10.0, 12.0)",10.0,4,13,30.76923076923077,9.09203945720966,61.42616617507053
+Mendeley,completo,arcsen(nx),"[12.0, 14.0)",12.0,0,8,0.0,0.0,36.94166475528192
+Mendeley,completo,arcsen(nx),"[14.0, 16.0)",14.0,0,2,0.0,0.0,84.1886116991581
+Mendeley,completo,arcsen(nx),"[18.0, 20.0)",18.0,0,1,0.0,0.0,97.5
+Mendeley,completo,arcsen(nx),"[24.0, 26.0)",24.0,0,1,0.0,0.0,97.5
+Mendeley,completo,arcsen(nx),"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+Mendeley,completo,arcsen(nx),todos,,6,510,1.1764705882352942,0.43293414479237574,2.5429929926236556
+Mendeley,sin_marcas,eje lateral proyectado,"[0.0, 2.0)",0.0,0,17,0.0,0.0,19.50643229690932
+Mendeley,sin_marcas,eje lateral proyectado,"[2.0, 4.0)",2.0,0,157,0.0,0.0,2.322216460332514
+Mendeley,sin_marcas,eje lateral proyectado,"[4.0, 6.0)",4.0,0,106,0.0,0.0,3.420216727635028
+Mendeley,sin_marcas,eje lateral proyectado,"[6.0, 8.0)",6.0,0,41,0.0,0.0,8.604383629402843
+Mendeley,sin_marcas,eje lateral proyectado,"[8.0, 10.0)",8.0,1,16,6.25,0.15811117227658886,30.232073843453183
+Mendeley,sin_marcas,eje lateral proyectado,"[10.0, 12.0)",10.0,1,8,12.5,0.31597235312519095,52.65096708752065
+Mendeley,sin_marcas,eje lateral proyectado,"[12.0, 14.0)",12.0,0,2,0.0,0.0,84.1886116991581
+Mendeley,sin_marcas,eje lateral proyectado,"[14.0, 16.0)",14.0,0,1,0.0,0.0,97.5
+Mendeley,sin_marcas,eje lateral proyectado,"[18.0, 20.0)",18.0,0,1,0.0,0.0,97.5
+Mendeley,sin_marcas,eje lateral proyectado,todos,,2,349,0.5730659025787965,0.06947644158434602,2.054673621947274
+Mendeley,sin_marcas,arctan(nx/nz),"[0.0, 2.0)",0.0,0,10,0.0,0.0,30.849710781876077
+Mendeley,sin_marcas,arctan(nx/nz),"[2.0, 4.0)",2.0,0,148,0.0,0.0,2.4616801578984306
+Mendeley,sin_marcas,arctan(nx/nz),"[4.0, 6.0)",4.0,0,111,0.0,0.0,3.26869940239477
+Mendeley,sin_marcas,arctan(nx/nz),"[6.0, 8.0)",6.0,0,49,0.0,0.0,7.251926366427738
+Mendeley,sin_marcas,arctan(nx/nz),"[8.0, 10.0)",8.0,1,15,6.666666666666667,0.1686430241352703,31.94845665783033
+Mendeley,sin_marcas,arctan(nx/nz),"[10.0, 12.0)",10.0,0,7,0.0,0.0,40.96163972250034
+Mendeley,sin_marcas,arctan(nx/nz),"[12.0, 14.0)",12.0,0,7,0.0,0.0,40.96163972250034
+Mendeley,sin_marcas,arctan(nx/nz),"[16.0, 18.0)",16.0,0,1,0.0,0.0,97.5
+Mendeley,sin_marcas,arctan(nx/nz),"[18.0, 20.0)",18.0,0,1,0.0,0.0,97.5
+Mendeley,sin_marcas,arctan(nx/nz),todos,,1,349,0.28653295128939826,0.007254123117680864,1.586042353086587
+Mendeley,sin_marcas,arcsen(nx),"[0.0, 2.0)",0.0,0,14,0.0,0.0,23.163576165011648
+Mendeley,sin_marcas,arcsen(nx),"[2.0, 4.0)",2.0,0,149,0.0,0.0,2.445362490559001
+Mendeley,sin_marcas,arcsen(nx),"[4.0, 6.0)",4.0,0,111,0.0,0.0,3.26869940239477
+Mendeley,sin_marcas,arcsen(nx),"[6.0, 8.0)",6.0,0,46,0.0,0.0,7.706182705190072
+Mendeley,sin_marcas,arcsen(nx),"[8.0, 10.0)",8.0,1,15,6.666666666666667,0.1686430241352703,31.94845665783033
+Mendeley,sin_marcas,arcsen(nx),"[10.0, 12.0)",10.0,1,6,16.666666666666668,0.42107445144894734,64.12345789976747
+Mendeley,sin_marcas,arcsen(nx),"[12.0, 14.0)",12.0,0,6,0.0,0.0,45.92581264399005
+Mendeley,sin_marcas,arcsen(nx),"[14.0, 16.0)",14.0,0,1,0.0,0.0,97.5
+Mendeley,sin_marcas,arcsen(nx),"[18.0, 20.0)",18.0,0,1,0.0,0.0,97.5
+Mendeley,sin_marcas,arcsen(nx),todos,,2,349,0.5730659025787965,0.06947644158434602,2.054673621947274
+RSNA,completo,eje lateral proyectado,"[0.0, 2.0)",0.0,0,77,0.0,0.0,4.677806816040411
+RSNA,completo,eje lateral proyectado,"[2.0, 4.0)",2.0,0,540,0.0,0.0,0.6807978244467778
+RSNA,completo,eje lateral proyectado,"[4.0, 6.0)",4.0,0,564,0.0,0.0,0.6519223460540637
+RSNA,completo,eje lateral proyectado,"[6.0, 8.0)",6.0,0,334,0.0,0.0,1.0983782150470398
+RSNA,completo,eje lateral proyectado,"[8.0, 10.0)",8.0,22,167,13.173652694610778,8.44348242446381,19.263313638051613
+RSNA,completo,eje lateral proyectado,"[10.0, 12.0)",10.0,21,105,20.0,12.82738999724717,28.932579649347336
+RSNA,completo,eje lateral proyectado,"[12.0, 14.0)",12.0,0,60,0.0,0.0,5.962949228616692
+RSNA,completo,eje lateral proyectado,"[14.0, 16.0)",14.0,0,37,0.0,0.0,9.489058741498987
+RSNA,completo,eje lateral proyectado,"[16.0, 18.0)",16.0,0,25,0.0,0.0,13.718517153071252
+RSNA,completo,eje lateral proyectado,"[18.0, 20.0)",18.0,0,14,0.0,0.0,23.163576165011648
+RSNA,completo,eje lateral proyectado,"[20.0, 22.0)",20.0,0,11,0.0,0.0,28.491415291815443
+RSNA,completo,eje lateral proyectado,"[22.0, 24.0)",22.0,0,11,0.0,0.0,28.491415291815443
+RSNA,completo,eje lateral proyectado,"[24.0, 26.0)",24.0,0,7,0.0,0.0,40.96163972250034
+RSNA,completo,eje lateral proyectado,"[26.0, 28.0)",26.0,0,5,0.0,0.0,52.18237501049814
+RSNA,completo,eje lateral proyectado,"[28.0, 30.0)",28.0,0,4,0.0,0.0,60.236463561647454
+RSNA,completo,eje lateral proyectado,"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+RSNA,completo,eje lateral proyectado,"[32.0, 34.0)",32.0,0,1,0.0,0.0,97.5
+RSNA,completo,eje lateral proyectado,"[34.0, 36.0)",34.0,0,4,0.0,0.0,60.236463561647454
+RSNA,completo,eje lateral proyectado,"[36.0, 38.0)",36.0,0,1,0.0,0.0,97.5
+RSNA,completo,eje lateral proyectado,"[42.0, 44.0)",42.0,0,1,0.0,0.0,97.5
+RSNA,completo,eje lateral proyectado,"[48.0, 50.0)",48.0,0,1,0.0,0.0,97.5
+RSNA,completo,eje lateral proyectado,"[54.0, 56.0)",54.0,0,1,0.0,0.0,97.5
+RSNA,completo,eje lateral proyectado,todos,,43,1971,2.1816336884830037,1.583250105593153,2.9274930076339487
+RSNA,completo,arctan(nx/nz),"[0.0, 2.0)",0.0,0,63,0.0,0.0,5.6872352332016245
+RSNA,completo,arctan(nx/nz),"[2.0, 4.0)",2.0,0,455,0.0,0.0,0.8074650820035268
+RSNA,completo,arctan(nx/nz),"[4.0, 6.0)",4.0,0,539,0.0,0.0,0.682056582924739
+RSNA,completo,arctan(nx/nz),"[6.0, 8.0)",6.0,0,363,0.0,0.0,1.0110741640179914
+RSNA,completo,arctan(nx/nz),"[8.0, 10.0)",8.0,31,207,14.97584541062802,10.407731801342766,20.57854931047088
+RSNA,completo,arctan(nx/nz),"[10.0, 12.0)",10.0,24,127,18.89763779527559,12.499414476411149,26.800614593153128
+RSNA,completo,arctan(nx/nz),"[12.0, 14.0)",12.0,0,67,0.0,0.0,5.356965412709677
+RSNA,completo,arctan(nx/nz),"[14.0, 16.0)",14.0,0,44,0.0,0.0,8.041993976357587
+RSNA,completo,arctan(nx/nz),"[16.0, 18.0)",16.0,0,35,0.0,0.0,10.003243557210505
+RSNA,completo,arctan(nx/nz),"[18.0, 20.0)",18.0,0,20,0.0,0.0,16.84334709830853
+RSNA,completo,arctan(nx/nz),"[20.0, 22.0)",20.0,0,12,0.0,0.0,26.464846939705122
+RSNA,completo,arctan(nx/nz),"[22.0, 24.0)",22.0,0,9,0.0,0.0,33.62671168799428
+RSNA,completo,arctan(nx/nz),"[24.0, 26.0)",24.0,0,8,0.0,0.0,36.94166475528192
+RSNA,completo,arctan(nx/nz),"[26.0, 28.0)",26.0,0,3,0.0,0.0,70.75982261787132
+RSNA,completo,arctan(nx/nz),"[28.0, 30.0)",28.0,0,7,0.0,0.0,40.96163972250034
+RSNA,completo,arctan(nx/nz),"[30.0, 32.0)",30.0,0,2,0.0,0.0,84.1886116991581
+RSNA,completo,arctan(nx/nz),"[32.0, 34.0)",32.0,0,1,0.0,0.0,97.5
+RSNA,completo,arctan(nx/nz),"[34.0, 36.0)",34.0,0,3,0.0,0.0,70.75982261787132
+RSNA,completo,arctan(nx/nz),"[36.0, 38.0)",36.0,0,2,0.0,0.0,84.1886116991581
+RSNA,completo,arctan(nx/nz),"[38.0, 40.0)",38.0,0,1,0.0,0.0,97.5
+RSNA,completo,arctan(nx/nz),"[42.0, 44.0)",42.0,0,1,0.0,0.0,97.5
+RSNA,completo,arctan(nx/nz),"[50.0, 52.0)",50.0,0,1,0.0,0.0,97.5
+RSNA,completo,arctan(nx/nz),"[56.0, 58.0)",56.0,0,1,0.0,0.0,97.5
+RSNA,completo,arctan(nx/nz),todos,,55,1971,2.7904616945712837,2.108922468472684,3.616822891647216
+RSNA,completo,arcsen(nx),"[0.0, 2.0)",0.0,0,72,0.0,0.0,4.994408370585466
+RSNA,completo,arcsen(nx),"[2.0, 4.0)",2.0,0,495,0.0,0.0,0.7424582324647686
+RSNA,completo,arcsen(nx),"[4.0, 6.0)",4.0,0,560,0.0,0.0,0.656563614061379
+RSNA,completo,arcsen(nx),"[6.0, 8.0)",6.0,0,358,0.0,0.0,1.025122685126914
+RSNA,completo,arcsen(nx),"[8.0, 10.0)",8.0,24,179,13.40782122905028,8.783231636946107,19.29001266582735
+RSNA,completo,arcsen(nx),"[10.0, 12.0)",10.0,22,107,20.560747663551403,13.356702376804853,29.457736835146004
+RSNA,completo,arcsen(nx),"[12.0, 14.0)",12.0,0,66,0.0,0.0,5.435884717012198
+RSNA,completo,arcsen(nx),"[14.0, 16.0)",14.0,0,44,0.0,0.0,8.041993976357587
+RSNA,completo,arcsen(nx),"[16.0, 18.0)",16.0,0,25,0.0,0.0,13.718517153071252
+RSNA,completo,arcsen(nx),"[18.0, 20.0)",18.0,0,16,0.0,0.0,20.59072142078227
+RSNA,completo,arcsen(nx),"[20.0, 22.0)",20.0,0,10,0.0,0.0,30.849710781876077
+RSNA,completo,arcsen(nx),"[22.0, 24.0)",22.0,0,12,0.0,0.0,26.464846939705122
+RSNA,completo,arcsen(nx),"[24.0, 26.0)",24.0,0,7,0.0,0.0,40.96163972250034
+RSNA,completo,arcsen(nx),"[26.0, 28.0)",26.0,0,4,0.0,0.0,60.236463561647454
+RSNA,completo,arcsen(nx),"[28.0, 30.0)",28.0,0,6,0.0,0.0,45.92581264399005
+RSNA,completo,arcsen(nx),"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+RSNA,completo,arcsen(nx),"[34.0, 36.0)",34.0,0,3,0.0,0.0,70.75982261787132
+RSNA,completo,arcsen(nx),"[36.0, 38.0)",36.0,0,3,0.0,0.0,70.75982261787132
+RSNA,completo,arcsen(nx),"[42.0, 44.0)",42.0,0,1,0.0,0.0,97.5
+RSNA,completo,arcsen(nx),"[50.0, 52.0)",50.0,0,1,0.0,0.0,97.5
+RSNA,completo,arcsen(nx),"[54.0, 56.0)",54.0,0,1,0.0,0.0,97.5
+RSNA,completo,arcsen(nx),todos,,46,1971,2.3338406900050734,1.7136118720289448,3.100851783555451
+RSNA,sin_marcas,eje lateral proyectado,"[0.0, 2.0)",0.0,0,49,0.0,0.0,7.251926366427738
+RSNA,sin_marcas,eje lateral proyectado,"[2.0, 4.0)",2.0,0,342,0.0,0.0,1.0728234794150657
+RSNA,sin_marcas,eje lateral proyectado,"[4.0, 6.0)",4.0,0,341,0.0,0.0,1.0759526030573452
+RSNA,sin_marcas,eje lateral proyectado,"[6.0, 8.0)",6.0,0,196,0.0,0.0,1.8644807949330138
+RSNA,sin_marcas,eje lateral proyectado,"[8.0, 10.0)",8.0,14,101,13.861386138613861,7.79036487911816,22.162268958860974
+RSNA,sin_marcas,eje lateral proyectado,"[10.0, 12.0)",10.0,13,73,17.80821917808219,9.837317773300859,28.525379364170256
+RSNA,sin_marcas,eje lateral proyectado,"[12.0, 14.0)",12.0,0,44,0.0,0.0,8.041993976357587
+RSNA,sin_marcas,eje lateral proyectado,"[14.0, 16.0)",14.0,0,24,0.0,0.0,14.247359772252564
+RSNA,sin_marcas,eje lateral proyectado,"[16.0, 18.0)",16.0,0,23,0.0,0.0,14.818512891522436
+RSNA,sin_marcas,eje lateral proyectado,"[18.0, 20.0)",18.0,0,9,0.0,0.0,33.62671168799428
+RSNA,sin_marcas,eje lateral proyectado,"[20.0, 22.0)",20.0,0,8,0.0,0.0,36.94166475528192
+RSNA,sin_marcas,eje lateral proyectado,"[22.0, 24.0)",22.0,0,7,0.0,0.0,40.96163972250034
+RSNA,sin_marcas,eje lateral proyectado,"[24.0, 26.0)",24.0,0,4,0.0,0.0,60.236463561647454
+RSNA,sin_marcas,eje lateral proyectado,"[26.0, 28.0)",26.0,0,4,0.0,0.0,60.236463561647454
+RSNA,sin_marcas,eje lateral proyectado,"[28.0, 30.0)",28.0,0,4,0.0,0.0,60.236463561647454
+RSNA,sin_marcas,eje lateral proyectado,"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,eje lateral proyectado,"[32.0, 34.0)",32.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,eje lateral proyectado,"[34.0, 36.0)",34.0,0,2,0.0,0.0,84.1886116991581
+RSNA,sin_marcas,eje lateral proyectado,"[36.0, 38.0)",36.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,eje lateral proyectado,"[54.0, 56.0)",54.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,eje lateral proyectado,todos,,27,1235,2.1862348178137654,1.4455678170285453,3.1650083007274494
+RSNA,sin_marcas,arctan(nx/nz),"[0.0, 2.0)",0.0,0,44,0.0,0.0,8.041993976357587
+RSNA,sin_marcas,arctan(nx/nz),"[2.0, 4.0)",2.0,0,309,0.0,0.0,1.1867144565065717
+RSNA,sin_marcas,arctan(nx/nz),"[4.0, 6.0)",4.0,0,344,0.0,0.0,1.0666195172289683
+RSNA,sin_marcas,arctan(nx/nz),"[6.0, 8.0)",6.0,0,203,0.0,0.0,1.8007708024901936
+RSNA,sin_marcas,arctan(nx/nz),"[8.0, 10.0)",8.0,13,109,11.926605504587156,6.505709363666141,19.531110477448284
+RSNA,sin_marcas,arctan(nx/nz),"[10.0, 12.0)",10.0,18,78,23.076923076923077,14.287281275798602,33.9972660775452
+RSNA,sin_marcas,arctan(nx/nz),"[12.0, 14.0)",12.0,0,46,0.0,0.0,7.706182705190072
+RSNA,sin_marcas,arctan(nx/nz),"[14.0, 16.0)",14.0,0,30,0.0,0.0,11.570330822202779
+RSNA,sin_marcas,arctan(nx/nz),"[16.0, 18.0)",16.0,0,24,0.0,0.0,14.247359772252564
+RSNA,sin_marcas,arctan(nx/nz),"[18.0, 20.0)",18.0,0,15,0.0,0.0,21.8019360910534
+RSNA,sin_marcas,arctan(nx/nz),"[20.0, 22.0)",20.0,0,7,0.0,0.0,40.96163972250034
+RSNA,sin_marcas,arctan(nx/nz),"[22.0, 24.0)",22.0,0,6,0.0,0.0,45.92581264399005
+RSNA,sin_marcas,arctan(nx/nz),"[24.0, 26.0)",24.0,0,4,0.0,0.0,60.236463561647454
+RSNA,sin_marcas,arctan(nx/nz),"[26.0, 28.0)",26.0,0,3,0.0,0.0,70.75982261787132
+RSNA,sin_marcas,arctan(nx/nz),"[28.0, 30.0)",28.0,0,6,0.0,0.0,45.92581264399005
+RSNA,sin_marcas,arctan(nx/nz),"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,arctan(nx/nz),"[32.0, 34.0)",32.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,arctan(nx/nz),"[34.0, 36.0)",34.0,0,2,0.0,0.0,84.1886116991581
+RSNA,sin_marcas,arctan(nx/nz),"[36.0, 38.0)",36.0,0,2,0.0,0.0,84.1886116991581
+RSNA,sin_marcas,arctan(nx/nz),"[56.0, 58.0)",56.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,arctan(nx/nz),todos,,31,1235,2.5101214574898787,1.7117325268626582,3.544115261187624
+RSNA,sin_marcas,arcsen(nx),"[0.0, 2.0)",0.0,0,48,0.0,0.0,7.39727853472802
+RSNA,sin_marcas,arcsen(nx),"[2.0, 4.0)",2.0,0,325,0.0,0.0,1.1286225574223325
+RSNA,sin_marcas,arcsen(nx),"[4.0, 6.0)",4.0,0,346,0.0,0.0,1.0604868948045076
+RSNA,sin_marcas,arcsen(nx),"[6.0, 8.0)",6.0,0,198,0.0,0.0,1.845822553672171
+RSNA,sin_marcas,arcsen(nx),"[8.0, 10.0)",8.0,12,103,11.650485436893204,6.167097672343511,19.46687035221929
+RSNA,sin_marcas,arcsen(nx),"[10.0, 12.0)",10.0,16,74,21.62162162162162,12.893297230986597,32.72369696639303
+RSNA,sin_marcas,arcsen(nx),"[12.0, 14.0)",12.0,0,47,0.0,0.0,7.548573369105857
+RSNA,sin_marcas,arcsen(nx),"[14.0, 16.0)",14.0,0,27,0.0,0.0,12.77028676154323
+RSNA,sin_marcas,arcsen(nx),"[16.0, 18.0)",16.0,0,22,0.0,0.0,15.437251281557455
+RSNA,sin_marcas,arcsen(nx),"[18.0, 20.0)",18.0,0,12,0.0,0.0,26.464846939705122
+RSNA,sin_marcas,arcsen(nx),"[20.0, 22.0)",20.0,0,7,0.0,0.0,40.96163972250034
+RSNA,sin_marcas,arcsen(nx),"[22.0, 24.0)",22.0,0,8,0.0,0.0,36.94166475528192
+RSNA,sin_marcas,arcsen(nx),"[24.0, 26.0)",24.0,0,3,0.0,0.0,70.75982261787132
+RSNA,sin_marcas,arcsen(nx),"[26.0, 28.0)",26.0,0,4,0.0,0.0,60.236463561647454
+RSNA,sin_marcas,arcsen(nx),"[28.0, 30.0)",28.0,0,5,0.0,0.0,52.18237501049814
+RSNA,sin_marcas,arcsen(nx),"[30.0, 32.0)",30.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,arcsen(nx),"[34.0, 36.0)",34.0,0,2,0.0,0.0,84.1886116991581
+RSNA,sin_marcas,arcsen(nx),"[36.0, 38.0)",36.0,0,2,0.0,0.0,84.1886116991581
+RSNA,sin_marcas,arcsen(nx),"[54.0, 56.0)",54.0,0,1,0.0,0.0,97.5
+RSNA,sin_marcas,arcsen(nx),todos,,28,1235,2.2672064777327936,1.51170447184965,3.260170966460367

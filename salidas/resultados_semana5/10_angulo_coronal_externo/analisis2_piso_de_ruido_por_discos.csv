@@ -1,0 +1,97 @@
+conjunto,subconjunto,formula,discos,piso_de_ruido_grados,series_T1
+Mendeley,completo,eje lateral proyectado,3,1.5497950169515569,0
+Mendeley,completo,eje lateral proyectado,4,1.6879511664537838,0
+Mendeley,completo,eje lateral proyectado,5,1.8141923362530434,1
+Mendeley,completo,eje lateral proyectado,6,1.8850663902621183,154
+Mendeley,completo,eje lateral proyectado,7,1.931666992896991,308
+Mendeley,completo,eje lateral proyectado,8,2.004452333138574,46
+Mendeley,completo,eje lateral proyectado,9,2.061416769622485,6
+Mendeley,completo,arctan(nx/nz),3,1.634809245205194,0
+Mendeley,completo,arctan(nx/nz),4,1.7805439701318853,0
+Mendeley,completo,arctan(nx/nz),5,1.9137101174326405,1
+Mendeley,completo,arctan(nx/nz),6,1.988471977854102,154
+Mendeley,completo,arctan(nx/nz),7,2.037628863239806,308
+Mendeley,completo,arctan(nx/nz),8,2.1144068537745793,46
+Mendeley,completo,arctan(nx/nz),9,2.1744960826036803,6
+Mendeley,completo,arcsen(nx),3,1.5868813287432746,0
+Mendeley,completo,arcsen(nx),4,1.7283435296783298,0
+Mendeley,completo,arcsen(nx),5,1.8576056276215802,1
+Mendeley,completo,arcsen(nx),6,1.9301756848027998,154
+Mendeley,completo,arcsen(nx),7,1.9778914313503162,308
+Mendeley,completo,arcsen(nx),8,2.052418511494622,46
+Mendeley,completo,arcsen(nx),9,2.11074609654294,6
+Mendeley,sin_marcas,eje lateral proyectado,3,1.4017156926828478,0
+Mendeley,sin_marcas,eje lateral proyectado,4,1.5266713420943612,0
+Mendeley,sin_marcas,eje lateral proyectado,5,1.6408504605163121,1
+Mendeley,sin_marcas,eje lateral proyectado,6,1.70495266282174,154
+Mendeley,sin_marcas,eje lateral proyectado,7,1.7471006858101379,308
+Mendeley,sin_marcas,eje lateral proyectado,8,1.8129315553754362,46
+Mendeley,sin_marcas,eje lateral proyectado,9,1.8644531718930801,6
+Mendeley,sin_marcas,arctan(nx/nz),3,1.461750631795364,0
+Mendeley,sin_marcas,arctan(nx/nz),4,1.5920580831759537,0
+Mendeley,sin_marcas,arctan(nx/nz),5,1.7111274489270638,1
+Mendeley,sin_marcas,arctan(nx/nz),6,1.7779751236792034,154
+Mendeley,sin_marcas,arctan(nx/nz),7,1.8219283301345697,308
+Mendeley,sin_marcas,arctan(nx/nz),8,1.8905787102944256,46
+Mendeley,sin_marcas,arctan(nx/nz),9,1.9443069776520092,6
+Mendeley,sin_marcas,arcsen(nx),3,1.4284683108002227,0
+Mendeley,sin_marcas,arcsen(nx),4,1.5558088167042226,0
+Mendeley,sin_marcas,arcsen(nx),5,1.6721671148043826,1
+Mendeley,sin_marcas,arcsen(nx),6,1.7374927476155198,154
+Mendeley,sin_marcas,arcsen(nx),7,1.7804451919065378,308
+Mendeley,sin_marcas,arcsen(nx),8,1.8475324846702121,46
+Mendeley,sin_marcas,arcsen(nx),9,1.9000374233684394,6
+RSNA,completo,eje lateral proyectado,6,2.037170932433184,177
+RSNA,completo,eje lateral proyectado,7,2.0875317014819768,997
+RSNA,completo,eje lateral proyectado,8,2.1661900342671654,624
+RSNA,completo,eje lateral proyectado,9,2.227750886864683,148
+RSNA,completo,eje lateral proyectado,10,2.221922702584494,17
+RSNA,completo,eje lateral proyectado,11,2.274422361351215,6
+RSNA,completo,eje lateral proyectado,12,2.3037864406624093,2
+RSNA,completo,eje lateral proyectado,13,2.327728594786813,1
+RSNA,completo,eje lateral proyectado,15,2.39518693453574,0
+RSNA,completo,arctan(nx/nz),6,2.1775200885190715,177
+RSNA,completo,arctan(nx/nz),7,2.2313504198531415,997
+RSNA,completo,arctan(nx/nz),8,2.3154278514727804,624
+RSNA,completo,arctan(nx/nz),9,2.3812298865712034,148
+RSNA,completo,arctan(nx/nz),10,2.3750001744995983,17
+RSNA,completo,arctan(nx/nz),11,2.4311167525367634,6
+RSNA,completo,arctan(nx/nz),12,2.462503845079176,2
+RSNA,completo,arctan(nx/nz),13,2.4880954735175616,1
+RSNA,completo,arctan(nx/nz),15,2.5602012981210893,0
+RSNA,completo,arcsen(nx),6,2.0960023276218993,177
+RSNA,completo,arcsen(nx),7,2.147817463733734,997
+RSNA,completo,arcsen(nx),8,2.2287473680337597,624
+RSNA,completo,arcsen(nx),9,2.292086034554331,148
+RSNA,completo,arcsen(nx),10,2.2860895383238966,17
+RSNA,completo,arcsen(nx),11,2.3401053330824504,6
+RSNA,completo,arcsen(nx),12,2.3703174167151313,2
+RSNA,completo,arcsen(nx),13,2.394950995554338,1
+RSNA,completo,arcsen(nx),15,2.4643574625719973,0
+RSNA,sin_marcas,eje lateral proyectado,6,1.9834077466597655,177
+RSNA,sin_marcas,eje lateral proyectado,7,2.032439439518163,997
+RSNA,sin_marcas,eje lateral proyectado,8,2.109021892223369,624
+RSNA,sin_marcas,eje lateral proyectado,9,2.1689580860836752,148
+RSNA,sin_marcas,eje lateral proyectado,10,2.1632837140090255,17
+RSNA,sin_marcas,eje lateral proyectado,11,2.214397848928739,6
+RSNA,sin_marcas,eje lateral proyectado,12,2.2429869778290774,2
+RSNA,sin_marcas,eje lateral proyectado,13,2.266297272123011,1
+RSNA,sin_marcas,eje lateral proyectado,15,2.331975311950047,0
+RSNA,sin_marcas,arctan(nx/nz),6,2.0964340201231977,177
+RSNA,sin_marcas,arctan(nx/nz),7,2.148259828077052,997
+RSNA,sin_marcas,arctan(nx/nz),8,2.2292064006948356,624
+RSNA,sin_marcas,arctan(nx/nz),9,2.2925581124429897,148
+RSNA,sin_marcas,arctan(nx/nz),10,2.286560381174587,17
+RSNA,sin_marcas,arctan(nx/nz),11,2.340587301022671,6
+RSNA,sin_marcas,arctan(nx/nz),12,2.3708056071341064,2
+RSNA,sin_marcas,arctan(nx/nz),13,2.3954442595035874,1
+RSNA,sin_marcas,arctan(nx/nz),15,2.464865021472621,0
+RSNA,sin_marcas,arcsen(nx),6,2.0333638569276453,177
+RSNA,sin_marcas,arcsen(nx),7,2.0836305115124856,997
+RSNA,sin_marcas,arcsen(nx),8,2.162141847201218,624
+RSNA,sin_marcas,arcsen(nx),9,2.223587654561101,148
+RSNA,sin_marcas,arcsen(nx),10,2.21777036202164,17
+RSNA,sin_marcas,arcsen(nx),11,2.2701719091563137,6
+RSNA,sin_marcas,arcsen(nx),12,2.299481112725219,2
+RSNA,sin_marcas,arcsen(nx),13,2.32337852362898,1
+RSNA,sin_marcas,arcsen(nx),15,2.3907107968859824,0
