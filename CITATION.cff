@@ -4,8 +4,8 @@ title: "Cobb coronal en RM lumbar sagital: reproducción abierta y prueba de rob
 abstract: >-
   Research-only, open and independent reproduction of automated coronal Cobb
   angle measurement on routine sagittal lumbar MRI, using the public SPIDER
-  dataset, with a robustness analysis across slice thickness, sequence and
-  acquisition site, automatic segmentation and an exploratory endplate-based
+  dataset, with a robustness analysis across slice thickness, sequence,
+  technical acquisition characteristics, automatic segmentation and an exploratory endplate-based
   measurement. Since version 0.0.4 it adds two public external datasets
   (RSNA LumbarDISC and the Mendeley Lumbar Spine MRI Dataset), a technical
   review of their automatic segmentations and a preregistered analysis plan
